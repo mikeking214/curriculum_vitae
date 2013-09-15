@@ -1,11 +1,18 @@
-\documentclass[12pt, letterpaper]{article} % Document font size and paper size
 
-\usepackage{fontspec} % Allows the use of OpenType fonts
+%!TEX TS-program = xelatex
+%!TEX encoding = UTF-8 Unicode
+
+\documentclass[12pt, letterpaper]{article}
+
+\usepackage{fontspec} %OpenType fonts
 
 %  LAYOUT
-\usepackage{geometry} % Allows the configuration of document margins
-\geometry{letterpaper, textwidth=6in, textheight=9in, marginparsep=5pt, marginparwidth=.4in} % Document margin settings
-\setlength\parindent{0in} % Remove paragraph indentation
+\usepackage{geometry} %document margins
+\geometry{letterpaper, textwidth=6in, textheight=9.3in, marginparsep=20pt, marginparwidth=1in} %margin settings
+\setlength\parindent{0in} % Remove indentation
+
+\oddsidemargin .5in
+\evensidemargin .5in
 
 %  COLORS
 \usepackage[usenames,dvipsnames]{xcolor}
@@ -19,10 +26,14 @@
 \usepackage{marginnote} % For margin years
 \newcommand{\years}[1]{\marginnote{\scriptsize #1}} % New command for including margin years
 \renewcommand*{\raggedleftmarginnote}{}
-\setlength{\marginparsep}{30pt} % Slightly increase the distance of the margin years from the contant
+\setlength{\marginparsep}{15pt} % Slightly increase the distance of the margin years from the contant
 \reversemarginpar
 
-\usepackage[xetex, bookmarks, colorlinks, breaklinks, pdftitle={Michael Elliot King - CV},pdfauthor={Michael Elliot King}]{hyperref} % PDF setup - set your name and the title of the document to be incorporated into the final PDF file meta-information
+%  PDF DOC TITLE & AUTHOR
+\usepackage[xetex, bookmarks, colorlinks, breaklinks, 
+pdftitle={Michael Elliot King - Curriculum Vitæ},
+pdfauthor={Michael Elliot King - www.michaelelliotking.com}]
+{hyperref}
 \hypersetup{linkcolor=CadetBlue,citecolor=blue,filecolor=black,urlcolor=CadetBlue} % Link colors
 
 %     CUSTOM STUFF
@@ -30,15 +41,14 @@
 \usepackage{hyperref} % include email
 %\usepackage{multicol} %use columns
 \usepackage{setspace}  %set line spacing with 
-%\usepackage{titlesec} %format the sectioning commands: \titleformat{command}[shape]{format}{label}{sep}{before}[after]
-%\titleformat{\section}[runin]{}{}{}{}[] %makes no space after a ``section''
+
 \usepackage{enumitem} %format spacing and seperation for items: see below - also use ``setenumerate, setlist, setdescription
 \setitemize{noitemsep,topsep=0pt,parsep=0pt,partopsep=0pt} %remove big spaces in itemized lists
 \usepackage[compact]{titlesec} %makes the spacing around sections compact
 \usepackage{tikz} %enables drawing of linkedin image
 
 % LINKEDIN PHOTO
-\newcommand{\linkedin}{%
+\newcommand{\linkedin}{
 \begin{tikzpicture}[y=0.18pt, x=0.18pt,yscale=-1, inner sep=0pt, outer sep=0pt,opacity=1]
   \begin{scope}[cm={{0.59444,0.0,0.0,0.59444,(346.38938,123.06674)}}]
     \path[fill=black] (380.7408,201.6221) -- (434.0804,201.6221) .. controls
@@ -93,10 +103,8 @@
 \begin{document}
 
 %	CONTACT AND GENERAL INFORMATION SECTION
-\begin{center}
-{\Huge Michael Elliot King -- Curriculum Vit\ae}\\[10pt]
-%\textsc{\large Curriculum Vit\ae}
-\end{center}
+{\Huge Michael Elliot King --- Curriculum Vit\ae}\\[10pt]
+%\textsc{\large Curriculum Vit\ae}\\
 
 %  ADDRESS & INFO
 \begin{minipage}[ht]{3.8in}
@@ -121,7 +129,7 @@ I am an undergraduate Mechanical Engineering student interested in engineering d
 
 %  EDUCATION 
 \section*{ \scshape Education}
-\years{2009 - Present} \textbf{B.Eng., Mechanical Engineering}\\
+\years{\small 2009 - Present} \textbf{B.Eng., Mechanical Engineering}\\
 \textit{McGill University,} Montreal, Quebec
 
 %	RELEVANT EXPERIENCE
@@ -129,7 +137,7 @@ I am an undergraduate Mechanical Engineering student interested in engineering d
 
 %MCGILL ROBOTICS
 \begin{samepage}
-\years{8/2013 - Present} \textbf{\scshape Mechanical Engineering Leader | Control Systems}\\
+\years{\small 8/2013 - Present} \textbf{\scshape Mechanical Engineering Leader | Control Systems}\\
 \href {http://mcgillrobotics.com}{\textit{McGill A.U.V. Robotics Design Team}} -- Montreal, Quebec
 \begin{itemize}
 \item Lead all mechanical design and manufacturing for a team of 80 students creating an autonomous underwater vehicle 
@@ -140,7 +148,7 @@ I am an undergraduate Mechanical Engineering student interested in engineering d
 
 %ROBIES
 \begin{samepage}
-\years{Summer 2012 \& Summer~2013} \textbf{\scshape Paid Engineering Internship}\\
+\years{\small Summer 2012 \& Summer~2013} \textbf{\scshape Paid Engineering Internship}\\
 \textit{Robies Heating \& Cooling HVAC} -- Hyannis, Massachusetts
 \begin{itemize}
 \item Calculated thermal loads
@@ -155,7 +163,7 @@ I am an undergraduate Mechanical Engineering student interested in engineering d
 
 %T DAVLIN
 \begin{samepage}
-\years{Summer 2013} \textbf{\scshape Control Systems \& Engineering Internship}\\
+\years{\small Summer 2013} \textbf{\scshape Control Systems \& Engineering Internship}\\
 \textit{T. Davlin Glass} -- Cambridge, Massachusetts\\
 \small Designer gold-leaf glass tiles and glass products
 \begin{itemize}
@@ -169,7 +177,7 @@ I am an undergraduate Mechanical Engineering student interested in engineering d
 
 %LUNAREX
 \begin{samepage}
-\years{8/2012 - 8/2013} \textbf{\scshape Material Collection System Leader | Marketing \& Media Director}\\
+\years{\small 8/2012 - 8/2013} \textbf{\scshape Material Collection System Leader | Marketing \& Media Director}\\
 \href{http://www.lunarex.mcgill.ca}{\textit{McGill LunarEx Robotics Design Team}} -- Montreal, Quebec\\
 \small Placed 12th out of 50 international teams at NASA's Lunabotics Mining Competition -- Orlando,~Florida
 \begin{itemize}
@@ -186,7 +194,7 @@ I am an undergraduate Mechanical Engineering student interested in engineering d
 
 %BRAILLE U
 \begin{samepage}
-\years{1/2013 - 8/2013} \textbf{\scshape Front End \& Usability Lead}\\
+\years{\small 1/2013 - 8/2013} \textbf{\scshape Front End \& Usability Lead}\\
 \textit{Braille University iPhone Application} -- Montreal, Quebec\\
 \small Tool to aid in teaching Braille to blind children using an electronic medium 
 \begin{itemize}
@@ -205,6 +213,7 @@ Scripting Languages: Python\\
 Programming Languages: C, C++, Objective-C\\
 Version Control Systems: Git\\
 Markup Languages: HTML5, CSS3\\
+Website Management: Google Analytics, SEO\\
 Digital Typesetting: \LaTeX \\
 Media \& Graphics: Photoshop, Illustrator, Lightroom, Final Cut Pro
 
