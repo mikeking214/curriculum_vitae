@@ -8,7 +8,7 @@
 
 %  LAYOUT
 \usepackage{geometry} %document margins
-\geometry{letterpaper, textwidth=6in, textheight=9in, marginparsep=20pt, marginparwidth=1in} %margin settings
+\geometry{letterpaper, textwidth=6in, textheight=9.2in, marginparsep=20pt, marginparwidth=1in} %margin settings
 \setlength\parindent{0in} % Remove indentation
 
 \oddsidemargin .5in
@@ -32,8 +32,8 @@
 
 %  MARGIN YEARS
 \usepackage{marginnote} % For margin years
-\newcommand{\years}[1]{\marginnote{\scriptsize #1}} % New command for including margin years
-\renewcommand*{\raggedleftmarginnote}{}
+\newcommand{\years}[1]{\marginnote{\footnotesize #1}} % New command for including margin years
+\renewcommand*{\raggedrightmarginnote}{}
 \setlength{\marginparsep}{15pt} % Slightly increase the distance of the margin years from the contant
 \reversemarginpar
 
@@ -134,20 +134,20 @@ Born: February 14, 1991 --- Quincy, MA\\
 Nationality: American 
 
 %  SUMMARY
-\section*{\scshape Summary}
+\section*{Summary}
 I am an undergraduate Mechanical Engineering student interested in engineering design, robotics, and human computer interaction.  I am currently looking for full time employment following my graduation in May 2014.
 
 %  EDUCATION 
-\section*{\scshape Education}
-\years{\small 2009 - Present} \textbf{B.Eng., Mechanical Engineering}\\
+\section*{Education}
+\years{2009 - Present} \textbf{B.Eng., Mechanical Engineering}\\
 \textit{McGill University,} Montreal, Quebec
 
 %	RELEVANT EXPERIENCE
-\section*{\scshape Relevant Experience}
+\section*{Relevant Experience}
 
 %MCGILL ROBOTICS
 \begin{samepage}
-\years{\small 8/2013 - Present} \textbf{\scshape Mechanical Engineering Leader | Control Systems}\\
+\years{8/2013 - Present} \textbf{\scshape Mechanical Engineering Leader | Control Systems}\\
 \href {http://www.mcgillrobotics.com}{\textit{McGill A.U.V. Robotics Design Team}} -- Montreal, Quebec\\
 {\small Supervised by Professor Meyer Nahon }
 \begin{itemize}
@@ -156,11 +156,11 @@ I am an undergraduate Mechanical Engineering student interested in engineering d
 \item Complete CAD of the vehicle for FEA, dynamic modeling, and simulations
 \end{itemize}
 \end{samepage}
-\vspace{.05in}
+%\vspace{.05in}
 
 %ROBIES
 \begin{samepage}
-\years{\small Summer 2012 \& Summer~2013} \textbf{\scshape Paid Engineering Internship}\\
+\years{Summer 2012 \& Summer~2013} \textbf{\scshape Paid Engineering Internship}\\
 \textit{Robies Heating \& Cooling HVAC} -- Hyannis, Massachusetts
 \begin{itemize}
 \item Calculated thermal loads
@@ -172,11 +172,11 @@ I am an undergraduate Mechanical Engineering student interested in engineering d
 \item Analyzed sales trends and provided detailed reports 
 \end{itemize}
 \end{samepage}
-\vspace{.05in}
+%\vspace{.05in}
 
 %T DAVLIN
 \begin{samepage}
-\years{\small Summer 2013} \textbf{\scshape Control Systems \& Engineering Internship}\\
+\years{Summer 2013} \textbf{\scshape Control Systems \& Engineering Internship}\\
 \textit{T. Davlin Glass} -- Cambridge, Massachusetts\\
 {\small Designer gold-leaf glass tiles and glass products}
 \begin{itemize}
@@ -189,26 +189,26 @@ I am an undergraduate Mechanical Engineering student interested in engineering d
 
 %LUNAREX
 \begin{samepage}
-\years{\small 8/2012 - 8/2013} \textbf{\scshape Material Collection System Leader | Marketing \& Media Director}\\
+\years{8/2012 - 8/2013} \textbf{\scshape Material Collection System Leader | Marketing \& Media Director}\\
 \href{http://www.lunarex.mcgill.ca}{\textit{McGill LunarEx Robotics Design Team}} -- Montreal, Quebec\\
 {\small Placed 12th out of 50 international teams at NASA's Lunabotics Mining Competition -- Orlando,~Florida\\
 Supervised by Professor Peter Henry Radziszewski}
 \begin{itemize}
-\item Member of 40-man team creating an autonomous mining lunar robot 
+\item Member of a team of 40 students creating an autonomous mining lunar robot 
 \item Lead the efforts of a five person group responsible for designing, constructing and assembling the mechanism that collects and dumps lunar regolith simulant
 \item Brought original concepts to realization through sketching, CADing, machining, assembly, and testing
+\item Machined \& CNCed aluminum, moulded composites, 3D printed new materials, and fabricated sheet metal parts
 \item Developed rebranding strategies to increase interest and team credibility
 \item Enhanced project marketing and sponsorship visibility through media exposure
-\item Designed logos and graphics and created team apparel, posters, and banners
 \item Documented each step of the design process,  meetings, outreach, and competition with my photography
 \item Shot, directed and edited a promotional film that was sent to all sponsors and shared on social media outlets
 \end{itemize}
 \end {samepage}
-\vspace{.05in}
+%\vspace{.05in}
 
 %BRAILLE U
 \begin{samepage}
-\years{\small 1/2013 - 8/2013} \textbf{\scshape Front End \& Usability Lead}\\
+\years{1/2013 - 8/2013} \textbf{\scshape Front End \& Usability Lead}\\
 \textit{Braille University iPhone Application} -- Montreal, Quebec\\
 Tool to aid in teaching Braille to blind children using an electronic medium\\
 {\small Supervisored by Professor Jeremy Cooperstock, \textsl {McGill Center for Intelligent Machines}}
@@ -218,22 +218,28 @@ Tool to aid in teaching Braille to blind children using an electronic medium\\
 \item Collaborated with Braille education professionals to create an authentic curriculum and legitimate learning tool (Anne Jarry, Nathalie Martiniello: \textit {Univerisit\'e de Montr\'eal})
 \end{itemize}
 \end {samepage}
-\vspace{.05in}
+%\vspace{.05in}
 
 
 %  SOFTWARE SKILLS
-\section*{\scshape Software \& Programming Skills}
+\section*{Software \& Programming Skills}
 Computer Aided Design: Autodesk Inventor, AutoCAD, Solidworks\\
 Data Analysis: MATLAB, Excel\\
-Scripting Languages: Python\\
-Programming Languages: C, C++, Objective-C\\
+%Scripting Languages: Python\\
+Programming Languages: Python, C, C++, Objective-C\\
 Version Control Systems: Git\\
-Markup Languages: HTML5, CSS3\\
-Website Management: Google Analytics, SEO\\
+Web Development: HTML5, CSS3, Google Analytics, SEO\\
 Digital Typesetting: \LaTeX \\
-Media \& Graphics: Photoshop, Illustrator, Lightroom, Final Cut Pro\\
+Media \& Graphics: Photoshop, Illustrator, Lightroom, Final Cut Pro
 
-\small Please contact me for professional references.
+\section*{Activities \& Interests}
+\years{2010 - Present}Photography - \href{http://www.michaelelliotphotography.com}{www.michaelelliotphotography.com}\\
+\years{2009 - Present} McGill University Intramural Ultimate Frisbee (1st Place 2010, 2011)\\
+\years{2012 - 2013} Photo Contributor - \href{http://www.mcgilltribune.com}{The McGill Tribune}\\
+\years{2011 - 2012} McGill Engineering Undergraduate Society Website Committee\\
+\years{2010 - 2011} McGill University International Student BUDDY Mentor Program
+
+%\small Please contact me for professional references.
 
 
 %-----------EXAMPLE----------------------------------------------------------------------
@@ -241,7 +247,7 @@ Media \& Graphics: Photoshop, Illustrator, Lightroom, Final Cut Pro\\
 %\years{1954}Einstein, Albert (1954), \emph{Ideas and Opinions}, New York: Random House, ISBN 0-517-00393-7
 %------------------------------------------------
 
-\vfill{}
+%\vfill{}
 
 % FOOTER
 

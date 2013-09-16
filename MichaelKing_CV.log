@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.1415926-2.4-0.9998 (TeX Live 2012) (format=xelatex 2012.6.30)  15 SEP 2013 21:38
+This is XeTeX, Version 3.1415926-2.4-0.9998 (TeX Live 2012) (format=xelatex 2012.6.30)  15 SEP 2013 22:59
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1187,14 +1187,14 @@ LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: 
 * h-part:(L,W,R)=(90.3375pt, 433.62pt, 90.33751pt)
-* v-part:(T,H,B)=(57.81598pt, 650.43pt, 86.72401pt)
+* v-part:(T,H,B)=(52.03448pt, 664.88377pt, 78.05173pt)
 * \paperwidth=614.295pt
 * \paperheight=794.96999pt
 * \textwidth=433.62pt
-* \textheight=650.43pt
+* \textheight=664.88377pt
 * \oddsidemargin=36.135pt
 * \evensidemargin=36.135pt
-* \topmargin=-51.45401pt
+* \topmargin=-57.2355pt
 * \headheight=12.0pt
 * \headsep=25.0pt
 * \topskip=12.0pt
@@ -1291,49 +1291,74 @@ Package marginnote Info: xpos seems to be 108.40498pt,
 [1
 
 ]
+Package marginnote Info: Margin note 2.1 is on absolute page 2
+(marginnote)              on input line 192.
 Package marginnote Info: right page because not two side mode on input line 192
 .
-Package marginnote Info: xpos not known,
-(marginnote)             using \marginnoteleftadjust on input line 192.
+Package marginnote Info: xpos seems to be 108.40498pt,
+(marginnote)             \marginnoteleftadjust ignored on input line 192.
 
 Overfull \hbox (15.70256pt too wide) in paragraph at lines 192--197
 \EU1/LinuxLibertine(0)/m/n/10.95 Placed 12th out of 50 international teams at N
 ASA’s Lunabotics Mining Competition – Orlando, Florida 
  []
 
+Package marginnote Info: Margin note 2.2 is on absolute page 2
+(marginnote)              on input line 211.
 Package marginnote Info: right page because not two side mode on input line 211
 .
-Package marginnote Info: xpos not known,
-(marginnote)             using \marginnoteleftadjust on input line 211.
+Package marginnote Info: xpos seems to be 108.40498pt,
+(marginnote)             \marginnoteleftadjust ignored on input line 211.
 LaTeX Font Info:    Font shape `EU1/LinuxLibertine(0)/m/sl' in size <10.95> not
  available
 (Font)              Font shape `EU1/LinuxLibertine(0)/m/it' tried instead on in
 put line 214.
-
-Underfull \hbox (badness 10000) in paragraph at lines 226--235
-
- []
-
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 252.
+Package marginnote Info: Margin note 2.3 is on absolute page 2
+(marginnote)              on input line 236.
+Package marginnote Info: right page because not two side mode on input line 236
+.
+Package marginnote Info: xpos seems to be 108.40498pt,
+(marginnote)             \marginnoteleftadjust ignored on input line 236.
+Package marginnote Info: Margin note 2.4 is on absolute page 2
+(marginnote)              on input line 237.
+Package marginnote Info: right page because not two side mode on input line 237
+.
+Package marginnote Info: xpos seems to be 108.40498pt,
+(marginnote)             \marginnoteleftadjust ignored on input line 237.
+Package marginnote Info: Margin note 2.5 is on absolute page 2
+(marginnote)              on input line 238.
+Package marginnote Info: right page because not two side mode on input line 238
+.
+Package marginnote Info: xpos seems to be 108.40498pt,
+(marginnote)             \marginnoteleftadjust ignored on input line 238.
+Package marginnote Info: Margin note 2.6 is on absolute page 2
+(marginnote)              on input line 239.
+Package marginnote Info: right page because not two side mode on input line 239
+.
+Package marginnote Info: xpos seems to be 108.40498pt,
+(marginnote)             \marginnoteleftadjust ignored on input line 239.
+Package marginnote Info: Margin note 2.7 is on absolute page 2
+(marginnote)              on input line 240.
+Package marginnote Info: right page because not two side mode on input line 240
+.
+Package marginnote Info: xpos seems to be 108.40498pt,
+(marginnote)             \marginnoteleftadjust ignored on input line 240.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 258.
 [2
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 252.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 258.
  (./MichaelKing_CV.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 252.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 252.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 252.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 258.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 258.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 258.
  ) 
 Here is how much of TeX's memory you used:
- 28955 strings out of 494004
- 568194 string characters out of 3150890
- 579116 words of memory out of 3000000
- 31781 multiletter control sequences out of 15000+200000
- 10272 words of font info for 61 fonts, out of 3000000 for 9000
+ 28956 strings out of 494004
+ 568108 string characters out of 3150890
+ 580208 words of memory out of 3000000
+ 31783 multiletter control sequences out of 15000+200000
+ 10207 words of font info for 60 fonts, out of 3000000 for 9000
  1144 hyphenation exceptions out of 8191
  56i,11n,55p,566b,656s stack positions out of 5000i,500n,10000p,200000b,50000s
 
