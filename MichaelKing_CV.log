@@ -1,23 +1,34 @@
-This is LuaTeX, Version beta-0.70.2-2012062819 (TeX Live 2012) (format=lualatex 2012.6.30)  15 SEP 2013 21:13
+This is XeTeX, Version 3.1415926-2.4-0.9998 (TeX Live 2012) (format=xelatex 2012.6.30)  15 SEP 2013 21:38
+entering extended mode
  restricted \write18 enabled.
+ %&-line parsing enabled.
 **MichaelKing_CV.tex
 (./MichaelKing_CV.tex
 LaTeX2e <2011/06/27>
-LuaTeX adaptation of babel <v3.8m-luatex-1.5> and hyphenation patterns for engl
-ish, dumylang, nohyphenation, loaded.
+Babel <v3.8m> and hyphenation patterns for english, dumylang, nohyphenation, ge
+rman-x-2012-05-30, ngerman-x-2012-05-30, afrikaans, ancientgreek, ibycus, arabi
+c, armenian, basque, bulgarian, catalan, pinyin, coptic, croatian, czech, danis
+h, dutch, ukenglish, usenglishmax, esperanto, estonian, ethiopic, farsi, finnis
+h, french, friulan, galician, german, ngerman, swissgerman, monogreek, greek, h
+ungarian, icelandic, assamese, bengali, gujarati, hindi, kannada, malayalam, ma
+rathi, oriya, panjabi, tamil, telugu, indonesian, interlingua, irish, italian, 
+kurmanji, latin, latvian, lithuanian, mongolian, mongolianlmc, bokmal, nynorsk,
+ polish, portuguese, romanian, romansh, russian, sanskrit, serbian, serbianc, s
+lovak, slovenian, spanish, swedish, turkish, turkmen, ukrainian, uppersorbian, 
+welsh, loaded.
 (/usr/local/texlive/2012/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2007/10/19 v1.4h Standard LaTeX document class
 (/usr/local/texlive/2012/texmf-dist/tex/latex/base/size12.clo
 File: size12.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
 )
-\c@part=\count79
-\c@section=\count80
-\c@subsection=\count81
-\c@subsubsection=\count82
-\c@paragraph=\count83
-\c@subparagraph=\count84
-\c@figure=\count85
-\c@table=\count86
+\c@part=\count80
+\c@section=\count81
+\c@subsection=\count82
+\c@subsubsection=\count83
+\c@paragraph=\count84
+\c@subparagraph=\count85
+\c@figure=\count86
+\c@table=\count87
 \abovecaptionskip=\skip41
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
@@ -30,50 +41,12 @@ Package: fontspec 2012/05/06 v2.2b Advanced font selection for XeLaTeX/LuaLaTeX
 (/usr/local/texlive/2012/texmf-dist/tex/latex/l3kernel/l3names.sty
 (/usr/local/texlive/2012/texmf-dist/tex/latex/l3kernel/l3bootstrap.sty
 Package: l3bootstrap 2011/12/29 v3110 L3 Experimental bootstrap code
-
-(/usr/local/texlive/2012/texmf-dist/tex/generic/oberdiek/luatex.sty
-Package: luatex 2010/03/09 v0.4 LuaTeX basic definition package (HO)
-
-(/usr/local/texlive/2012/texmf-dist/tex/generic/oberdiek/infwarerr.sty
-Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
 )
-(/usr/local/texlive/2012/texmf-dist/tex/generic/oberdiek/ifluatex.sty
-Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
-Package ifluatex Info: LuaTeX detected.
+Package: l3names 2012/03/04 v3494 L3 Experimental namespace for primitives
 )
 (/usr/local/texlive/2012/texmf-dist/tex/latex/etex-pkg/etex.sty
 Package: etex 1998/03/26 v2.0 eTeX basic definition package (PEB)
-\et@xins=\count87
-)
-\LuT@AllocAttribute=\count277
-\LuT@AllocCatcodeTable=\count278
-\CatcodeTableStack=\count279
-\CatcodeTableIniTeX=\catcodetable1
-\CatcodeTableString=\catcodetable3
-\CatcodeTableOther=\catcodetable5
-\CatcodeTableLaTeX=\catcodetable7
-
-(/usr/local/texlive/2012/texmf-dist/tex/generic/oberdiek/luatex-loader.sty
-Package: luatex-loader 2010/03/09 v0.4 Lua module loader (HO)
-
-(/usr/local/texlive/2012/texmf-dist/scripts/oberdiek/oberdiek.luatex.lua)))
-(/usr/local/texlive/2012/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
-Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
-)
-
-(/usr/local/texlive/2012/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
-Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
-)
-(/usr/local/texlive/2012/texmf-dist/tex/generic/oberdiek/ifpdf.sty
-Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
-Package ifpdf Info: pdfTeX in PDF mode is detected.
-)
-Package pdftexcmds Info: \pdf@primitive is available.
-Package pdftexcmds Info: \pdf@ifprimitive is available.
-Package pdftexcmds Info: \pdfdraftmode found.
-\pdftexcmds@toks=\toks14
-))
-Package: l3names 2012/03/04 v3494 L3 Experimental namespace for primitives
+\et@xins=\count88
 )
 Package: expl3 2012/04/23 v3570 L3 Experimental code bundle wrapper
 
@@ -83,11 +56,11 @@ Package: color 2005/11/14 v1.0j Standard LaTeX Color (DPC)
 (/usr/local/texlive/2012/texmf-dist/tex/latex/latexconfig/color.cfg
 File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
 )
-Package color Info: Driver file: pdftex.def on input line 130.
+Package color Info: Driver file: xetex.def on input line 130.
 
-(/usr/local/texlive/2012/texmf-dist/tex/latex/pdftex-def/pdftex.def
-File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
-\Gread@gobject=\count280
+(/usr/local/texlive/2012/texmf-dist/tex/xelatex/xetex-def/xetex.def
+File: xetex.def 2009/11/22 v0.94 LaTeX color/graphics driver for XeTeX (RRM/JK)
+
 ))
 (/usr/local/texlive/2012/texmf-dist/tex/latex/graphics/graphics.sty
 Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
@@ -98,7 +71,7 @@ Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
 (/usr/local/texlive/2012/texmf-dist/tex/latex/latexconfig/graphics.cfg
 File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
 )
-Package graphics Info: Driver file: pdftex.def on input line 91.
+Package graphics Info: Driver file: xetex.def on input line 91.
 )
 (/usr/local/texlive/2012/texmf-dist/tex/latex/l3kernel/l3basics.sty
 Package: l3basics 2012/03/04 v3491 L3 Experimental basic definitions
@@ -114,19 +87,19 @@ Package: l3seq 2012/03/04 v3490 L3 Experimental sequences and stacks
 )
 (/usr/local/texlive/2012/texmf-dist/tex/latex/l3kernel/l3int.sty
 Package: l3int 2012/03/04 v3490 L3 Experimental integers
-\c_max_int=\count281
-\l_tmpa_int=\count282
-\l_tmpb_int=\count283
-\l_tmpc_int=\count284
-\g_tmpa_int=\count285
-\g_tmpb_int=\count286
+\c_max_int=\count89
+\l_tmpa_int=\count90
+\l_tmpb_int=\count91
+\l_tmpc_int=\count92
+\g_tmpa_int=\count93
+\g_tmpb_int=\count94
 )
 (/usr/local/texlive/2012/texmf-dist/tex/latex/l3kernel/l3quark.sty
 Package: l3quark 2012/02/12 v3384 L3 Experimental quarks
 )
 (/usr/local/texlive/2012/texmf-dist/tex/latex/l3kernel/l3prg.sty
 Package: l3prg 2012/03/04 v3490 L3 Experimental control structures
-\g_prg_map_int=\count287
+\g_prg_map_int=\count95
 )
 (/usr/local/texlive/2012/texmf-dist/tex/latex/l3kernel/l3clist.sty
 Package: l3clist 2012/03/04 v3490 L3 Experimental comma separated lists
@@ -142,292 +115,155 @@ Package: l3msg 2012/04/23 v3568 L3 Experimental messages
 )
 (/usr/local/texlive/2012/texmf-dist/tex/latex/l3kernel/l3file.sty
 Package: l3file 2012/03/09 v3520 L3 Experimental file and I/O operations
-\l_iow_stream_int=\count288
-\l_iow_line_length_int=\count289
-\l_iow_target_length_int=\count290
-\l_iow_current_line_int=\count291
-\l_iow_current_word_int=\count292
-\l_iow_current_indentation_int=\count293
+\l_iow_stream_int=\count96
+\l_iow_line_length_int=\count97
+\l_iow_target_length_int=\count98
+\l_iow_current_line_int=\count99
+\l_iow_current_word_int=\count100
+\l_iow_current_indentation_int=\count101
 )
 (/usr/local/texlive/2012/texmf-dist/tex/latex/l3kernel/l3skip.sty
 Package: l3skip 2012/03/05 v3499 L3 Experimental dimensions and skips
-\l_tmpa_dim=\dimen256
-\l_tmpb_dim=\dimen257
-\l_tmpc_dim=\dimen258
-\g_tmpa_dim=\dimen259
-\g_tmpb_dim=\dimen260
-\l_tmpa_skip=\skip256
-\l_tmpb_skip=\skip257
-\l_tmpc_skip=\skip258
-\g_tmpa_skip=\skip259
-\g_tmpb_skip=\skip260
+\l_tmpa_dim=\dimen103
+\l_tmpb_dim=\dimen104
+\l_tmpc_dim=\dimen105
+\g_tmpa_dim=\dimen106
+\g_tmpb_dim=\dimen107
+\l_tmpa_skip=\skip43
+\l_tmpb_skip=\skip44
+\l_tmpc_skip=\skip45
+\g_tmpa_skip=\skip46
+\g_tmpb_skip=\skip47
 )
 (/usr/local/texlive/2012/texmf-dist/tex/latex/l3kernel/l3keys.sty
 Package: l3keys 2012/03/03 v3487 L3 Experimental key-value interfaces
-\g_keyval_level_int=\count294
-\l_keys_choice_int=\count295
+\g_keyval_level_int=\count102
+\l_keys_choice_int=\count103
 )
 (/usr/local/texlive/2012/texmf-dist/tex/latex/l3kernel/l3fp.sty
 Package: l3fp 2012/03/04 v3490 L3 Experimental floating-point operations
-\c_one_hundred_million=\count296
-\c_five_hundred_million=\count297
-\c_one_thousand_million=\count298
-\c_fp_pi_by_four_decimal_int=\count299
-\c_fp_pi_by_four_extended_int=\count300
-\c_fp_pi_decimal_int=\count301
-\c_fp_pi_extended_int=\count302
-\c_fp_two_pi_decimal_int=\count303
-\c_fp_two_pi_extended_int=\count304
-\l_fp_count_int=\count305
-\l_fp_div_offset_int=\count306
-\l_fp_exp_integer_int=\count307
-\l_fp_exp_decimal_int=\count308
-\l_fp_exp_extended_int=\count309
-\l_fp_exp_exponent_int=\count310
-\l_fp_input_a_sign_int=\count311
-\l_fp_input_a_integer_int=\count312
-\l_fp_input_a_decimal_int=\count313
-\l_fp_input_a_exponent_int=\count314
-\l_fp_input_b_sign_int=\count315
-\l_fp_input_b_integer_int=\count316
-\l_fp_input_b_decimal_int=\count317
-\l_fp_input_b_exponent_int=\count318
-\l_fp_input_a_extended_int=\count319
-\l_fp_input_b_extended_int=\count320
-\l_fp_mul_a_i_int=\count321
-\l_fp_mul_a_ii_int=\count322
-\l_fp_mul_a_iii_int=\count323
-\l_fp_mul_a_iv_int=\count324
-\l_fp_mul_a_v_int=\count325
-\l_fp_mul_a_vi_int=\count326
-\l_fp_mul_b_i_int=\count327
-\l_fp_mul_b_ii_int=\count328
-\l_fp_mul_b_iii_int=\count329
-\l_fp_mul_b_iv_int=\count330
-\l_fp_mul_b_v_int=\count331
-\l_fp_mul_b_vi_int=\count332
-\l_fp_mul_output_int=\count333
-\l_fp_output_sign_int=\count334
-\l_fp_output_integer_int=\count335
-\l_fp_output_decimal_int=\count336
-\l_fp_output_exponent_int=\count337
-\l_fp_output_extended_int=\count338
-\l_fp_round_position_int=\count339
-\l_fp_round_target_int=\count340
-\l_fp_split_sign_int=\count341
-\l_fp_internal_int=\count342
-\l_fp_trig_octant_int=\count343
-\l_fp_trig_sign_int=\count344
-\l_fp_trig_decimal_int=\count345
-\l_fp_trig_extended_int=\count346
-\l_fp_internal_dim=\dimen261
-\l_fp_internal_skip=\skip261
+\c_one_hundred_million=\count104
+\c_five_hundred_million=\count105
+\c_one_thousand_million=\count106
+\c_fp_pi_by_four_decimal_int=\count107
+\c_fp_pi_by_four_extended_int=\count108
+\c_fp_pi_decimal_int=\count109
+\c_fp_pi_extended_int=\count110
+\c_fp_two_pi_decimal_int=\count111
+\c_fp_two_pi_extended_int=\count112
+\l_fp_count_int=\count113
+\l_fp_div_offset_int=\count114
+\l_fp_exp_integer_int=\count115
+\l_fp_exp_decimal_int=\count116
+\l_fp_exp_extended_int=\count117
+\l_fp_exp_exponent_int=\count118
+\l_fp_input_a_sign_int=\count119
+\l_fp_input_a_integer_int=\count120
+\l_fp_input_a_decimal_int=\count121
+\l_fp_input_a_exponent_int=\count122
+\l_fp_input_b_sign_int=\count123
+\l_fp_input_b_integer_int=\count124
+\l_fp_input_b_decimal_int=\count125
+\l_fp_input_b_exponent_int=\count126
+\l_fp_input_a_extended_int=\count127
+\l_fp_input_b_extended_int=\count128
+\l_fp_mul_a_i_int=\count129
+\l_fp_mul_a_ii_int=\count130
+\l_fp_mul_a_iii_int=\count131
+\l_fp_mul_a_iv_int=\count132
+\l_fp_mul_a_v_int=\count133
+\l_fp_mul_a_vi_int=\count134
+\l_fp_mul_b_i_int=\count135
+\l_fp_mul_b_ii_int=\count136
+\l_fp_mul_b_iii_int=\count137
+\l_fp_mul_b_iv_int=\count138
+\l_fp_mul_b_v_int=\count139
+\l_fp_mul_b_vi_int=\count140
+\l_fp_mul_output_int=\count141
+\l_fp_output_sign_int=\count142
+\l_fp_output_integer_int=\count143
+\l_fp_output_decimal_int=\count144
+\l_fp_output_exponent_int=\count145
+\l_fp_output_extended_int=\count146
+\l_fp_round_position_int=\count147
+\l_fp_round_target_int=\count148
+\l_fp_split_sign_int=\count149
+\l_fp_internal_int=\count150
+\l_fp_trig_octant_int=\count151
+\l_fp_trig_sign_int=\count152
+\l_fp_trig_decimal_int=\count153
+\l_fp_trig_extended_int=\count154
+\l_fp_internal_dim=\dimen108
+\l_fp_internal_skip=\skip48
 )
 (/usr/local/texlive/2012/texmf-dist/tex/latex/l3kernel/l3box.sty
 Package: l3box 2012/03/04 v3490 L3 Experimental boxes
-\l_tmpb_box=\box256
-\l_box_top_dim=\dimen262
-\l_box_bottom_dim=\dimen263
-\l_box_left_dim=\dimen264
-\l_box_right_dim=\dimen265
-\l_box_top_new_dim=\dimen266
-\l_box_bottom_new_dim=\dimen267
-\l_box_left_new_dim=\dimen268
-\l_box_right_new_dim=\dimen269
-\l_box_internal_box=\box257
+\l_tmpb_box=\box26
+\l_box_top_dim=\dimen109
+\l_box_bottom_dim=\dimen110
+\l_box_left_dim=\dimen111
+\l_box_right_dim=\dimen112
+\l_box_top_new_dim=\dimen113
+\l_box_bottom_new_dim=\dimen114
+\l_box_left_new_dim=\dimen115
+\l_box_right_new_dim=\dimen116
+\l_box_internal_box=\box27
 )
 (/usr/local/texlive/2012/texmf-dist/tex/latex/l3kernel/l3coffins.sty
 Package: l3coffins 2012/03/03 v3482 L3 Experimental coffin code layer
-\l_coffin_internal_box=\box258
-\l_coffin_internal_dim=\dimen270
-\l_coffin_offset_x_dim=\dimen271
-\l_coffin_offset_y_dim=\dimen272
-\l_coffin_x_dim=\dimen273
-\l_coffin_y_dim=\dimen274
-\l_coffin_x_prime_dim=\dimen275
-\l_coffin_y_prime_dim=\dimen276
-\l_coffin_Depth_dim=\dimen277
-\l_coffin_Height_dim=\dimen278
-\l_coffin_TotalHeight_dim=\dimen279
-\l_coffin_Width_dim=\dimen280
-\c_empty_coffin=\box259
-\l_coffin_aligned_coffin=\box260
-\l_coffin_aligned_internal_coffin=\box261
-\l_coffin_bounding_shift_dim=\dimen281
-\l_coffin_left_corner_dim=\dimen282
-\l_coffin_right_corner_dim=\dimen283
-\l_coffin_bottom_corner_dim=\dimen284
-\l_coffin_top_corner_dim=\dimen285
-\l_coffin_scaled_total_height_dim=\dimen286
-\l_coffin_scaled_width_dim=\dimen287
-\l_coffin_display_coffin=\box262
-\l_coffin_display_coord_coffin=\box263
-\l_coffin_display_pole_coffin=\box264
-\l_coffin_display_offset_dim=\dimen288
-\l_coffin_display_x_dim=\dimen289
-\l_coffin_display_y_dim=\dimen290
+\l_coffin_internal_box=\box28
+\l_coffin_internal_dim=\dimen117
+\l_coffin_offset_x_dim=\dimen118
+\l_coffin_offset_y_dim=\dimen119
+\l_coffin_x_dim=\dimen120
+\l_coffin_y_dim=\dimen121
+\l_coffin_x_prime_dim=\dimen122
+\l_coffin_y_prime_dim=\dimen123
+\l_coffin_Depth_dim=\dimen124
+\l_coffin_Height_dim=\dimen125
+\l_coffin_TotalHeight_dim=\dimen126
+\l_coffin_Width_dim=\dimen127
+\c_empty_coffin=\box29
+\l_coffin_aligned_coffin=\box30
+\l_coffin_aligned_internal_coffin=\box31
+\l_coffin_bounding_shift_dim=\dimen128
+\l_coffin_left_corner_dim=\dimen129
+\l_coffin_right_corner_dim=\dimen130
+\l_coffin_bottom_corner_dim=\dimen131
+\l_coffin_top_corner_dim=\dimen132
+\l_coffin_scaled_total_height_dim=\dimen133
+\l_coffin_scaled_width_dim=\dimen134
+\l_coffin_display_coffin=\box32
+\l_coffin_display_coord_coffin=\box33
+\l_coffin_display_pole_coffin=\box34
+\l_coffin_display_offset_dim=\dimen135
+\l_coffin_display_x_dim=\dimen136
+\l_coffin_display_y_dim=\dimen137
 )
 (/usr/local/texlive/2012/texmf-dist/tex/latex/l3kernel/l3color.sty
 Package: l3color 2011/09/07 v2776 L3 Experimental colour support
 )
 (/usr/local/texlive/2012/texmf-dist/tex/latex/l3kernel/l3luatex.sty
 Package: l3luatex 2012/02/09 v3355 L3 Experimental LuaTeX-specific functions
-\g_cctab_allocate_int=\count347
-\g_cctab_stack_int=\count348
-\c_code_cctab=\catcodetable9
+\g_cctab_allocate_int=\count155
+\g_cctab_stack_int=\count156
 ))
 (/usr/local/texlive/2012/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
 Package: xparse 2012/04/23 v3570 L3 Experimental document command parser
-\l_xparse_current_arg_int=\count349
-\l_xparse_m_args_int=\count350
-\l_xparse_mandatory_args_int=\count351
-\l_xparse_processor_int=\count352
-\l_xparse_v_nesting_int=\count353
+\l_xparse_current_arg_int=\count157
+\l_xparse_m_args_int=\count158
+\l_xparse_mandatory_args_int=\count159
+\l_xparse_processor_int=\count160
+\l_xparse_v_nesting_int=\count161
 )
-(/usr/local/texlive/2012/texmf-dist/tex/luatex/luaotfload/luaotfload.sty
-Package: luaotfload 2012/05/28 v1.27 OpenType layout system
-
-(/usr/local/texlive/2012/texmf-dist/tex/luatex/luatexbase/luatexbase.sty
-Package: luatexbase 2010/10/06 v0.3 Module utilities for LuaTeX
-
-(/usr/local/texlive/2012/texmf-dist/tex/luatex/luatexbase/luatexbase-compat.sty
-Package: luatexbase-compat 2010/10/10 v0.3 Compatibility tools for LuaTeX
-)
-(/usr/local/texlive/2012/texmf-dist/tex/luatex/luatexbase/luatexbase-loader.sty
-Package: luatexbase-loader 2010/10/10 v0.3 Lua module loader for LuaTeX
-(/usr/local/texlive/2012/texmf-dist/tex/luatex/luatexbase/luatexbase.loader.lua
-))
-(/usr/local/texlive/2012/texmf-dist/tex/luatex/luatexbase/luatexbase-regs.sty
-Package: luatexbase-regs 2010/10/10 v0.3 Registers allocation for LuaTeX
-)
-(/usr/local/texlive/2012/texmf-dist/tex/luatex/luatexbase/luatexbase-attr.sty
-Package: luatexbase-attr 2011/05/21 v0.31 Attributes allocation for LuaTeX
-
-(/usr/local/texlive/2012/texmf-dist/tex/luatex/luatexbase/attr.lua))
-(/usr/local/texlive/2012/texmf-dist/tex/luatex/luatexbase/luatexbase-cctb.sty
-Package: luatexbase-cctb 2010/10/10 v0.3 Catcodetable allocation for LuaTeX
-
-(/usr/local/texlive/2012/texmf-dist/tex/luatex/luatexbase/cctb.lua)
-\lltxb@catcodetable@alloc=\count354
-\CatcodeTableIniTeX=\luatexcatcodetable1
-\CatcodeTableString=\luatexcatcodetable3
-\CatcodeTableOther=\luatexcatcodetable5
-\CatcodeTableLaTeX=\luatexcatcodetable7
-\CatcodeTableLaTeXAtLetter=\luatexcatcodetable9
-\CatcodeTableExpl=\luatexcatcodetable11
-)
-(/usr/local/texlive/2012/texmf-dist/tex/luatex/luatexbase/luatexbase-mcb.sty
-Package: luatexbase-mcb 2010/10/10 v0.3 Callback management for LuaTeX
-
-(/usr/local/texlive/2012/texmf-dist/tex/luatex/luatexbase/luatexbase-modutils.s
-ty
-Package: luatexbase-modutils 2010/10/10 v0.3 Module utilities for LuaTeX
-
-(/usr/local/texlive/2012/texmf-dist/tex/luatex/luatexbase/modutils.lua))
-(/usr/local/texlive/2012/texmf-dist/tex/luatex/luatexbase/mcb.lua)
-Lua module: luatexbase-mcb 2010/05/12 0.2 register several functions in a callb
-ack
-))
-(/usr/local/texlive/2012/texmf-dist/tex/luatex/lualibs/lualibs.lua)
-Lua module: lualibs 2011/01/20 0.96 Lua additional functions.
-
-(/usr/local/texlive/2012/texmf-dist/tex/luatex/lualibs/lualibs-string.lua)
-(/usr/local/texlive/2012/texmf-dist/tex/luatex/lualibs/lualibs-lpeg.lua)
-(/usr/local/texlive/2012/texmf-dist/tex/luatex/lualibs/lualibs-boolean.lua)
-(/usr/local/texlive/2012/texmf-dist/tex/luatex/lualibs/lualibs-number.lua)
-(/usr/local/texlive/2012/texmf-dist/tex/luatex/lualibs/lualibs-math.lua)
-(/usr/local/texlive/2012/texmf-dist/tex/luatex/lualibs/lualibs-table.lua)
-(/usr/local/texlive/2012/texmf-dist/tex/luatex/lualibs/lualibs-aux.lua)
-(/usr/local/texlive/2012/texmf-dist/tex/luatex/lualibs/lualibs-io.lua)
-(/usr/local/texlive/2012/texmf-dist/tex/luatex/lualibs/lualibs-os.lua)
-(/usr/local/texlive/2012/texmf-dist/tex/luatex/lualibs/lualibs-file.lua)
-(/usr/local/texlive/2012/texmf-dist/tex/luatex/lualibs/lualibs-md5.lua)
-(/usr/local/texlive/2012/texmf-dist/tex/luatex/lualibs/lualibs-dir.lua)
-(/usr/local/texlive/2012/texmf-dist/tex/luatex/lualibs/lualibs-unicode.lua)
-(/usr/local/texlive/2012/texmf-dist/tex/luatex/lualibs/lualibs-utils.lua)
-(/usr/local/texlive/2012/texmf-dist/tex/luatex/lualibs/lualibs-dimen.lua)
-(/usr/local/texlive/2012/texmf-dist/tex/luatex/lualibs/lualibs-url.lua)
-(/usr/local/texlive/2012/texmf-dist/tex/luatex/lualibs/lualibs-set.lua)
-(/usr/local/texlive/2012/texmf-dist/tex/luatex/luaotfload/luaotfload.lua)
-Lua module: luaotfload 2012/05/28 1.27 OpenType layout system.
-luaotfload: loading file /usr/local/texlive/2012/texmf-dist/tex/luatex/luaotflo
-ad/otfl-luat-dum.lua.(using cache: /Users/michaelking214/Library/texlive/2012/t
-exmf-var/luatex-cache/generic)
-luaotfload: loading file /usr/local/texlive/2012/texmf-dist/tex/luatex/luaotflo
-ad/otfl-luat-ovr.lua.
-luaotfload: loading file /usr/local/texlive/2012/texmf-dist/tex/luatex/luaotflo
-ad/otfl-data-con.lua.
-luaotfload: loading file /usr/local/texlive/2012/texmf-dist/tex/luatex/luaotflo
-ad/otfl-font-ini.lua.
-luaotfload: loading file /usr/local/texlive/2012/texmf-dist/tex/luatex/luaotflo
-ad/otfl-node-dum.lua.
-luaotfload: loading file /usr/local/texlive/2012/texmf-dist/tex/luatex/luaotflo
-ad/otfl-node-inj.lua.
-luaotfload: loading file /usr/local/texlive/2012/texmf-dist/tex/luatex/luaotflo
-ad/otfl-font-tfm.lua.
-luatexbase.attributes["otfl@state"] = 1
-luaotfload: loading file /usr/local/texlive/2012/texmf-dist/tex/luatex/luaotflo
-ad/otfl-font-cid.lua.
-luaotfload: loading file /usr/local/texlive/2012/texmf-dist/tex/luatex/luaotflo
-ad/otfl-font-ott.lua.
-luaotfload: loading file /usr/local/texlive/2012/texmf-dist/tex/luatex/luaotflo
-ad/otfl-font-map.lua.
-luaotfload: loading file /usr/local/texlive/2012/texmf-dist/tex/luatex/luaotflo
-ad/otfl-font-otf.lua.
-luaotfload: loading file /usr/local/texlive/2012/texmf-dist/tex/luatex/luaotflo
-ad/otfl-font-otd.lua.
-luaotfload: loading file /usr/local/texlive/2012/texmf-dist/tex/luatex/luaotflo
-ad/otfl-font-oti.lua.
-luaotfload: loading file /usr/local/texlive/2012/texmf-dist/tex/luatex/luaotflo
-ad/otfl-font-otb.lua.
-luaotfload: loading file /usr/local/texlive/2012/texmf-dist/tex/luatex/luaotflo
-ad/otfl-font-otn.lua.
-luatexbase.attributes["otfl@markbase"] = 2
-luatexbase.attributes["otfl@markmark"] = 3
-luatexbase.attributes["otfl@markdone"] = 4
-luatexbase.attributes["otfl@cursbase"] = 5
-luatexbase.attributes["otfl@curscurs"] = 6
-luatexbase.attributes["otfl@cursdone"] = 7
-luatexbase.attributes["otfl@kernpair"] = 8
-luaotfload: loading file /usr/local/texlive/2012/texmf-dist/tex/luatex/luaotflo
-ad/otfl-font-ota.lua.
-luaotfload: loading file /usr/local/texlive/2012/texmf-dist/tex/luatex/luaotflo
-ad/otfl-font-otc.lua.
-luaotfload: loading file /usr/local/texlive/2012/texmf-dist/tex/luatex/luaotflo
-ad/otfl-font-def.lua.
-luaotfload: loading file /usr/local/texlive/2012/texmf-dist/tex/luatex/luaotflo
-ad/otfl-font-xtx.lua.
-luaotfload: loading file /usr/local/texlive/2012/texmf-dist/tex/luatex/luaotflo
-ad/otfl-font-dum.lua.
-luaotfload: loading file /usr/local/texlive/2012/texmf-dist/tex/luatex/luaotflo
-ad/otfl-font-nms.lua.
-luaotfload: loading file /usr/local/texlive/2012/texmf-dist/tex/luatex/luaotflo
-ad/otfl-font-clr.lua.
-Module luatexbase-mcb info: creating 'luaotfload.patch_font' type 4
-Module luatexbase-mcb info: inserting 'luaotfload.pre_linebreak_filter'
-(luatexbase-mcb)            at position 1 in 'pre_linebreak_filter'
-Module luatexbase-mcb info: inserting 'luaotfload.hpack_filter'
-(luatexbase-mcb)            at position 1 in 'hpack_filter'
-Module luatexbase-mcb info: resetting callback 'define_font'
-Module luatexbase-mcb info: inserting 'luaotfload.define_font'
-(luatexbase-mcb)            at position 1 in 'define_font'
-Module luatexbase-mcb info: inserting 'luaotfload.find_vf_file'
-(luatexbase-mcb)            at position 1 in 'find_vf_file'
-Module luatexbase-mcb info: inserting 'unicodemath.set_sscale_diments'
-(luatexbase-mcb)            at position 1 in 'luaotfload.patch_font'
-)
-(/usr/local/texlive/2012/texmf-dist/tex/latex/fontspec/fontspec.lua)
-Lua module: fontspec 2009/12/04 2 Advanced font selection for LuaLaTeX.
-
-Module luatexbase-mcb info: inserting 'fontspec.set_capheight'
-(luatexbase-mcb)            at position 2 in 'luaotfload.patch_font'
-\l_fontspec_script_int=\count355
-\l_fontspec_language_int=\count356
-\l_fontspec_strnum_int=\count357
-\l_fontspec_tmpa_dim=\dimen291
-\l_fontspec_tmpb_dim=\dimen292
-\l_fontspec_tmpc_dim=\dimen293
+\l_fontspec_script_int=\count162
+\l_fontspec_language_int=\count163
+\l_fontspec_strnum_int=\count164
+\l_fontspec_tmpa_dim=\dimen138
+\l_fontspec_tmpb_dim=\dimen139
+\l_fontspec_tmpc_dim=\dimen140
 Variant \tl_gset:cV already defined; not changing it on line 66
+
 (/usr/local/texlive/2012/texmf-dist/tex/latex/fontspec/fontspec-patches.sty
 Package: fontspec-patches 2012/05/06 v2.2b Advanced font selection for XeLaTeX/
 LuaLaTeX
@@ -450,179 +286,168 @@ LaTeX Info: Redefining \- on input line 32.
 . 
 . Defining document command \liningnums with arg. spec. 'm' on line 111.
 .................................................
-) (/usr/local/texlive/2012/texmf-dist/tex/latex/fontspec/fontspec-luatex.sty
-Package: fontspec-luatex 2012/05/06 v2.2b Advanced font selection for XeLaTeX/L
-uaLaTeX
+) (/usr/local/texlive/2012/texmf-dist/tex/latex/fontspec/fontspec-xetex.sty
+Package: fontspec-xetex 2012/05/06 v2.2b Advanced font selection for XeLaTeX/Lu
+aLaTeX
 
 (/usr/local/texlive/2012/texmf-dist/tex/latex/base/fontenc.sty
 Package: fontenc 2005/09/27 v1.99g Standard LaTeX package
 
-(/usr/local/texlive/2012/texmf-dist/tex/latex/euenc/eu2enc.def
-File: eu2enc.def 2010/05/27 v0.1h Experimental Unicode font encodings
+(/usr/local/texlive/2012/texmf-dist/tex/latex/euenc/eu1enc.def
+File: eu1enc.def 2010/05/27 v0.1h Experimental Unicode font encodings
 )
-LaTeX Font Info:    Try loading font information for EU2+lmr on input line 100.
+LaTeX Font Info:    Try loading font information for EU1+lmr on input line 100.
 
 
-(/usr/local/texlive/2012/texmf-dist/tex/latex/euenc/eu2lmr.fd
-File: eu2lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
-)
-luaotfload | load font: auto-selecting default features for script: dflt (was l
-atn)(load: /Users/michaelking214/Library/texlive/2012/texmf-var/luatex-cache/ge
-neric/fonts/otf/temp-lmroman10-regular.lua))
+(/usr/local/texlive/2012/texmf-dist/tex/latex/euenc/eu1lmr.fd
+File: eu1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
+))
 (/usr/local/texlive/2012/texmf-dist/tex/xelatex/xunicode/xunicode.sty
 File: xunicode.sty 2011/09/09 v0.981 provides access to latin accents and many 
 other characters in Unicode lower plane
 
 (/usr/local/texlive/2012/texmf-dist/tex/latex/tipa/t3enc.def
 File: t3enc.def 2001/12/31 T3 encoding
-luaotfload | load font: auto-selecting default features for script: dflt (was l
-atn)(load: /Users/michaelking214/Library/texlive/2012/texmf-var/luatex-cache/ge
-neric/fonts/otf/temp-lmromanslant10-regular.lua)
-luaotfload | load font: auto-selecting default features for script: dflt (was l
-atn)(load: /Users/michaelking214/Library/texlive/2012/texmf-var/luatex-cache/ge
-neric/fonts/otf/temp-lmroman10-italic.lua)
-luaotfload | load font: auto-selecting default features for script: dflt (was l
-atn)(load: /Users/michaelking214/Library/texlive/2012/texmf-var/luatex-cache/ge
-neric/fonts/otf/temp-lmroman10-bold.lua)
-LaTeX Font Info:    Try loading font information for EU2+lmss on input line 357
+LaTeX Font Info:    Try loading font information for EU1+lmss on input line 357
 .
 
-(/usr/local/texlive/2012/texmf-dist/tex/latex/euenc/eu2lmss.fd
-File: eu2lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
-)
-luaotfload | load font: auto-selecting default features for script: dflt (was l
-atn)(load: /Users/michaelking214/Library/texlive/2012/texmf-var/luatex-cache/ge
-neric/fonts/otf/temp-lmsans10-regular.lua))
-\tipaTiiicode=\count358
-\tipasavetokens=\toks15
-\tipachecktokens=\toks16
+(/usr/local/texlive/2012/texmf-dist/tex/latex/euenc/eu1lmss.fd
+File: eu1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
+))
+\tipaTiiicode=\count165
+\tipasavetokens=\toks14
+\tipachecktokens=\toks15
 
 (/usr/local/texlive/2012/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
 
 (/usr/local/texlive/2012/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
-\KV@toks@=\toks17
+\KV@toks@=\toks16
 )
-\Gin@req@height=\dimen294
-\Gin@req@width=\dimen295
+\Gin@req@height=\dimen141
+\Gin@req@width=\dimen142
 ))
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \fontspec with arg. spec. 'O{}m' on line 42.
+. Defining document command \fontspec with arg. spec. 'O{}m' on line 39.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \setmainfont with arg. spec. 'O{}m' on line 46.
+. Defining document command \setmainfont with arg. spec. 'O{}m' on line 43.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \setsansfont with arg. spec. 'O{}m' on line 50.
+. Defining document command \setsansfont with arg. spec. 'O{}m' on line 47.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \setmonofont with arg. spec. 'O{}m' on line 54.
+. Defining document command \setmonofont with arg. spec. 'O{}m' on line 51.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \setmathrm with arg. spec. 'O{}m' on line 62.
+. Defining document command \setmathrm with arg. spec. 'O{}m' on line 59.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \setboldmathrm with arg. spec. 'O{}m' on line 65.
+. Defining document command \setboldmathrm with arg. spec. 'O{}m' on line 62.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \setmathsf with arg. spec. 'O{}m' on line 68.
+. Defining document command \setmathsf with arg. spec. 'O{}m' on line 65.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \setmathtt with arg. spec. 'O{}m' on line 71.
+. Defining document command \setmathtt with arg. spec. 'O{}m' on line 68.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \newfontfamily with arg. spec. 'mO{}m' on line 87.
+. Defining document command \newfontfamily with arg. spec. 'mO{}m' on line 84.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \newfontface with arg. spec. 'mO{}m' on line 90.
+. Defining document command \newfontface with arg. spec. 'mO{}m' on line 87.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
 . Defining document command \defaultfontfeatures with arg. spec. 'm' on line
-. 94.
+. 91.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \addfontfeatures with arg. spec. 'm' on line 110.
+. Defining document command \addfontfeatures with arg. spec. 'm' on line 107.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \newfontfeature with arg. spec. 'mm' on line 121.
+. Defining document command \newfontfeature with arg. spec. 'mm' on line 118.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \newAATfeature with arg. spec. 'mmmm' on line 128.
+. Defining document command \newAATfeature with arg. spec. 'mmmm' on line 125.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \newICUfeature with arg. spec. 'mmm' on line 135.
+. Defining document command \newICUfeature with arg. spec. 'mmm' on line 132.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
 . Defining document command \aliasfontfeature with arg. spec. 'mm' on line
-. 162.
+. 159.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
 . Defining document command \aliasfontfeatureoption with arg. spec. 'mmm' on
-. line 167.
+. line 164.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \newfontscript with arg. spec. 'mm' on line 172.
+. Defining document command \newfontscript with arg. spec. 'mm' on line 169.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \newfontlanguage with arg. spec. 'mm' on line 195.
+. Defining document command \newfontlanguage with arg. spec. 'mm' on line 192.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
 . Defining document command \DeclareFontsExtensions with arg. spec. 'm' on
-. line 214.
+. line 211.
 .................................................
-Variant \prop_gput:cnV already defined; not changing it on line 489
-Variant \prop_gput:cnx already defined; not changing it on line 490
-\l_fontspec_tmp_int=\count359
-LaTeX Info: Redefining \itshape on input line 1819.
-LaTeX Info: Redefining \slshape on input line 1823.
-LaTeX Info: Redefining \scshape on input line 1827.
-LaTeX Info: Redefining \upshape on input line 1831.
+Variant \prop_gput:cnV already defined; not changing it on line 485
+Variant \prop_gput:cnx already defined; not changing it on line 486
+\l_fontspec_tmp_int=\count166
+LaTeX Info: Redefining \itshape on input line 1893.
+LaTeX Info: Redefining \slshape on input line 1897.
+LaTeX Info: Redefining \scshape on input line 1901.
+LaTeX Info: Redefining \upshape on input line 1905.
 
 (/usr/local/texlive/2012/texmf-dist/tex/latex/fontspec/fontspec.cfg)))
 (/usr/local/texlive/2012/texmf-dist/tex/latex/geometry/geometry.sty
 Package: geometry 2010/09/12 v5.6 Page Geometry
 
+(/usr/local/texlive/2012/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in PDF mode is not detected.
+)
 (/usr/local/texlive/2012/texmf-dist/tex/generic/oberdiek/ifvtex.sty
 Package: ifvtex 2010/03/01 v1.5 Detect VTeX and its facilities (HO)
 Package ifvtex Info: VTeX not detected.
@@ -630,29 +455,29 @@ Package ifvtex Info: VTeX not detected.
 (/usr/local/texlive/2012/texmf-dist/tex/generic/ifxetex/ifxetex.sty
 Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 )
-\Gm@cnth=\count360
-\Gm@cntv=\count361
-\c@Gm@tempcnt=\count362
-\Gm@bindingoffset=\dimen296
-\Gm@wd@mp=\dimen297
-\Gm@odd@mp=\dimen298
-\Gm@even@mp=\dimen299
-\Gm@layoutwidth=\dimen300
-\Gm@layoutheight=\dimen301
-\Gm@layouthoffset=\dimen302
-\Gm@layoutvoffset=\dimen303
-\Gm@dimlist=\toks18
+\Gm@cnth=\count167
+\Gm@cntv=\count168
+\c@Gm@tempcnt=\count169
+\Gm@bindingoffset=\dimen143
+\Gm@wd@mp=\dimen144
+\Gm@odd@mp=\dimen145
+\Gm@even@mp=\dimen146
+\Gm@layoutwidth=\dimen147
+\Gm@layoutheight=\dimen148
+\Gm@layouthoffset=\dimen149
+\Gm@layoutvoffset=\dimen150
+\Gm@dimlist=\toks17
 )
 (/usr/local/texlive/2012/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
-\fancy@headwidth=\skip262
-\f@ncyO@elh=\skip263
-\f@ncyO@erh=\skip264
-\f@ncyO@olh=\skip265
-\f@ncyO@orh=\skip266
-\f@ncyO@elf=\skip267
-\f@ncyO@erf=\skip268
-\f@ncyO@olf=\skip269
-\f@ncyO@orf=\skip270
+\fancy@headwidth=\skip49
+\f@ncyO@elh=\skip50
+\f@ncyO@erh=\skip51
+\f@ncyO@olh=\skip52
+\f@ncyO@orh=\skip53
+\f@ncyO@elf=\skip54
+\f@ncyO@erf=\skip55
+\f@ncyO@olf=\skip56
+\f@ncyO@orf=\skip57
 )
 (/usr/local/texlive/2012/texmf-dist/tex/latex/xcolor/xcolor.sty
 Package: xcolor 2007/01/21 v2.11 LaTeX color extensions (UK)
@@ -661,10 +486,9 @@ Package: xcolor 2007/01/21 v2.11 LaTeX color extensions (UK)
 File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
 )
 Package xcolor Info: Package option `usenames' ignored on input line 216.
-Package xcolor Info: Driver file: pdftex.def on input line 225.
+Package xcolor Info: Driver file: xetex.def on input line 225.
 LaTeX Info: Redefining \color on input line 702.
 Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1337.
-Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1341.
 Package xcolor Info: Model `RGB' extended on input line 1353.
 Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1355.
 Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1356.
@@ -681,20 +505,20 @@ Package: sectsty 2002/02/25 v2.0.2 Commands to change all sectional heading sty
 les
 )
 (/usr/local/texlive/2012/texmf-dist/tex/generic/ulem/ulem.sty
-\UL@box=\box265
-\UL@hyphenbox=\box266
-\UL@skip=\skip271
-\UL@hook=\toks19
-\UL@height=\dimen304
-\UL@pe=\count363
-\UL@pixel=\dimen305
-\ULC@box=\box267
+\UL@box=\box35
+\UL@hyphenbox=\box36
+\UL@skip=\skip58
+\UL@hook=\toks18
+\UL@height=\dimen151
+\UL@pe=\count170
+\UL@pixel=\dimen152
+\ULC@box=\box37
 Package: ulem 2012/05/18
-\ULdepth=\dimen306
+\ULdepth=\dimen153
 )
 (/usr/local/texlive/2012/texmf-dist/tex/latex/marginnote/marginnote.sty
 Package: marginnote 2012/03/29 v1.1i non floating margin notes for LaTeX
-\c@mn@abspage=\count364
+\c@mn@abspage=\count171
 )
 (/usr/local/texlive/2012/texmf-dist/tex/latex/hyperref/hyperref.sty
 Package: hyperref 2012/05/13 v6.82q Hypertext links for LaTeX
@@ -706,17 +530,27 @@ Package: hobsub-hyperref 2012/05/28 v1.13 Bundle oberdiek, subset hyperref (HO)
 (/usr/local/texlive/2012/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
 Package: hobsub-generic 2012/05/28 v1.13 Bundle oberdiek, subset generic (HO)
 Package: hobsub 2012/05/28 v1.13 Construct package bundles (HO)
-Package hobsub Info: Skipping package `infwarerr' (already loaded).
-Package hobsub Info: Skipping package `ltxcmds' (already loaded).
-Package hobsub Info: Skipping package `ifluatex' (already loaded).
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
+Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
+Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
 Package hobsub Info: Skipping package `ifvtex' (already loaded).
 Package: intcalc 2007/09/27 v1.1 Expandable calculations with integers (HO)
 Package hobsub Info: Skipping package `ifpdf' (already loaded).
 Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
 Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
 Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
-Package hobsub Info: Skipping package `luatex-loader' (already loaded).
-Package hobsub Info: Skipping package `pdftexcmds' (already loaded).
+Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: pdfTeX >= 1.30 not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode not found.
 Package: pdfescape 2011/11/25 v1.13 Implements pdfTeX's escape features (HO)
 Package: bigintcalc 2012/04/08 v1.3 Expandable calculations on big integers (HO
 )
@@ -736,21 +570,30 @@ Package: hycolor 2011/01/30 v1.7 Color options for hyperref/bookmark (HO)
 (/usr/local/texlive/2012/texmf-dist/tex/latex/oberdiek/kvoptions.sty
 Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
 )
-\@linkdim=\dimen307
-\Hy@linkcounter=\count365
-\Hy@pagecounter=\count366
+\@linkdim=\dimen154
+\Hy@linkcounter=\count172
+\Hy@pagecounter=\count173
 
 (/usr/local/texlive/2012/texmf-dist/tex/latex/hyperref/pd1enc.def
 File: pd1enc.def 2012/05/13 v6.82q Hyperref: PDFDocEncoding definition (HO)
 )
-\Hy@SavedSpaceFactor=\count367
+\Hy@SavedSpaceFactor=\count174
 
-(/usr/local/texlive/2012/texmf-dist/tex/latex/latexconfig/hyperref.cfg
-File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
+(/usr/local/texlive/2012/texmf-dist/tex/xelatex/xetexconfig/hyperref.cfg
+File: hyperref.cfg 2008/07/11 v1.2 hyperref configuration for XeLaTeX
 )
 Package hyperref Info: Option `bookmarks' set `true' on input line 3941.
 Package hyperref Info: Option `colorlinks' set `true' on input line 3941.
 Package hyperref Info: Option `breaklinks' set `true' on input line 3941.
+
+
+Package hyperref Warning: XeTeX driver only supports unicode.
+(hyperref)                Enabling option `unicode'.
+
+Package hyperref Info: Option `unicode' set `true' on input line 3941.
+(/usr/local/texlive/2012/texmf-dist/tex/latex/hyperref/puenc.def
+File: puenc.def 2012/05/13 v6.82q Hyperref: PDF Unicode definition (HO)
+)
 Package hyperref Info: Hyper figures OFF on input line 4062.
 Package hyperref Info: Link nesting OFF on input line 4067.
 Package hyperref Info: Hyper index ON on input line 4070.
@@ -758,16 +601,16 @@ Package hyperref Info: Plain pages OFF on input line 4077.
 Package hyperref Info: Backreferencing OFF on input line 4082.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4300.
-\c@Hy@tempcnt=\count368
+\c@Hy@tempcnt=\count175
 
 (/usr/local/texlive/2012/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip10
 Package: url 2006/04/12  ver 3.3  Verb mode for urls, etc.
 )
 LaTeX Info: Redefining \url on input line 4653.
-\Fld@menulength=\count369
-\Field@Width=\dimen308
-\Fld@charsize=\dimen309
+\Fld@menulength=\count176
+\Field@Width=\dimen155
+\Fld@charsize=\dimen156
 Package hyperref Info: Hyper figures OFF on input line 5773.
 Package hyperref Info: Link nesting OFF on input line 5778.
 Package hyperref Info: Hyper index ON on input line 5781.
@@ -777,138 +620,51 @@ Package hyperref Info: Link coloring with OCG OFF on input line 5798.
 Package hyperref Info: PDF/A mode OFF on input line 5803.
 LaTeX Info: Redefining \ref on input line 5843.
 LaTeX Info: Redefining \pageref on input line 5847.
-\Hy@abspage=\count370
-\c@Item=\count371
-\c@Hfootnote=\count372
+\Hy@abspage=\count177
+\c@Item=\count178
+\c@Hfootnote=\count179
 )
 
-Package hyperref Message: Driver (autodetected): hpdftex.
+Package hyperref Message: Driver (autodetected): hxetex.
 
-(/usr/local/texlive/2012/texmf-dist/tex/latex/hyperref/hpdftex.def
-File: hpdftex.def 2012/05/13 v6.82q Hyperref driver for pdfTeX
-\Fld@listcount=\count373
-\c@bookmark@seq@number=\count374
+(/usr/local/texlive/2012/texmf-dist/tex/latex/hyperref/hxetex.def
+File: hxetex.def 2012/05/13 v6.82q Hyperref driver for XeTeX
+
+(/usr/local/texlive/2012/texmf-dist/tex/generic/oberdiek/stringenc.sty
+Package: stringenc 2011/12/02 v1.10 Convert strings between diff. encodings (HO
+)
+)
+\pdfm@box=\box38
+\c@Hy@AnnotLevel=\count180
+\HyField@AnnotCount=\count181
+\Fld@listcount=\count182
+\c@bookmark@seq@number=\count183
 
 (/usr/local/texlive/2012/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
 Package: rerunfilecheck 2011/04/15 v1.7 Rerun checks for auxiliary files (HO)
-Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
-82.
+Package rerunfilecheck Info: Feature \pdfmdfivesum is not available
+(rerunfilecheck)             (e.g. pdfTeX or LuaTeX with package `pdftexcmds').
+
+(rerunfilecheck)             Therefore file contents cannot be checked efficien
+tly
+(rerunfilecheck)             and the loading of the package is aborted.
 )
-\Hy@SectionHShift=\skip272
+\Hy@SectionHShift=\skip59
 )
-luaotfload | Font names database loaded: /Users/michaelking214/Library/texlive/
-2012/texmf-var/luatex-cache/generic/names/otfl-names.lua
-luaotfload | load font: font family='linuxlibertine', subfamily='regular' found
-: /Users/michaelking214/Library/Fonts/LinLibertine_Rah.ttf(load: /Users/michael
-king214/Library/texlive/2012/texmf-var/luatex-cache/generic/fonts/otf/temp-linl
-ibertine-rah.lua)
-luaotfload | load font: font family='linuxlibertine', subfamily='regular' found
-: /Users/michaelking214/Library/Fonts/LinLibertine_Rah.ttf
-fontspec: script 'latn' exists in font 'Linux Libertine'
-fontspec: script 'latn' exists in font 'Linux Libertine'
+\g_fontspec_family_Linux Libertine_int=\count184
+
 *************************************************
-* fontspec warning: "no-mapping-ligtex"
+* fontspec warning: "icu-feature-not-exist-in-font"
 * 
-* Input mapping not (yet?) supported in LuaTeX.
-* Use "Ligatures=TeX" instead of "Mapping=tex-text".
+* OpenType feature 'Variant=01' (+ss01) not available for font 'Linux
+* Libertine/BI' with script 'Latin' and language 'Default'.
 *************************************************
-fontspec: feature '+liga' for language 'DFLT' and script 'latn' exists in font 
-'Linux Libertine'
-fontspec: feature '+onum' for language 'DFLT' and script 'latn' exists in font 
-'Linux Libertine'
-fontspec: feature '+ss01' for language 'DFLT' and script 'latn' exists in font 
-'Linux Libertine'
-\g_fontspec_family_Linux Libertine_int=\count375
-luaotfload | load font: font family='linuxlibertine', subfamily='regular' found
-: /Users/michaelking214/Library/Fonts/LinLibertine_Rah.ttf
-fontspec: feature '+liga' for language 'DFLT' and script 'latn' exists in font 
-'Linux Libertine'
-fontspec: feature '+onum' for language 'DFLT' and script 'latn' exists in font 
-'Linux Libertine'
-fontspec: feature '+ss01' for language 'DFLT' and script 'latn' exists in font 
-'Linux Libertine'
-fontspec: feature '+smcp' for language 'DFLT' and script 'latn' exists in font 
-'Linux Libertine'
-fontspec: feature '+liga' for language 'DFLT' and script 'latn' exists in font 
-'Linux Libertine'
-fontspec: feature '+onum' for language 'DFLT' and script 'latn' exists in font 
-'Linux Libertine'
-fontspec: feature '+ss01' for language 'DFLT' and script 'latn' exists in font 
-'Linux Libertine'
-fontspec: feature '+smcp' for language 'DFLT' and script 'latn' exists in font 
-'Linux Libertine'
-luaotfload | load font: font family='linuxlibertine', subfamily='regular' found
-: /Users/michaelking214/Library/Fonts/LinLibertine_Rah.ttf
-luaotfload | load font: font family='linuxlibertine', subfamily='bold' found: /
-Users/michaelking214/Library/Fonts/LinLibertine_RBah.ttf(load: /Users/michaelki
-ng214/Library/texlive/2012/texmf-var/luatex-cache/generic/fonts/otf/temp-linlib
-ertine-rbah.lua)
-luaotfload | load font: font family='linuxlibertine', subfamily='bold' found: /
-Users/michaelking214/Library/Fonts/LinLibertine_RBah.ttf
-fontspec: feature '+liga' for language 'DFLT' and script 'latn' exists in font 
-'Linux Libertine Bold'
-fontspec: feature '+onum' for language 'DFLT' and script 'latn' exists in font 
-'Linux Libertine Bold'
-fontspec: feature '+ss01' for language 'DFLT' and script 'latn' exists in font 
-'Linux Libertine Bold'
-fontspec: feature '+smcp' for language 'DFLT' and script 'latn' exists in font 
-'Linux Libertine Bold'
-fontspec: feature '+liga' for language 'DFLT' and script 'latn' exists in font 
-'Linux Libertine Bold'
-fontspec: feature '+onum' for language 'DFLT' and script 'latn' exists in font 
-'Linux Libertine Bold'
-fontspec: feature '+ss01' for language 'DFLT' and script 'latn' exists in font 
-'Linux Libertine Bold'
-fontspec: feature '+smcp' for language 'DFLT' and script 'latn' exists in font 
-'Linux Libertine Bold'
-luaotfload | load font: font family='linuxlibertine', subfamily='regular' found
-: /Users/michaelking214/Library/Fonts/LinLibertine_Rah.ttf
-luaotfload | load font: font family='linuxlibertine', subfamily='italic' found:
- /Users/michaelking214/Library/Fonts/LinLibertine_RIah.ttf(load: /Users/michael
-king214/Library/texlive/2012/texmf-var/luatex-cache/generic/fonts/otf/temp-linl
-ibertine-riah.lua)
-luaotfload | load font: font family='linuxlibertine', subfamily='italic' found:
- /Users/michaelking214/Library/Fonts/LinLibertine_RIah.ttf
-fontspec: feature '+liga' for language 'DFLT' and script 'latn' exists in font 
-'Linux Libertine Italic'
-fontspec: feature '+onum' for language 'DFLT' and script 'latn' exists in font 
-'Linux Libertine Italic'
-fontspec: feature '+ss01' for language 'DFLT' and script 'latn' exists in font 
-'Linux Libertine Italic'
-fontspec: feature '+smcp' for language 'DFLT' and script 'latn' exists in font 
-'Linux Libertine Italic'
-fontspec: feature '+liga' for language 'DFLT' and script 'latn' exists in font 
-'Linux Libertine Italic'
-fontspec: feature '+onum' for language 'DFLT' and script 'latn' exists in font 
-'Linux Libertine Italic'
-fontspec: feature '+ss01' for language 'DFLT' and script 'latn' exists in font 
-'Linux Libertine Italic'
-fontspec: feature '+smcp' for language 'DFLT' and script 'latn' exists in font 
-'Linux Libertine Italic'
-luaotfload | load font: font family='linuxlibertine', subfamily='regular' found
-: /Users/michaelking214/Library/Fonts/LinLibertine_Rah.ttf
-luaotfload | load font: font family='linuxlibertine', subfamily='bolditalic' fo
-und: /Users/michaelking214/Library/Fonts/LinLibertine_RBIah.ttf(load: /Users/mi
-chaelking214/Library/texlive/2012/texmf-var/luatex-cache/generic/fonts/otf/temp
--linlibertine-rbiah.lua)
-luaotfload | load font: font family='linuxlibertine', subfamily='bolditalic' fo
-und: /Users/michaelking214/Library/Fonts/LinLibertine_RBIah.ttf
-fontspec: feature '+liga' for language 'DFLT' and script 'latn' exists in font 
-'Linux Libertine Bold Italic'
-fontspec: feature '+onum' for language 'DFLT' and script 'latn' exists in font 
-'Linux Libertine Bold Italic'
-fontspec: feature '+ss01' for language 'DFLT' and script 'latn' exists in font 
-'Linux Libertine Bold Italic'
-fontspec: feature '+smcp' for language 'DFLT' and script 'latn' exists in font 
-'Linux Libertine Bold Italic'
-fontspec: feature '+liga' for language 'DFLT' and script 'latn' exists in font 
-'Linux Libertine Bold Italic'
-fontspec: feature '+onum' for language 'DFLT' and script 'latn' exists in font 
-'Linux Libertine Bold Italic'
-fontspec: feature '+ss01' for language 'DFLT' and script 'latn' exists in font 
-'Linux Libertine Bold Italic'
-fontspec: feature '+smcp' for language 'DFLT' and script 'latn' exists in font 
-'Linux Libertine Bold Italic'
+*************************************************
+* fontspec warning: "icu-feature-not-exist-in-font"
+* 
+* OpenType feature 'Variant=01' (+ss01) not available for font 'Linux
+* Libertine/BI' with script 'Latin' and language 'Default'.
+*************************************************
 .................................................
 . fontspec info: "defining-font"
 . 
@@ -919,58 +675,104 @@ fontspec: feature '+smcp' for language 'DFLT' and script 'latn' exists in font
 . This font family consists of the following shapes:
 . 
 . * 'normal' with NFSS spec.:
-. 
-. <->"name:LinuxLibertine:mode=node;script=latn;language=DFLT;+tlig;+trep;+liga
-;+onum;+ss01;"
+. <->"Linux
+. Libertine/ICU:script=latn;language=DFLT;mapping=tex-text;+liga;+onum;+ss01;"
 . 
 . * 'small caps' with NFSS spec.:
-. 
-. <->"name:LinuxLibertine:mode=node;script=latn;language=DFLT;+tlig;+trep;+liga
-;+onum;+ss01;+smcp;"
+. <->"Linux
+. Libertine/ICU:script=latn;language=DFLT;mapping=tex-text;+liga;+onum;+ss01;+s
+mcp;"
 . 
 . * 'bold' with NFSS spec.:
-. 
-. <->"name:LinuxLibertine/B:mode=node;script=latn;language=DFLT;+tlig;+trep;+li
-ga;+onum;+ss01;"
+. <->"Linux
+. Libertine/B/ICU:script=latn;language=DFLT;mapping=tex-text;+liga;+onum;+ss01;
+"
 . 
 . * 'bold small caps' with NFSS spec.:
-. 
-. <->"name:LinuxLibertine/B:mode=node;script=latn;language=DFLT;+tlig;+trep;+li
-ga;+onum;+ss01;+smcp;"
+. <->"Linux
+. Libertine/B/ICU:script=latn;language=DFLT;mapping=tex-text;+liga;+onum;+ss01;
++smcp;"
 . 
 . * 'italic' with NFSS spec.:
-. 
-. <->"name:LinuxLibertine/I:mode=node;script=latn;language=DFLT;+tlig;+trep;+li
-ga;+onum;+ss01;"
+. <->"Linux
+. Libertine/I/ICU:script=latn;language=DFLT;mapping=tex-text;+liga;+onum;+ss01;
+"
 . 
 . * 'italic small caps' with NFSS spec.:
-. 
-. <->"name:LinuxLibertine/I:mode=node;script=latn;language=DFLT;+tlig;+trep;+li
-ga;+onum;+ss01;+smcp;"
+. <->"Linux
+. Libertine/I/ICU:script=latn;language=DFLT;mapping=tex-text;+liga;+onum;+ss01;
++smcp;"
 . 
 . * 'bold italic' with NFSS spec.:
-. 
-. <->"name:LinuxLibertine/BI:mode=node;script=latn;language=DFLT;+tlig;+trep;+l
-iga;+onum;+ss01;"
+. <->"Linux
+. Libertine/BI/ICU:script=latn;language=DFLT;mapping=tex-text;+liga;+onum;"
 . 
 . * 'bold italic small caps' with NFSS spec.:
-. 
-. <->"name:LinuxLibertine/BI:mode=node;script=latn;language=DFLT;+tlig;+trep;+l
-iga;+onum;+ss01;+smcp;"
+. <->"Linux
+. Libertine/BI/ICU:script=latn;language=DFLT;mapping=tex-text;+liga;+onum;+smcp
+;"
 .................................................
-luaotfload | load font: auto-selecting default features for script: dflt (was l
-atn)
-luaotfload | load font: font family='linuxlibertine', subfamily='regular' found
-: /Users/michaelking214/Library/Fonts/LinLibertine_Rah.ttf
 (/usr/local/texlive/2012/texmf-dist/tex/latex/xltxtra/xltxtra.sty
 Package: xltxtra 2010/09/20 v0.5e Improvements for the "XeLaTeX" format
 
+(/usr/local/texlive/2012/texmf-dist/tex/latex/realscripts/realscripts.sty
+Package: realscripts 2010/09/30 v0.3 Access OpenType subscripts and superscript
+s
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \fakesubscript with arg. spec. 'm' on line 19.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \fakesuperscript with arg. spec. 'm' on line 22.
+.................................................
 
-Package xltxtra Warning: 
- XLTXTRA IS TO BE USED ONLY UNDER XETEX. LOAD FONTSPEC DIRECTLY, INSTEAD.
- ABORTING LOADING.
-
-) (/usr/local/texlive/2012/texmf-dist/tex/latex/marvosym/marvosym.sty
+*************************************************
+* LaTeX warning: "xparse/redefine-command"
+* 
+* Redefining document command \textsubscript with arg. spec. 's' on line 25.
+*************************************************
+*************************************************
+* LaTeX warning: "xparse/redefine-command"
+* 
+* Redefining document command \textsuperscript with arg. spec. 's' on line 28.
+*************************************************
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \realsubscript with arg. spec. 'm' on line 45.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \realsuperscript with arg. spec. 'm' on line 60.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \textsubsuperscript with arg. spec. 'sO{l}mm' on
+. line 137.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \textsupersubscript with arg. spec. 'sO{l}mm' on
+. line 140.
+.................................................
+\subsupersep=\dimen157
+) (/usr/local/texlive/2012/texmf-dist/tex/latex/metalogo/metalogo.sty
+Package: metalogo 2010/05/29 v0.12 Extended TeX logo macros
+\xl@everylogo=\toks19
+\xl@@everylogo=\toks20
+LaTeX Info: Redefining \TeX on input line 193.
+LaTeX Info: Redefining \LaTeX on input line 202.
+LaTeX Info: Redefining \LaTeXe on input line 219.
+)
+\xxt@tempbox=\box39
+)
+(/usr/local/texlive/2012/texmf-dist/tex/latex/marvosym/marvosym.sty
 Package: marvosym 2011/07/20 v2.2 Martin Vogel's Symbols font definitions
 )
 (/usr/local/texlive/2012/texmf-dist/tex/latex/setspace/setspace.sty
@@ -978,33 +780,33 @@ Package: setspace 2011/12/19 v6.7a set line spacing
 )
 (/usr/local/texlive/2012/texmf-dist/tex/latex/enumitem/enumitem.sty
 Package: enumitem 2011/09/28 v3.5.2 Customized lists
-\labelindent=\skip273
-\enit@outerparindent=\dimen310
-\enit@toks=\toks20
-\enit@inbox=\box268
-\enitdp@description=\count376
+\labelindent=\skip60
+\enit@outerparindent=\dimen158
+\enit@toks=\toks21
+\enit@inbox=\box40
+\enitdp@description=\count185
 )
 (/usr/local/texlive/2012/texmf-dist/tex/latex/titlesec/titlesec.sty
 Package: titlesec 2011/12/15 v2.10.0 Sectioning titles
-\ttl@box=\box269
-\beforetitleunit=\skip274
-\aftertitleunit=\skip275
-\ttl@plus=\dimen311
-\ttl@minus=\dimen312
-\ttl@toksa=\toks21
-\titlewidth=\dimen313
-\titlewidthlast=\dimen314
-\titlewidthfirst=\dimen315
+\ttl@box=\box41
+\beforetitleunit=\skip61
+\aftertitleunit=\skip62
+\ttl@plus=\dimen159
+\ttl@minus=\dimen160
+\ttl@toksa=\toks22
+\titlewidth=\dimen161
+\titlewidthlast=\dimen162
+\titlewidthfirst=\dimen163
 )
 (/usr/local/texlive/2012/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty
 (/usr/local/texlive/2012/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
 (/usr/local/texlive/2012/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty
 (/usr/local/texlive/2012/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.te
 x
-\pgfutil@everybye=\toks22
+\pgfutil@everybye=\toks23
 )
 (/usr/local/texlive/2012/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
-\pgfutil@abb=\box270
+\pgfutil@abb=\box42
 (/usr/local/texlive/2012/texmf-dist/tex/latex/ms/everyshi.sty
 Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
 ))
@@ -1017,46 +819,50 @@ Package: pgf 2008/01/15 v2.10 (rcs-revision 1.12)
 (/usr/local/texlive/2012/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
 Package: pgfsys 2010/06/30 v2.10 (rcs-revision 1.37)
 (/usr/local/texlive/2012/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
-\pgfkeys@pathtoks=\toks23
-\pgfkeys@temptoks=\toks24
+\pgfkeys@pathtoks=\toks24
+\pgfkeys@temptoks=\toks25
 
 (/usr/local/texlive/2012/texmf-dist/tex/generic/pgf/utilities/pgfkeysfiltered.c
 ode.tex
-\pgfkeys@tmptoks=\toks25
+\pgfkeys@tmptoks=\toks26
 ))
-\pgf@x=\dimen316
-\pgf@y=\dimen317
-\pgf@xa=\dimen318
-\pgf@ya=\dimen319
-\pgf@xb=\dimen320
-\pgf@yb=\dimen321
-\pgf@xc=\dimen322
-\pgf@yc=\dimen323
+\pgf@x=\dimen164
+\pgf@y=\dimen165
+\pgf@xa=\dimen166
+\pgf@ya=\dimen167
+\pgf@xb=\dimen168
+\pgf@yb=\dimen169
+\pgf@xc=\dimen170
+\pgf@yc=\dimen171
 \w@pgf@writea=\write3
 \r@pgf@reada=\read1
-\c@pgf@counta=\count377
-\c@pgf@countb=\count378
-\c@pgf@countc=\count379
-\c@pgf@countd=\count380
+\c@pgf@counta=\count186
+\c@pgf@countb=\count187
+\c@pgf@countc=\count188
+\c@pgf@countd=\count189
 
 (/usr/local/texlive/2012/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
 File: pgf.cfg 2008/05/14  (rcs-revision 1.7)
 )
-Package pgfsys Info: Driver file for pgf: pgfsys-pdftex.def on input line 900.
+Package pgfsys Info: Driver file for pgf: pgfsys-xetex.def on input line 900.
 
-(/usr/local/texlive/2012/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-pdftex.d
-ef
-File: pgfsys-pdftex.def 2009/05/22  (rcs-revision 1.26)
+(/usr/local/texlive/2012/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-xetex.de
+f
+File: pgfsys-xetex.def 2010/02/16  (rcs-revision 1.3)
 
 (/usr/local/texlive/2012/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-p
 df.def
 File: pgfsys-common-pdf.def 2008/05/19  (rcs-revision 1.10)
+)
+(/usr/local/texlive/2012/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-p
+df-via-dvi.def
+File: pgfsys-common-pdf-via-dvi.def 2008/05/19  (rcs-revision 1.7)
 )))
 (/usr/local/texlive/2012/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.
 code.tex
 File: pgfsyssoftpath.code.tex 2008/07/18  (rcs-revision 1.7)
-\pgfsyssoftpath@smallbuffer@items=\count381
-\pgfsyssoftpath@bigbuffer@items=\count382
+\pgfsyssoftpath@smallbuffer@items=\count190
+\pgfsyssoftpath@bigbuffer@items=\count191
 )
 (/usr/local/texlive/2012/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.
 code.tex
@@ -1068,12 +874,12 @@ Package: pgfcore 2010/04/11 v2.10 (rcs-revision 1.7)
 (/usr/local/texlive/2012/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex
 (/usr/local/texlive/2012/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex)
 (/usr/local/texlive/2012/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
-\pgfmath@dimen=\dimen324
-\pgfmath@count=\count383
-\pgfmath@box=\box271
-\pgfmath@toks=\toks26
-\pgfmath@stack@operand=\toks27
-\pgfmath@stack@operation=\toks28
+\pgfmath@dimen=\dimen172
+\pgfmath@count=\count192
+\pgfmath@box=\box43
+\pgfmath@toks=\toks27
+\pgfmath@stack@operand=\toks28
+\pgfmath@stack@operation=\toks29
 )
 (/usr/local/texlive/2012/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.
 tex
@@ -1092,57 +898,57 @@ code.tex)
 (/usr/local/texlive/2012/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.
 code.tex)))
 (/usr/local/texlive/2012/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
-\c@pgfmathroundto@lastzeros=\count384
+\c@pgfmathroundto@lastzeros=\count193
 ))
 (/usr/local/texlive/2012/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.co
 de.tex
 File: pgfcorepoints.code.tex 2010/04/09  (rcs-revision 1.20)
-\pgf@picminx=\dimen325
-\pgf@picmaxx=\dimen326
-\pgf@picminy=\dimen327
-\pgf@picmaxy=\dimen328
-\pgf@pathminx=\dimen329
-\pgf@pathmaxx=\dimen330
-\pgf@pathminy=\dimen331
-\pgf@pathmaxy=\dimen332
-\pgf@xx=\dimen333
-\pgf@xy=\dimen334
-\pgf@yx=\dimen335
-\pgf@yy=\dimen336
-\pgf@zx=\dimen337
-\pgf@zy=\dimen338
+\pgf@picminx=\dimen173
+\pgf@picmaxx=\dimen174
+\pgf@picminy=\dimen175
+\pgf@picmaxy=\dimen176
+\pgf@pathminx=\dimen177
+\pgf@pathmaxx=\dimen178
+\pgf@pathminy=\dimen179
+\pgf@pathmaxy=\dimen180
+\pgf@xx=\dimen181
+\pgf@xy=\dimen182
+\pgf@yx=\dimen183
+\pgf@yy=\dimen184
+\pgf@zx=\dimen185
+\pgf@zy=\dimen186
 )
 (/usr/local/texlive/2012/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconst
 ruct.code.tex
 File: pgfcorepathconstruct.code.tex 2010/08/03  (rcs-revision 1.24)
-\pgf@path@lastx=\dimen339
-\pgf@path@lasty=\dimen340
+\pgf@path@lastx=\dimen187
+\pgf@path@lasty=\dimen188
 )
 (/usr/local/texlive/2012/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage
 .code.tex
 File: pgfcorepathusage.code.tex 2008/04/22  (rcs-revision 1.12)
-\pgf@shorten@end@additional=\dimen341
-\pgf@shorten@start@additional=\dimen342
+\pgf@shorten@end@additional=\dimen189
+\pgf@shorten@start@additional=\dimen190
 )
 (/usr/local/texlive/2012/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.co
 de.tex
 File: pgfcorescopes.code.tex 2010/09/08  (rcs-revision 1.34)
-\pgfpic=\box272
-\pgf@hbox=\box273
-\pgf@layerbox@main=\box274
-\pgf@picture@serial@count=\count385
+\pgfpic=\box44
+\pgf@hbox=\box45
+\pgf@layerbox@main=\box46
+\pgf@picture@serial@count=\count194
 )
 (/usr/local/texlive/2012/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicst
 ate.code.tex
 File: pgfcoregraphicstate.code.tex 2008/04/22  (rcs-revision 1.9)
-\pgflinewidth=\dimen343
+\pgflinewidth=\dimen191
 )
 (/usr/local/texlive/2012/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransform
 ations.code.tex
 File: pgfcoretransformations.code.tex 2009/06/10  (rcs-revision 1.11)
-\pgf@pt@x=\dimen344
-\pgf@pt@y=\dimen345
-\pgf@pt@temp=\dimen346
+\pgf@pt@x=\dimen192
+\pgf@pt@y=\dimen193
+\pgf@pt@temp=\dimen194
 )
 (/usr/local/texlive/2012/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.cod
 e.tex
@@ -1163,8 +969,8 @@ File: pgfcorearrows.code.tex 2008/04/23  (rcs-revision 1.11)
 (/usr/local/texlive/2012/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.cod
 e.tex
 File: pgfcoreshade.code.tex 2008/11/23  (rcs-revision 1.13)
-\pgf@max=\dimen347
-\pgf@sys@shading@range@num=\count386
+\pgf@max=\dimen195
+\pgf@sys@shading@range@num=\count195
 )
 (/usr/local/texlive/2012/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.cod
 e.tex
@@ -1173,7 +979,7 @@ File: pgfcoreimage.code.tex 2010/03/25  (rcs-revision 1.16)
 (/usr/local/texlive/2012/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.
 code.tex
 File: pgfcoreexternal.code.tex 2010/09/01  (rcs-revision 1.17)
-\pgfexternal@startupbox=\box275
+\pgfexternal@startupbox=\box47
 ))
 (/usr/local/texlive/2012/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.co
 de.tex
@@ -1190,7 +996,7 @@ File: pgfcorepatterns.code.tex 2009/07/02  (rcs-revision 1.3)
 (/usr/local/texlive/2012/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.cod
 e.tex
 File: pgfmoduleshapes.code.tex 2010/09/09  (rcs-revision 1.13)
-\pgfnodeparttextbox=\box276
+\pgfnodeparttextbox=\box48
 )
 (/usr/local/texlive/2012/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.
 tex
@@ -1199,8 +1005,8 @@ File: pgfmoduleplot.code.tex 2010/10/22  (rcs-revision 1.8)
 (/usr/local/texlive/2012/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version
 -0-65.sty
 Package: pgfcomp-version-0-65 2007/07/03 v2.10 (rcs-revision 1.7)
-\pgf@nodesepstart=\dimen348
-\pgf@nodesepend=\dimen349
+\pgf@nodesepstart=\dimen196
+\pgf@nodesepend=\dimen197
 )
 (/usr/local/texlive/2012/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version
 -1-18.sty
@@ -1211,10 +1017,10 @@ Package: pgfcomp-version-1-18 2007/07/23 v2.10 (rcs-revision 1.1)
 (/usr/local/texlive/2012/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex)
 ) (/usr/local/texlive/2012/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
 Package: pgffor 2010/03/23 v2.10 (rcs-revision 1.18)
-\pgffor@iter=\dimen350
-\pgffor@skip=\dimen351
-\pgffor@stack=\toks29
-\pgffor@toks=\toks30
+\pgffor@iter=\dimen198
+\pgffor@skip=\dimen199
+\pgffor@stack=\toks30
+\pgffor@toks=\toks31
 ))
 (/usr/local/texlive/2012/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.cod
 e.tex
@@ -1223,30 +1029,32 @@ Package: tikz 2010/10/13 v2.10 (rcs-revision 1.76)
 (/usr/local/texlive/2012/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothan
 dlers.code.tex
 File: pgflibraryplothandlers.code.tex 2010/05/31 v2.10 (rcs-revision 1.15)
-\pgf@plot@mark@count=\count387
-\pgfplotmarksize=\dimen352
+\pgf@plot@mark@count=\count196
+\pgfplotmarksize=\dimen200
 )
-\tikz@lastx=\dimen353
-\tikz@lasty=\dimen354
-\tikz@lastxsaved=\dimen355
-\tikz@lastysaved=\dimen356
-\tikzleveldistance=\dimen357
-\tikzsiblingdistance=\dimen358
-\tikz@figbox=\box277
-\tikz@tempbox=\box278
-\tikztreelevel=\count388
-\tikznumberofchildren=\count389
-\tikznumberofcurrentchild=\count390
-\tikz@fig@count=\count391
+\tikz@lastx=\dimen201
+Normal \dimen register pool exhausted, switching to extended pool.
+\tikz@lasty=\dimen256
+\tikz@lastxsaved=\dimen257
+\tikz@lastysaved=\dimen258
+\tikzleveldistance=\dimen259
+\tikzsiblingdistance=\dimen260
+\tikz@figbox=\box49
+\tikz@tempbox=\box50
+\tikztreelevel=\count197
+\tikznumberofchildren=\count198
+\tikznumberofcurrentchild=\count199
+\tikz@fig@count=\count200
 
 (/usr/local/texlive/2012/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.cod
 e.tex
 File: pgfmodulematrix.code.tex 2010/08/24  (rcs-revision 1.4)
-\pgfmatrixcurrentrow=\count392
-\pgfmatrixcurrentcolumn=\count393
-\pgf@matrix@numberofcolumns=\count394
+\pgfmatrixcurrentrow=\count201
+Normal \count register pool exhausted, switching to extended pool.
+\pgfmatrixcurrentcolumn=\count277
+\pgf@matrix@numberofcolumns=\count278
 )
-\tikz@expandcount=\count395
+\tikz@expandcount=\count279
 
 (/usr/local/texlive/2012/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
 s/tikzlibrarytopaths.code.tex
@@ -1257,7 +1065,7 @@ Package: amssymb 2009/06/22 v3.00
 
 (/usr/local/texlive/2012/texmf-dist/tex/latex/amsfonts/amsfonts.sty
 Package: amsfonts 2009/06/22 v3.00 Basic AMSFonts support
-\@emptytoks=\toks31
+\@emptytoks=\toks32
 \symAMSa=\mathgroup4
 \symAMSb=\mathgroup5
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
@@ -1270,6 +1078,8 @@ LaTeX Font Info:    Overwriting symbol font `wasy' in version `bold'
 (Font)                  U/wasy/m/n --> U/wasy/b/n on input line 90.
 )
 (./MichaelKing_CV.aux)
+\openout1 = `MichaelKing_CV.aux'.
+
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 113.
 LaTeX Font Info:    ... okay on input line 113.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 113.
@@ -1282,7 +1092,7 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 113.
 LaTeX Font Info:    ... okay on input line 113.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 113.
 LaTeX Font Info:    ... okay on input line 113.
-LaTeX Font Info:    Checking defaults for EU2/lmr/m/n on input line 113.
+LaTeX Font Info:    Checking defaults for EU1/lmr/m/n on input line 113.
 LaTeX Font Info:    ... okay on input line 113.
 LaTeX Font Info:    Checking defaults for T3/cmr/m/n on input line 113.
 LaTeX Font Info:    Try loading font information for T3+cmr on input line 113.
@@ -1293,38 +1103,8 @@ File: t3cmr.fd 2001/12/31 TIPA font definitions
 LaTeX Font Info:    ... okay on input line 113.
 LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 113.
 LaTeX Font Info:    ... okay on input line 113.
-luaotfload | load font: auto-selecting default features for script: dflt (was l
-atn)
-luaotfload | load font: font family='linuxlibertine', subfamily='regular' found
-: /Users/michaelking214/Library/Fonts/LinLibertine_Rah.ttf
-(/usr/local/texlive/2012/texmf-dist/tex/context/base/supp-pdf.mkii
-[Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count396
-\scratchdimen=\dimen359
-\scratchbox=\box279
-\nofMPsegments=\count397
-\nofMParguments=\count398
-\everyMPshowfont=\toks32
-\MPscratchCnt=\count399
-\MPscratchDim=\dimen360
-\MPnumerator=\count400
-\makeMPintoPDFobject=\count401
-\everyMPtoPDFconversion=\toks33
-) (/usr/local/texlive/2012/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
-Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
-
-(/usr/local/texlive/2012/texmf-dist/tex/latex/oberdiek/grfext.sty
-Package: grfext 2010/08/19 v1.1 Manage graphics extensions (HO)
-)
-Package grfext Info: Graphics extension search list:
-(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
-G,.JBIG2,.JB2,.eps]
-(grfext)             \AppendGraphicsExtensions on input line 452.
-
-(/usr/local/texlive/2012/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
-File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
-e
-))
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 113.
+LaTeX Font Info:    ... okay on input line 113.
 .................................................
 . fontspec info: "setup-math"
 . 
@@ -1357,51 +1137,51 @@ LaTeX Font Info:    Redeclaring math symbol \Psi on input line 113.
 LaTeX Font Info:    Redeclaring math symbol \Omega on input line 113.
 LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 113.
 LaTeX Font Info:    Redeclaring symbol font `operators' on input line 113.
-LaTeX Font Info:    Encoding `OT1' has changed to `EU2' for symbol font
+LaTeX Font Info:    Encoding `OT1' has changed to `EU1' for symbol font
 (Font)              `operators' in the math version `normal' on input line 113.
 
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> EU2/LinuxLibertine(0)/m/n on input line
+(Font)                  OT1/cmr/m/n --> EU1/LinuxLibertine(0)/m/n on input line
  113.
-LaTeX Font Info:    Encoding `OT1' has changed to `EU2' for symbol font
+LaTeX Font Info:    Encoding `OT1' has changed to `EU1' for symbol font
 (Font)              `operators' in the math version `bold' on input line 113.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> EU2/LinuxLibertine(0)/m/n on input lin
+(Font)                  OT1/cmr/bx/n --> EU1/LinuxLibertine(0)/m/n on input lin
 e 113.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  EU2/LinuxLibertine(0)/m/n --> EU2/LinuxLibertine(0)/m/n
+(Font)                  EU1/LinuxLibertine(0)/m/n --> EU1/LinuxLibertine(0)/m/n
  on input line 113.
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
-(Font)                  EU2/LinuxLibertine(0)/m/n --> EU2/LinuxLibertine(0)/m/n
+(Font)                  EU1/LinuxLibertine(0)/m/n --> EU1/LinuxLibertine(0)/m/n
  on input line 113.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> EU2/LinuxLibertine(0)/m/it on input li
+(Font)                  OT1/cmr/m/it --> EU1/LinuxLibertine(0)/m/it on input li
 ne 113.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> EU2/LinuxLibertine(0)/bx/n on input li
+(Font)                  OT1/cmr/bx/n --> EU1/LinuxLibertine(0)/bx/n on input li
 ne 113.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> EU2/lmss/m/n on input line 113.
+(Font)                  OT1/cmss/m/n --> EU1/lmss/m/n on input line 113.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> EU2/lmtt/m/n on input line 113.
+(Font)                  OT1/cmtt/m/n --> EU1/lmtt/m/n on input line 113.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  EU2/LinuxLibertine(0)/m/n --> EU2/LinuxLibertine(0)/bx/
+(Font)                  EU1/LinuxLibertine(0)/m/n --> EU1/LinuxLibertine(0)/bx/
 n on input line 113.
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `bold'
-(Font)                  EU2/LinuxLibertine(0)/m/n --> EU2/LinuxLibertine(0)/bx/
+(Font)                  EU1/LinuxLibertine(0)/m/n --> EU1/LinuxLibertine(0)/bx/
 n on input line 113.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmr/bx/it --> EU2/LinuxLibertine(0)/bx/it on input 
+(Font)                  OT1/cmr/bx/it --> EU1/LinuxLibertine(0)/bx/it on input 
 line 113.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> EU2/lmss/bx/n on input line 113.
+(Font)                  OT1/cmss/bx/n --> EU1/lmss/bx/n on input line 113.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> EU2/lmtt/bx/n on input line 113.
+(Font)                  OT1/cmtt/m/n --> EU1/lmtt/bx/n on input line 113.
 
 *geometry* driver: auto-detecting
-*geometry* detected driver: pdftex
+*geometry* detected driver: xetex
 *geometry* verbose mode - [ preamble ] result:
-* driver: pdftex
+* driver: xetex
 * paper: letterpaper
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
@@ -1434,7 +1214,7 @@ LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 
 Package marginnote Info: \pdfoutput not 0 and \pdflastxpos available.
 (marginnote)             Extended position detection mode activated.
-\AtBeginShipoutBox=\box280
+\AtBeginShipoutBox=\box51
 Package hyperref Info: Link coloring ON on input line 113.
 (/usr/local/texlive/2012/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2010/04/30 v2.40 Cross-referencing by name of section
@@ -1442,7 +1222,7 @@ Package: nameref 2010/04/30 v2.40 Cross-referencing by name of section
 (/usr/local/texlive/2012/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
-\c@section@level=\count402
+\c@section@level=\count280
 )
 LaTeX Info: Redefining \ref on input line 113.
 LaTeX Info: Redefining \pageref on input line 113.
@@ -1450,34 +1230,14 @@ LaTeX Info: Redefining \nameref on input line 113.
 
 (./MichaelKing_CV.out) (./MichaelKing_CV.out)
 \@outlinefile=\write4
+\openout4 = `MichaelKing_CV.out'.
+
 
 ABD: EveryShipout initializing macros
-luaotfload | load font: auto-selecting default features for script: dflt (was l
-atn)
-luaotfload | load font: font family='linuxlibertine', subfamily='regular' found
-: /Users/michaelking214/Library/Fonts/LinLibertine_Rah.ttf
-luaotfload | otf process: missing cache for lookup ks_l_22_s of type gsub_conte
-xtchain in font 28 (Linux Libertine)
 Underfull \hbox (badness 10000) in paragraph at lines 116--118
 
  []
 
-luaotfload | load font: auto-selecting default features for script: dflt (was l
-atn)
-luaotfload | load font: font family='linuxlibertine', subfamily='regular' found
-: /Users/michaelking214/Library/Fonts/LinLibertine_Rah.ttf
-luaotfload | otf process: missing cache for lookup ks_l_22_s of type gsub_conte
-xtchain in font 29 (Linux Libertine)
-luaotfload | otf process: missing cache for lookup ks_l_22_s of type gsub_conte
-xtchain in font 27 (Linux Libertine)
-luaotfload | load font: auto-selecting default features for script: dflt (was l
-atn)
-luaotfload | load font: font family='linuxlibertine', subfamily='regular' found
-: /Users/michaelking214/Library/Fonts/LinLibertine_Rah.ttf
-luaotfload | load font: auto-selecting default features for script: dflt (was l
-atn)
-luaotfload | load font: font family='linuxlibertine', subfamily='regular' found
-: /Users/michaelking214/Library/Fonts/LinLibertine_Rah.ttf
 LaTeX Font Info:    Try loading font information for U+msa on input line 125.
 (/usr/local/texlive/2012/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2009/06/22 v3.00 AMS symbols A
@@ -1496,7 +1256,7 @@ LaTeX Font Info:    Try loading font information for U+mvs on input line 127.
 
 (/usr/local/texlive/2012/texmf-dist/tex/latex/marvosym/umvs.fd)
 Overfull \hbox (23.6812pt too wide) in paragraph at lines 120--132
-[][]$[]$ $[]$ 
+[]$[]$ $[]$ 
  []
 
 
@@ -1504,52 +1264,18 @@ Underfull \hbox (badness 10000) in paragraph at lines 120--132
 
  []
 
-luaotfload | load font: auto-selecting default features for script: dflt (was l
-atn)
-luaotfload | load font: font family='linuxlibertine', subfamily='regular' found
-: /Users/michaelking214/Library/Fonts/LinLibertine_Rah.ttf
-luaotfload | load font: auto-selecting default features for script: dflt (was l
-atn)
-luaotfload | load font: font family='linuxlibertine', subfamily='bold' found: /
-Users/michaelking214/Library/Fonts/LinLibertine_RBah.ttf
-luaotfload | load font: auto-selecting default features for script: dflt (was l
-atn)
-luaotfload | load font: font family='linuxlibertine', subfamily='regular' found
-: /Users/michaelking214/Library/Fonts/LinLibertine_Rah.ttf
-luaotfload | otf process: missing cache for lookup ks_l_22_s of type gsub_conte
-xtchain in font 55 (Linux Libertine)
 Package marginnote Info: Margin note 1.1 is on absolute page 1
 (marginnote)              on input line 142.
 Package marginnote Info: right page because not two side mode on input line 142
 .
-luaotfload | load font: auto-selecting default features for script: dflt (was l
-atn)
-luaotfload | load font: font family='linuxlibertine', subfamily='regular' found
-: /Users/michaelking214/Library/Fonts/LinLibertine_Rah.ttf
-luaotfload | otf process: missing cache for lookup ks_l_22_s of type gsub_conte
-xtchain in font 56 (Linux Libertine)
 Package marginnote Info: xpos seems to be 108.40498pt,
 (marginnote)             \marginnoteleftadjust ignored on input line 142.
-luaotfload | load font: auto-selecting default features for script: dflt (was l
-atn)
-luaotfload | load font: font family='linuxlibertine', subfamily='bold' found: /
-Users/michaelking214/Library/Fonts/LinLibertine_RBah.ttf
-luaotfload | load font: auto-selecting default features for script: dflt (was l
-atn)
-luaotfload | load font: font family='linuxlibertine', subfamily='italic' found:
- /Users/michaelking214/Library/Fonts/LinLibertine_RIah.ttf
-luaotfload | otf process: missing cache for lookup ks_l_27_s of type gsub_conte
-xtchain in font 58 (Linux Libertine Italic)
 Package marginnote Info: Margin note 1.2 is on absolute page 1
 (marginnote)              on input line 150.
 Package marginnote Info: right page because not two side mode on input line 150
 .
 Package marginnote Info: xpos seems to be 108.40498pt,
 (marginnote)             \marginnoteleftadjust ignored on input line 150.
-luaotfload | load font: auto-selecting default features for script: dflt (was l
-atn)
-luaotfload | load font: font family='linuxlibertine', subfamily='bold' found: /
-Users/michaelking214/Library/Fonts/LinLibertine_RBah.ttf
 Package marginnote Info: Margin note 1.3 is on absolute page 1
 (marginnote)              on input line 163.
 Package marginnote Info: right page because not two side mode on input line 163
@@ -1564,41 +1290,26 @@ Package marginnote Info: xpos seems to be 108.40498pt,
 (marginnote)             \marginnoteleftadjust ignored on input line 179.
 [1
 
-{/usr/local/texlive/2012/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-Package marginnote Info: Margin note 2.1 is on absolute page 2
-(marginnote)              on input line 192.
+]
 Package marginnote Info: right page because not two side mode on input line 192
 .
-Package marginnote Info: xpos seems to be 108.40498pt,
-(marginnote)             \marginnoteleftadjust ignored on input line 192.
+Package marginnote Info: xpos not known,
+(marginnote)             using \marginnoteleftadjust on input line 192.
 
-Overfull \hbox (15.70242pt too wide) in paragraph at lines 192--197
-\EU2/LinuxLibertine(0)/m/n/10.95 Placed th out of  in-ter-na-tional
- teams at NASA’s Lun-abotics Min-ing Com-pe-ti-tion -- Or-lando, Florida 
+Overfull \hbox (15.70256pt too wide) in paragraph at lines 192--197
+\EU1/LinuxLibertine(0)/m/n/10.95 Placed 12th out of 50 international teams at N
+ASA’s Lunabotics Mining Competition – Orlando, Florida 
  []
 
-Package marginnote Info: Margin note 2.2 is on absolute page 2
-(marginnote)              on input line 211.
 Package marginnote Info: right page because not two side mode on input line 211
 .
-Package marginnote Info: xpos seems to be 108.40498pt,
-(marginnote)             \marginnoteleftadjust ignored on input line 211.
-LaTeX Font Info:    Font shape `EU2/LinuxLibertine(0)/m/sl' in size <10.95> not
+Package marginnote Info: xpos not known,
+(marginnote)             using \marginnoteleftadjust on input line 211.
+LaTeX Font Info:    Font shape `EU1/LinuxLibertine(0)/m/sl' in size <10.95> not
  available
-(Font)              Font shape `EU2/LinuxLibertine(0)/m/it' tried instead on in
+(Font)              Font shape `EU1/LinuxLibertine(0)/m/it' tried instead on in
 put line 214.
-luaotfload | load font: auto-selecting default features for script: dflt (was l
-atn)
-luaotfload | load font: font family='linuxlibertine', subfamily='italic' found:
- /Users/michaelking214/Library/Fonts/LinLibertine_RIah.ttf
-luaotfload | load font: auto-selecting default features for script: dflt (was l
-atn)
-luaotfload | load font: font family='linuxlibertine', subfamily='italic' found:
- /Users/michaelking214/Library/Fonts/LinLibertine_RIah.ttf
-luaotfload | otf process: missing cache for lookup ks_l_27_s of type gsub_conte
-xtchain in font 60 (Linux Libertine Italic)
-luaotfload | otf process: missing cache for lookup ks_l_22_s of type gsub_conte
-xtchain in font 30 (Linux Libertine)
+
 Underfull \hbox (badness 10000) in paragraph at lines 226--235
 
  []
@@ -1609,31 +1320,21 @@ Package atveryend Info: Empty hook `BeforeClearDocument' on input line 252.
 ]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 252.
  (./MichaelKing_CV.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 252.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 252.
-Package rerunfilecheck Info: File `MichaelKing_CV.out' has not changed.
-(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 252.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 252.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 252.
- )
+ ) 
+Here is how much of TeX's memory you used:
+ 28955 strings out of 494004
+ 568194 string characters out of 3150890
+ 579116 words of memory out of 3000000
+ 31781 multiletter control sequences out of 15000+200000
+ 10272 words of font info for 61 fonts, out of 3000000 for 9000
+ 1144 hyphenation exceptions out of 8191
+ 56i,11n,55p,566b,656s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Here is how much of LuaTeX's memory you used:
- 29091 strings out of 494982
- 100000,662416 words of node,token memory allocated
- 309 words of node memory still in use:
-   3 hlist, 1 vlist, 1 rule, 2 glue, 3 attribute, 44 glue_spec, 3 attribute_lis
-t, 1 write nodes
-   avail lists: 2:6937,3:240,4:1353,5:368,6:4361,7:17,8:7,9:269,10:444
- 31607 multiletter control sequences out of 65536+200000
- 60 fonts using 9386935 bytes
- 56i,11n,55p,432b,666s stack positions out of 5000i,500n,10000p,200000b,50000s
-</Users/michaelking214/Library/Fonts/LinLibertine_RIah.ttf></Users/michaelking2
-14/Library/Fonts/LinLibertine_RBah.ttf></Users/michaelking214/Library/Fonts/Lin
-Libertine_Rah.ttf></usr/local/texlive/2012/texmf-dist/fonts/type1/public/marvos
-ym/marvosym.pfb>
-Output written on MichaelKing_CV.pdf (2 pages, 60072 bytes).
-
-PDF statistics: 53 PDF objects out of 1000 (max. 8388607)
- 38 compressed objects within 1 object stream
- 3 named destinations out of 1000 (max. 131072)
- 16 words of extra memory for PDF output out of 10000 (max. 10000000)
-
+Output written on MichaelKing_CV.pdf (2 pages).
