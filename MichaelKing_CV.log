@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.1415926-2.4-0.9998 (TeX Live 2012) (format=xelatex 2013.9.24)  25 SEP 2013 22:48
+This is XeTeX, Version 3.1415926-2.4-0.9998 (TeX Live 2012) (format=xelatex 2013.9.24)  30 SEP 2013 12:58
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1256,6 +1256,11 @@ File: uwasy.fd 2003/10/30 v2.0 Wasy-2 symbol font definitions
 LaTeX Font Info:    Try loading font information for U+mvs on input line 127.
 
 (/usr/local/texlive/2012/texmf-dist/tex/latex/marvosym/umvs.fd)
+Overfull \hbox (1.57466pt too wide) in paragraph at lines 127--131
+[]  [][]\EU1/LinuxLibertine(0)/m/n/12 linkedin.com/in/michaelelliotking[][] 
+ []
+
+
 Overfull \hbox (23.6812pt too wide) in paragraph at lines 120--132
 []$[]$ $[]$ 
  []
