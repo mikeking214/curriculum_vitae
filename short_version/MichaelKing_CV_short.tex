@@ -2,13 +2,13 @@
 %!TEX TS-program = xelatex
 %!TEX encoding = UTF-8 Unicode
 
-\documentclass[12pt, letterpaper]{article}
+\documentclass[11pt, letterpaper]{article}
 
 \usepackage{fontspec} %OpenType fonts
 
 %  LAYOUT
 \usepackage{geometry} %document margins
-\geometry{letterpaper, textwidth=6in, textheight=9.2in, marginparsep=20pt, marginparwidth=1in} %margin settings
+\geometry{letterpaper, textwidth=6in, textheight=9.7in, marginparsep=20pt, marginparwidth=1in} %margin settings
 \setlength\parindent{0in} % Remove indentation
 
 \oddsidemargin .5in
@@ -19,7 +19,7 @@
 \fancyhf{} % remove everything
 \renewcommand{\headrulewidth}{0pt}} % remove lines as well
 \pagestyle{plain}
-\lfoot{\hspace{2.71in}\thepage} % center page number
+%\lfoot{\hspace{2.71in}\thepage} % center page number
 
 %  COLORS
 \usepackage[usenames,dvipsnames]{xcolor}
@@ -47,8 +47,8 @@ pdfauthor={Michael Elliot King - www.michaelelliotking.com}]
 %	FONTS
 \setromanfont [Ligatures={Common}, Numbers={OldStyle}, Variant=01,]{Linux Libertine} % Main text font
 %\setmonofont[Scale=0.8]{Monaco} % Set mono font (e.g. phone numbers)
-\sectionfont{\mdseries\upshape\Large} % sections
-\subsectionfont{\mdseries\scshape\normalsize} %subsections
+%\sectionfont{\mdseries\upshape\Large} % sections
+%\subsectionfont{\mdseries\scshape\normalsize} %subsections
 \subsubsectionfont{\mdseries\upshape\large} % Subsubsections
 \chardef\&="E050 % Custom ampersand 
 \usepackage{xltxtra}
@@ -113,7 +113,7 @@ pdfauthor={Michael Elliot King - www.michaelelliotking.com}]
 \begin{document}
 
 %	CONTACT AND GENERAL INFORMATION SECTION
-{\Huge Michael Elliot King --- Curriculum Vit\ae}\\[10pt]
+{\Huge Michael Elliot King --- Curriculum Vit\ae}\\
 %\textsc{\large Curriculum Vit\ae}\\
 
 %  ADDRESS & INFO
@@ -128,14 +128,7 @@ Montreal, Quebec H3A 0C3 Canada
 \Letter \hspace{3pt} \normalfont \href{mailto:michael.king2@mail.mcgill.ca}{michael.king2@mail.mcgill.ca}\\
 \linkedin \hspace{5pt}\href{http://www.linkedin.com/in/michaelelliotking}{linkedin.com/in/michaelelliotking}\\
 \Mundus \hspace{4pt}  \href{http://www.michaelelliotking.com}{www.michaelelliotking.com}
-\end{minipage}\\[.1in]
-
-Born: February 14, 1991 --- Quincy, MA\\
-Nationality: American 
-
-%  SUMMARY
-\section*{Summary}
-I am an undergraduate Mechanical Engineering student interested in engineering design, robotics, and human computer interaction.  I am currently looking for full time employment following my graduation in May 2014.
+\end{minipage}\\
 
 %  EDUCATION 
 \section*{Education}
@@ -149,12 +142,10 @@ I am an undergraduate Mechanical Engineering student interested in engineering d
 \begin{samepage}
 \years{8/2013 - Present} \textbf{\scshape Mechanical Engineering Lead | Control Systems}\\
 \href {http://www.mcgillrobotics.com}{\textit{McGill A.U.V. Robotics Design Team}} -- Montreal, Quebec\\
-{\small Competing in AUVSI International RoboSub Competition in San Diego}\\
-{\small Supervised by Professor Meyer Nahon }
+{\small Competing in AUVSI's International RoboSub Competition in San Diego}
 \begin{itemize}
 \item Lead all mechanical design and manufacturing for a team of 80 students creating an autonomous underwater vehicle 
-\item Design, simulate, and implement control system for the propulsion of an unmanned submarine [Capstone Poject]
-\item Complete CAD of the vehicle for FEA, dynamic modeling, and simulations
+\item Design, simulate, and build control system for the propulsion of an unmanned submarine
 \end{itemize}
 \end{samepage}
 %\vspace{.05in}
@@ -162,8 +153,7 @@ I am an undergraduate Mechanical Engineering student interested in engineering d
 %T DAVLIN
 \begin{samepage}
 \years{Summer 2013} \textbf{\scshape Control Systems \& Engineering Internship}\\
-\textit{T. Davlin Glass} -- Cambridge, Massachusetts\\
-{\small Designer gold-leaf glass tiles and glass products}
+\textit{T. Davlin Glass} -- Cambridge, Massachusetts
 \begin{itemize}
 \item Designed, manufactured, and wired systems to control the temperature of custom-built, high-powered glass kilns
 \item Aided in the design and construction of additional kilns
@@ -175,48 +165,34 @@ I am an undergraduate Mechanical Engineering student interested in engineering d
 \years{Summer 2012 \& Summer~2013} \textbf{\scshape Paid Engineering Internship}\\
 \textit{Robies Heating \& Cooling HVAC} -- Hyannis, Massachusetts
 \begin{itemize}
-\item Calculated thermal loads
 \item Developed and implemented automated programs for generating project estimates
 \item Developed workflow and inventory management system
-\item Recorded and analyzed air data
 \item Provided company-wide technical support
-\item Prepared reports for clients and staff
-\item Analyzed sales trends and provided detailed reports 
 \end{itemize}
 \end{samepage}
 %\vspace{.05in}
-
-\clearpage
 
 %LUNAREX
 \begin{samepage}
 \years{8/2012 - 8/2013} \textbf{\scshape Material Collection System Leader | Marketing \& Media Director}\\
 \href{http://www.lunarex.mcgill.ca}{\textit{McGill LunarEx Robotics Design Team}} -- Montreal, Quebec\\
-{\small Placed 12th out of 50 international teams at NASA's Lunabotics Mining Competition -- Orlando,~Florida\\
-Supervised by Professor Peter Henry Radziszewski}
+{\small Placed 12th out of 50 international teams at NASA's Lunabotics Mining Competition -- Orlando,~Florida}
 \begin{itemize}
-\item Member of a team of 40 students creating an autonomous mining lunar robot 
-\item Lead the efforts of a five person group responsible for designing, constructing and assembling the mechanism that collects and dumps lunar regolith simulant
-\item Brought original concepts to realization through sketching, CADing, machining, assembly, and testing
-\item Machined \& CNCed aluminum, moulded composites, 3D printed new materials, and fabricated sheet metal parts
+\item Lead the efforts of a five person group responsible for designing, manufacturing and assembling the mechanism that collects and dumps lunar regolith simulant
+\item Brought original concepts to realization through CADing, machining, assembly, and testing
 \item Developed rebranding strategies to increase interest and team credibility
-\item Enhanced project marketing and sponsorship visibility through media exposure
-\item Documented each step of the design process,  meetings, outreach, and competition with my photography
-\item Shot, directed and edited a promotional film that was sent to all sponsors and shared on social media outlets
 \end{itemize}
-\end {samepage}
+\end{samepage}
 %\vspace{.05in}
 
 %BRAILLE U
 \begin{samepage}
 \years{1/2013 - 8/2013} \textbf{\scshape Front End \& Usability Lead}\\
 \textit{Braille University iPhone Application} -- Montreal, Quebec\\
-Tool to aid in teaching Braille to blind children using an electronic medium\\
-{\small Supervised by Professor Jeremy Cooperstock, \textsl {McGill Center for Intelligent Machines}}
+Tool to aid in teaching Braille to blind children using an electronic medium
 \begin{itemize}
 \item Created a mobile application focusing on usability and the user interface
 \item Using a user-centered design approach, created prototypes, conducted user-tests, and coded the application to be easy to use, even without the use of vision
-\item Collaborated with Braille education professionals to create an authentic curriculum and legitimate learning tool (Anne Jarry, Nathalie Martiniello: \textit {Univerisit\'e de Montr\'eal})
 \end{itemize}
 \end {samepage}
 %\vspace{.05in}
@@ -230,15 +206,15 @@ Data Analysis: MATLAB, Excel\\
 Programming Languages: Python, C, Objective-C\\
 Version Control Systems: Git\\
 Web Development: HTML, CSS, Markdown, Jekyll, Google Analytics, SEO\\
-Digital Typesetting: \LaTeX \\
+%Digital Typesetting: \LaTeX \\
 Media \& Graphics: Photoshop, Illustrator, Lightroom, InDesign, Final Cut Pro
 
-\section*{Activities \& Interests}
-\years{2010 - Present}Photography - \href{http://www.michaelelliotphotography.com}{www.michaelelliotphotography.com}\\
-\years{2009 - Present} McGill University Intramural Ultimate Frisbee (1st Place 2010, 2011)\\
-\years{2012 - 2013} Photo Contributor - \href{http://www.mcgilltribune.com}{The McGill Tribune}\\
-\years{2011 - 2012} McGill Engineering Undergraduate Society Website Committee\\
-\years{2010 - 2011} McGill University International Student BUDDY Mentor Program
+%\section*{Activities \& Interests}
+%\years{2010 - Present}Photography - \href{http://www.michaelelliotphotography.com}{www.michaelelliotphotography.com}\\
+%\years{2009 - Present} McGill University Intramural Ultimate Frisbee (1st Place 2010, 2011)\\
+%\years{2012 - 2013} Photo Contributor - \href{http://www.mcgilltribune.com}{The McGill Tribune}\\
+%\years{2011 - 2012} McGill Engineering Undergraduate Society Website Committee\\
+%\years{2010 - 2011} McGill University International Student BUDDY Mentor Program
 
 %\small Please contact me for professional references.
 
