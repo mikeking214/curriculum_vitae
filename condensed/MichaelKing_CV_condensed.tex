@@ -1,10 +1,9 @@
 
-%!TEX TS-program = xelatex
+%!TEX TS-program = xeletex
 %!TEX encoding = UTF-8 Unicode
 
 \documentclass[11pt, letterpaper]{article}
 
-\usepackage{fontspec} %OpenType fonts
 
 %  LAYOUT
 \usepackage{geometry} %document margins
@@ -24,11 +23,6 @@
 %  COLORS
 \usepackage[usenames,dvipsnames]{xcolor}
 
-%  HEADINGS
-\usepackage{sectsty} % Allows changing the font options for sections in a document
-\usepackage[normalem]{ulem} % Custom underlining
-\usepackage{xunicode} % Allows generation of unicode characters from accented glyphs
-\defaultfontfeatures{Mapping=tex-text} % Converts LaTeX specials (``quotes'' --- dashes etc.) to unicode
 
 %  MARGIN YEARS
 \usepackage{marginnote} % For margin years
@@ -44,14 +38,22 @@ pdfauthor={Michael Elliot King - www.michaelelliotking.com}]
 {hyperref}
 \hypersetup{linkcolor=CadetBlue,citecolor=blue,filecolor=black,urlcolor=CadetBlue} % Link colors
 
+%  HEADINGS
+\usepackage{fontspec} %OpenType fonts
+\usepackage{sectsty} % Allows changing the font options for sections in a document
+\usepackage[normalem]{ulem} % Custom underlining
+\usepackage{xunicode} % Allows generation of unicode characters from accented glyphs
+\defaultfontfeatures{Mapping=tex-text} % Converts LaTeX specials (``quotes'' --- dashes etc.) to unicode
+
 %	FONTS
-\setromanfont [Ligatures={Common}, Numbers={OldStyle}, Variant=01,]{Linux Libertine} % Main text font
+\setromanfont [Ligatures={Common}]{Linux Libertine} % Main text font
 %\setmonofont[Scale=0.8]{Monaco} % Set mono font (e.g. phone numbers)
 %\sectionfont{\mdseries\upshape\Large} % sections
 %\subsectionfont{\mdseries\scshape\normalsize} %subsections
 \subsubsectionfont{\mdseries\upshape\large} % Subsubsections
 \chardef\&="E050 % Custom ampersand 
 \usepackage{xltxtra}
+
 
 %     CUSTOM STUFF
 \usepackage {marvosym} %cool symbols & formatting
@@ -122,7 +124,7 @@ pdfauthor={Michael Elliot King - www.michaelelliotking.com}]
 Montreal, Quebec H3A 0C3 Canada
 \end{minipage}
 \begin{minipage}[ht]{2.5in}
-\Telefon \hspace{3pt} 1~(774)~251-9014\\
+\Telefon \hspace{3pt} 1~(633)~633-0828\\
 \Letter \hspace{3pt} \normalfont \href{mailto:michael.king2@mail.mcgill.ca}{michael.king2@mail.mcgill.ca}\\
 \linkedin \hspace{5pt}\href{http://www.linkedin.com/in/michaelelliotking}{linkedin.com/in/michaelelliotking}\\
 \Mundus \hspace{4pt}  \href{http://www.michaelelliotking.com}{www.michaelelliotking.com}
