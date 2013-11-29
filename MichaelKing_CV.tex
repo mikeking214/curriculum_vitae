@@ -6,6 +6,7 @@
 
 \usepackage{fontspec} %OpenType fonts
 
+
 %  LAYOUT
 \usepackage{geometry} %document margins
 \geometry{letterpaper, textwidth=6in, textheight=9.2in, marginparsep=20pt, marginparwidth=1in} %margin settings
@@ -30,6 +31,15 @@
 \usepackage{xunicode} % Allows generation of unicode characters from accented glyphs
 \defaultfontfeatures{Mapping=tex-text} % Converts LaTeX specials (``quotes'' --- dashes etc.) to unicode
 
+%	FONTS
+\setromanfont [Ligatures={Common}, Numbers={OldStyle}]{Linux Libertine} % Main text font
+%\setmonofont[Scale=0.8]{Monaco} % Set mono font (e.g. phone numbers)
+\sectionfont{\mdseries\upshape\Large} % sections
+\subsectionfont{\mdseries\scshape\normalsize} %subsections
+\subsubsectionfont{\mdseries\upshape\large} % Subsubsections
+\chardef\&="E050 % Custom ampersand 
+\usepackage{xltxtra} 
+
 %  MARGIN YEARS
 \usepackage{marginnote} % For margin years
 \newcommand{\years}[1]{\marginnote{\footnotesize #1}} % New command for including margin years
@@ -44,14 +54,6 @@ pdfauthor={Michael Elliot King - www.michaelelliotking.com}]
 {hyperref}
 \hypersetup{linkcolor=CadetBlue,citecolor=blue,filecolor=black,urlcolor=CadetBlue} % Link colors
 
-%	FONTS
-\setromanfont [Ligatures={Common}, Numbers={OldStyle}, Variant=01,]{Linux Libertine} % Main text font
-%\setmonofont[Scale=0.8]{Monaco} % Set mono font (e.g. phone numbers)
-\sectionfont{\mdseries\upshape\Large} % sections
-\subsectionfont{\mdseries\scshape\normalsize} %subsections
-\subsubsectionfont{\mdseries\upshape\large} % Subsubsections
-\chardef\&="E050 % Custom ampersand 
-\usepackage{xltxtra}
 
 %     CUSTOM STUFF
 \usepackage {marvosym} %cool symbols & formatting
@@ -154,7 +156,7 @@ I am an undergraduate Mechanical Engineering student interested in engineering d
 \begin{itemize}
 \item Lead all mechanical design and manufacturing for a team of 80 students creating an autonomous underwater vehicle 
 \item Design, simulate, and implement control system for the propulsion of an unmanned submarine [Capstone Poject]
-\item Complete CAD of the vehicle for FEA, dynamic modeling, and simulations
+\item CAD of the vehicle for FEA, dynamic modeling, 3D printing and simulations
 \end{itemize}
 \end{samepage}
 %\vspace{.05in}
