@@ -7,7 +7,7 @@
 \usepackage{geometry} 
 \geometry{letterpaper, textwidth=8.5in, textheight=6in}
 
-%\usepackage{fontspec} %OpenType fonts
+\usepackage{fontspec} %OpenType fonts
 \usepackage[bookmarks, colorlinks, breaklinks, 
 pdftitle={Mechanical Engineering Portfolio - Michael Elliot King}, %title of the document
 pdfauthor={Michael Elliot King}] %author of the document
@@ -15,8 +15,8 @@ pdfauthor={Michael Elliot King}] %author of the document
 \usepackage[usenames, dvipsnames]{xcolor} % colors
 \hypersetup{linkcolor=CadetBlue,citecolor=black,filecolor=black,urlcolor=CadetBlue} % Link colors
 \usepackage{xunicode} % Allows generation of unicode characters from accented glyphs
-%\defaultfontfeatures{Mapping=tex-text} % Converts LaTeX specials (``quotes'' --- dashes etc.) to unicode
-%\setromanfont [Ligatures={Common}, Numbers={OldStyle}, Variant=01,]{Linux Libertine} % Main text font 
+\defaultfontfeatures{Mapping=tex-text} % Converts LaTeX specials (``quotes'' --- dashes etc.) to unicode
+\setromanfont [Ligatures={Common}, Variant=01,]{Linux Libertine} % Main text font 
 
 \usepackage{setspace} %line spacing
 \linespread{1.4} %double space
@@ -77,7 +77,7 @@ In the next few pages, some of the major components that were CADed are shown in
 \begin{samepage}
 \begin{figure}[H]
 \centering
-\includegraphics[height=4in]{media/FULL-ASSEMBLY-2-ALPHA.png}
+\includegraphics[height=4.2in]{media/full_assembly.png}
 \caption{AUV assembly}
 \label{auv_assembly}
 \end{figure}
@@ -89,7 +89,7 @@ Figure~\ref{auv_assembly} shows the current CAD model of the entire AUV. It cons
 \begin{samepage}
 \begin{figure}[H]
 \centering
-\includegraphics[height=4in]{media/MAIN-HULL-RENDER-ALPHA.png}
+\includegraphics[height=4in]{media/main_hull.png}
 \caption{Main hull pressure vessel}
 \label{main_hull}
 \end{figure}
@@ -117,7 +117,7 @@ The pneumatic claw uses a double-acting piston to open and close two ``fingers''
 
 \begin{figure}[H]
 \centering
-\includegraphics[height=4in]{media/MARKER-RENDER-ALPHA.png}
+\includegraphics[height=4in]{media/marker_dropper.png}
 \caption{Pneumatic marker dropper device}
 \label{marker}
 \end{figure}
@@ -131,7 +131,16 @@ The pneumatic marker dropper uses a reverse-acting piston with a magnet to relea
 \label{torpedo}
 \end{figure}
 
-The torpedo launcher uses a pneumatic piston to fire a custom, 3D-printed torpedo at a target at a distance of up to 5 meters.  It is printed in a FormLabs Form 1 3D printer and coated with a protective sealant.
+The torpedo launcher uses a pneumatic piston to fire a custom, 3D-printed projectile at a target at a distance of up to 5 meters.  It is printed in a FormLabs Form 1 3D printer and coated with a protective sealant.
+
+\begin{figure}[H]
+\centering
+\includegraphics[height=4in]{media/front_camera_bracket.png}
+\caption{Front-facing CNCed camera bracket}
+\label{camera_bracket}
+\end{figure}
+
+The front-facing camera bracket connects two cameras to the bow to allow for stereo vision.  The bracket is CNCed from a sheet of aluminum for rigidity and shaped to maximize the distance between the cameras and reduce weight.  Like all the machined aluminum parts, it will be anodized following machining to prevent corrosion.
 
 \begin{figure}[H]
 \centering
@@ -144,12 +153,47 @@ Six Seabotix BTD150 thrusters drive the vehicle and are arranged for five degree
 
 \clearpage
 
+\section{Variable-friction Shoe Mechanism}
+\paragraph{Project:} Research project for Professor~\href{http://www.cim.mcgill.ca/~jer/}{Jeremy Cooperstock} of~ \href{http://www.cim.mcgill.ca/sre}{The Shared Reality Lab} - McGill Centre for Intelligent Machines
+\paragraph{Goal:} Design, manufacture, assemble and demonstrate a mechanism to fit in a shoe that can control the coefficient of friction between the shoe and the floor surface.
+\paragraph{Process:}  Based on research done by Guillaume Millet, Martin Otis, and Jeremy Cooperstock into various methods of varying friction during natural walking and the applications for this type of simulated environment, a concept is created in one semester.  This involves choosing a method of deployment, researching all components and materials, calculating needed geometry and movements, designing the layout, and analyzing the stresses.  The next semester is for manufacturing, assembling and testing the apparatus. This involves ordering materials and parts, machining and assembling components, developing the power and control system, and testing the mechanism prototype.  
+
+The full design report of the concept can be found at~\href{http://michaelelliotking.com/report}{michaelelliotking.com/report}.
+
+\begin{figure}[H]
+\centering
+\includegraphics[height=4in]{media/side_overview.png}
+\caption{Assembly of the variable-friction shoe mechanism}
+\label{overview}
+\end{figure}
+
+The variable-friction shoe mechanism controls how much a high-friction material protrudes past a low-friction material to vary the friction force and simulate different surfaces. It uses two lead screw mechanisms, a gear train and a stepper motor to extend two rubber-covered ``brakes'' past the outer strip of Teflon.
+
+\begin{figure}[H]
+\centering
+\includegraphics[height=4in]{media/bottom.png}
+\caption{Bottom view of gear train and bearings}
+\label{bottom}
+\end{figure}
+
+Figure~\ref{bottom} shows the gear train that translates the discrete rotations of the stepper motor to the outer gears, which are fixed to the lead screws that drive the brakes.  Also shown are the ball bearings and needle roller bearings that support the moving parts while withstanding loads of a walking person.
+
+\begin{figure}[H]
+\centering
+\includegraphics[height=4in]{media/back_brake_close.png}
+\caption{Cut-away view of gear, lead screw and brake}
+\label{brake}
+\end{figure}
+
+The lead screw is press-fitted to the gear and threaded into the aluminum plate of the brake.  The brake consists of a metal plate, a piece of EVA foam for elasticity, and a strip of rubber for high-friction.  The brake system allows for precise translations as small as a tenth of a millimeter, which is needed to achieve specific coefficients of friction.
+
+\clearpage
+
 \section{}
 {\LARGE For the sake of time, I have only included my most recent work.  I will continue to update this portfolio with my work - both old and new - and it will continue to be available at \href{http://www/michaelelliotking.com/portfolio}{www.michaelelliotking.com/portfolio}.}\\[20pt]
 
 \textbf{To be posted:}
 \begin{itemize}
-\item Variable-friction shoe mechanism
 \item Material collection system for an autonomous lunar mining robot
 \item Flying yacht conceptual design
 \item Commercial aircraft wing design
