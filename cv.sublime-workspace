@@ -1,0 +1,487 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"de",
+				"debugMsg"
+			],
+			[
+				"deb",
+				"debug_publisher"
+			],
+			[
+				"depth",
+				"depthVal"
+			],
+			[
+				"z",
+				"z_position"
+			],
+			[
+				"font",
+				"font-style"
+			],
+			[
+				"font-s",
+				"font-size"
+			],
+			[
+				"background",
+				"background-color"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "MichaelElliotKing_CV.tex",
+			"settings":
+			{
+				"buffer_size": 14720,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"late",
+				"LaTeXTools: Reconfigure and migrate settings"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 208.0,
+		"history":
+		[
+			"import urllib.request,os; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); open(os.path.join(ipp, pf), 'wb').write(urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ','%20')).read())"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/michaelking214/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Volumes/Info/creditcards.txt",
+		"/Users/michaelking214/Google Drive/RoboSub14/Administration/Final Paper/LaTeX/McGill Robotics Final Paper.tex",
+		"/Users/michaelking214/Google Drive/RoboSub14/Administration/Final Paper/LaTeX/hydrophones.tex",
+		"/Users/michaelking214/Desktop/sponsorship:sponsors.html",
+		"/Users/michaelking214/Desktop/SP.html",
+		"/Users/michaelking214/GitHub/Website/mikeking214.github.com/report.html",
+		"/Users/michaelking214/GitHub/McGill_RoboSub_2014/catkin_ws/src/controls/src/thrust_mapper.cpp",
+		"/Users/michaelking214/GitHub/McGill_RoboSub_2014/catkin_ws/src/controls/src/controls.cpp",
+		"/Users/michaelking214/GitHub/Website/mikeking214.github.com/about.md",
+		"/Users/michaelking214/GitHub/Website/mikeking214.github.com/index.md",
+		"/Users/michaelking214/GitHub/Website/mikeking214.github.com/_config.yml",
+		"/Users/michaelking214/Google Drive/RoboSub14/Administration/Documentattion/Other Teams/University of Southern California/info.txt",
+		"/Users/michaelking214/Downloads/mademoiselle_k/IMPORTANT selling = license.txt",
+		"/Users/michaelking214/Google Drive/RoboSub14/Engineering/2. Mechanical/7. To Do Lists/Mech To Do.tex",
+		"/Users/michaelking214/Dropbox/Fluids 2 Review/Predicted Exam Questions 2014.txt",
+		"/Users/michaelking214/Dropbox/School 2013-2014/Interdisciplinary Design/2. Final Report Work/LaTeX/FinalReport.bib",
+		"/Users/michaelking214/Google Drive/RoboSub14/Engineering/2. Mechanical/1. Control/5. Final Paper/LaTex/Final Paper.tex",
+		"/Users/michaelking214/Dropbox/School 2013-2014/Interdisciplinary Design/2. Final Report Work/LaTeX/FIRST-ITERATION-FinalReport.tex",
+		"/Users/michaelking214/Dropbox/School 2013-2014/Interdisciplinary Design/1. Design Report Work/LaTeX/MichaelKing_DesignReport.tex",
+		"/Users/michaelking214/Dropbox/School 2013-2014/Interdisciplinary Design/2. Final Report Work/LaTeX/MichaelKing_FinalReport.tex",
+		"/Users/michaelking214/Dropbox/School 2013-2014/Interdisciplinary Design/2. Final Report Work/LaTeX/FIRST-ITERATION-FinalReport.txt",
+		"/Users/michaelking214/Dropbox/School 2013-2014/Interdisciplinary Design/1. Design Report Work/LaTeX/DesignReport.bib",
+		"/Users/michaelking214/Dropbox/School 2013-2014/Interdisciplinary Design/2. Final Report Work/LaTeX/MichaelKing_FinalReport",
+		"/Users/michaelking214/Library/Arduino/preferences.txt",
+		"/Users/michaelking214/GitHub/Website/mikeking214.github.com/_layouts/about.html",
+		"/Users/michaelking214/GitHub/Website/mikeking214.github.com/assets/less/page.less",
+		"/Users/michaelking214/GitHub/Website/mikeking214.github.com/_layouts/homepage.html",
+		"/Users/michaelking214/Google Drive/RoboSub14/Engineering/2. Mechanical/6. Testing/Testing Procedures/Sealing Procedure/Sealing Procedure.tex",
+		"/Users/michaelking214/Documents/LaTeX/Templates/Document Template.tex",
+		"/Users/michaelking214/GitHub/Website/mikeking214.github.com/assets/less/variables.less",
+		"/Users/michaelking214/GitHub/Website/mikeking214.github.com/assets/less/typography.less",
+		"/Users/michaelking214/GitHub/Website/mikeking214.github.com/assets/less/coderay.less",
+		"/Users/michaelking214/GitHub/Website/mikeking214.github.com/assets/less/pygments.less",
+		"/Users/michaelking214/Google Drive/Adobe Lightroom 4 + VSCO Presets/VSCO_FILM_01_02_03 FOR ADOBE LIGHTROOM/Readme",
+		"/Users/michaelking214/Desktop/Adobe Photoshop Lightroom 5.0 Final Mac OS X/How to Install Lightroom.txt",
+		"/Volumes/Lightroom 4/Serials.txt",
+		"/Users/michaelking214/Dropbox/School 2013-2014/Fluids 2/Fluids Notes.txt",
+		"/Volumes/Portable External/Downloads/Software/Adobe Photoshop Lightroom 5.0 Final Mac OS X [ChingLiu]/ChingLiu.Install.Notes.txt",
+		"/Users/michaelking214/Documents/Info/hydro info.txt",
+		"/Users/michaelking214/Desktop/olympics.html",
+		"/Users/michaelking214/GitHub/CV/curriculum_vitae/MichaelElliotKing_CV.tex",
+		"/Users/michaelking214/Documents/LaTeX/Templates/ResumeTemplate2.0/ResumeTemplate2.tex",
+		"/Users/michaelking214/GitHub/Website/mikeking214.github.com/latexHelp/MKsResumeTemplate.tex",
+		"/Users/michaelking214/GitHub/Website/mikeking214.github.com/_posts/2013-12-22-learn-latex.md",
+		"/Users/michaelking214/Desktop/test.tex",
+		"/Users/michaelking214/GitHub/CV/curriculum_vitae/resume/MichaelElliotKing_Resume.tex",
+		"/Users/michaelking214/GitHub/McGill_RoboSub_2014/catkin_ws/src/computer_vision/msg/VisibleObjectData.msg",
+		"/Users/michaelking214/GitHub/McGill_RoboSub_2014/catkin_ws/src/controls/msg/VectorPID.msg",
+		"/Users/michaelking214/GitHub/McGill_RoboSub_2014/catkin_ws/src/controls/msg/motorCommands.msg",
+		"/Users/michaelking214/Dropbox/Mike&Nick/Mech Labs/F3/LaTeX/F3 Lab/mechLabF3.bib",
+		"/Users/michaelking214/Dropbox/Mike&Nick/Mech Labs/F3/LaTeX/F3 Lab/F3-Lab_Report-260367447-260345001.tex",
+		"/Users/michaelking214/Google Drive/FACC 400 Group 70/LaTeX/Case Study #6 - Group 70.tex",
+		"/Users/michaelking214/Google Drive/FACC 400 Group 70/LaTeX/case_study6.bib",
+		"/Users/michaelking214/Dropbox/School 2013-2014/Interdisciplinary Design/1. Final Report Work/LaTeX/MichaelKing_DesignReport.tex",
+		"/Users/michaelking214/GitHub/CV/curriculum_vitae/MichaelKing_CV.tex",
+		"/Users/michaelking214/GitHub/CV/curriculum_vitae/condensed/MichaelKing_Resume.tex",
+		"/Users/michaelking214/GitHub/Website/mikeking214.github.com/cv.html",
+		"/Users/michaelking214/GitHub/Website/mikeking214.github.com/resume.html",
+		"/Users/michaelking214/Dropbox/School 2013-2014/Interdisciplinary Design/1. Final Report Work/LaTeX/DesignReport.bib",
+		"/Users/michaelking214/Dropbox/Mike&Nick/Mech Labs/F3/LaTeX/F3-Prelab-260367447-260345001.tex",
+		"/Users/michaelking214/GitHub/McGill_RoboSub_2014/catkin_ws/src/planner/src/CurrentCVTaskPublisher.cpp",
+		"/Users/michaelking214/GitHub/McGill_RoboSub_2014/catkin_ws/src/controls/src/depthPublisher.cpp",
+		"/Users/michaelking214/Dropbox/School 2013-2014/Mech Eng/ROS : CONTROL SYS NOTES.txt",
+		"/Users/michaelking214/GitHub/Website/mikeking214.github.com/_includes/author-bio.html",
+		"/Users/michaelking214/GitHub/Website/mikeking214.github.com/images/LaTeX/latex_doc.tex",
+		"/Users/michaelking214/Desktop/equation.tex",
+		"/Users/michaelking214/Desktop/latex_doc.tex",
+		"/Users/michaelking214/Desktop/flower.jpg",
+		"/Users/michaelking214/GitHub/Website/minimal-mistakes-master/assets/less/page.less",
+		"/Users/michaelking214/GitHub/Website/mikeking214.github.com/articles.md",
+		"/Users/michaelking214/GitHub/Website/mikeking214.github.com/_layouts/home.html",
+		"/Users/michaelking214/GitHub/Website/mikeking214.github.com/_layouts/projects.html",
+		"/Users/michaelking214/GitHub/Website/mikeking214.github.com/_includes/footer.html",
+		"/Users/michaelking214/GitHub/Website/mikeking214.github.com/_posts/2013-10-01-controls.md",
+		"/Users/michaelking214/GitHub/Website/mikeking214.github.com/_posts/2013-09-30-lunarex.md",
+		"/Users/michaelking214/GitHub/Website/mikeking214.github.com/_layouts/post.html",
+		"/Users/michaelking214/GitHub/Website/mikeking214.github.com/_layouts/article.html",
+		"/Users/michaelking214/GitHub/Website/mikeking214.github.com/_layouts/articles.html",
+		"/Users/michaelking214/GitHub/Website/mikeking214.github.com/_layouts/post-index.html",
+		"/Users/michaelking214/GitHub/Website/mikeking214.github.com/_layouts/project.html",
+		"/Users/michaelking214/GitHub/Website/mikeking214.github.com/_layouts/articles-home.html",
+		"/Users/michaelking214/GitHub/Website/mikeking214.github.com/_includes/navigation.html",
+		"/Users/michaelking214/GitHub/Website/mikeking214.github.com/_layouts/article-index.html",
+		"/Users/michaelking214/GitHub/Website/mikeking214.github.com/_layouts/homepage2.html",
+		"/Users/michaelking214/GitHub/CV/curriculum_vitae/portfolio/MichaelElliotKing_Portfolio.tex",
+		"/Users/michaelking214/GitHub/Website/mikeking214.github.com/to_post/2013-10-30-interdisciplinary.md",
+		"/Users/michaelking214/GitHub/CV/curriculum_vitae/portfolio/MichaelElliotKing_Portfolio.toc",
+		"/Users/michaelking214/Google Drive/Job Search/Cover Letters/Textron/Mechanical Engineer I (Spring 2014 Grads)-220465/Mechanical Engineer I (Spring 2014 Grads)-220465.tex",
+		"/Users/michaelking214/Google Drive/RoboSub14/Administration/6. Resources/Mike's LaTeX Help/MKsResumeTemplate.tex",
+		"/Volumes/BOOTCAMP/Users/MK/Desktop/WIFI.txt",
+		"/Users/michaelking214/Google Drive/Job Search/Cover Letters/Normal/Mechanical Engineer at Normal.txt",
+		"/Users/michaelking214/Google Drive/Job Search/Cover Letters/Normal/Mechanical Engineer at Normal.tex",
+		"/Users/michaelking214/Google Drive/Job Search/Cover Letters/Textron/2014 New Grad - Mechanical Design Engineer-218705/2014 New Grad - Mechanical Design Engineer-218705.txt",
+		"/Users/michaelking214/Google Drive/Job Search/Cover Letters/Textron/2014 New Grad - Mechanical Design Engineer-218705/2014 New Grad - Mechanical Design Engineer-218705.tex",
+		"/Users/michaelking214/Google Drive/Job Search/Cover Letters/Textron/Mechanical Engineer (New Graduate) - 218749/Mechanical Engineer (New Graduate) - 218749.txt",
+		"/Users/michaelking214/Google Drive/Job Search/Cover Letters/Textron/Mechanical Engineer (New Graduate) - 218749/Mechanical Engineer (New Graduate) - 218749.tex",
+		"/Users/michaelking214/Google Drive/Job Search/Cover Letters/Textron/Mechanical Engineer I (Spring 2014 Grads)-220465/Mechanical Engineer I (Spring 2014 Grads)-220465.txt",
+		"/Users/michaelking214/Google Drive/Job Search/Cover Letters/Textron/Mechanical Engineer at Normal/Mechanical Engineer at Normal",
+		"/Users/michaelking214/Google Drive/Job Search/Cover Letters/Textron/Mechanical Engineer at Normal/Mechanical Engineer at Normal.tex",
+		"/Users/michaelking214/Google Drive/Job Search/Cover Letters/Textron/Engineer I - Systems R&D - New Graduate-217370/Engineer I - Systems R&D.txt",
+		"/Users/michaelking214/Google Drive/Job Search/Cover Letters/Textron/Mechanical Engineer (New Graduate)-219057/Mechanical Engineer New Grad.txt",
+		"/Users/michaelking214/Google Drive/Job Search/Cover Letters/Textron/Mechanical Engineer (New Graduate) - 218749/Mechanical Engineer (New Graduate) - 218749",
+		"/Users/michaelking214/Google Drive/Job Search/Cover Letters/Textron/Engineer I - Mechanical Systems R&D - New Graduate-217372/Engineer I - Mechanical Systems R&D - New Graduate.txt",
+		"/Users/michaelking214/Google Drive/Job Search/Cover Letters/Textron/Engineer I - Systems R&D - New Graduate-217370/Engineering I - R&D Systems Cover Letter.tex",
+		"/Users/michaelking214/Dropbox/Fall 13/Interdisciplinary Design/Project Proposal/MichaelElliotKing_ProjectProposal.tex",
+		"/Users/michaelking214/Google Drive/RoboSub14/Administration/1. Sponsorship/Sponsorship Package/Media/Pie Chart/Budget Pie Chart.tex",
+		"/Users/michaelking214/GitHub/LX/McGill_Robotics/commandite.html",
+		"/Users/michaelking214/GitHub/LX/McGill_Robotics/SP.htm",
+		"/Users/michaelking214/Google Drive/Job Search/Cover Letters/Textron/Leadership Dev/Leadership Development Eng.txt",
+		"/Users/michaelking214/Google Drive/Job Search/Cover Letters/Shure/Supplier Intern/Supplier Eng Intern.txt",
+		"/Users/michaelking214/Google Drive/Job Search/Cover Letters/Shure/Manufacturing/Manufacturing Engineering Intern.tex",
+		"/Users/michaelking214/Google Drive/Job Search/Cover Letters/Shure/Supplier Intern/Supplier Intern Cover Letter.tex",
+		"/Users/michaelking214/Google Drive/Job Search/Cover Letters/Shure/Corporate Quality/Corporate Quality Engineering Intern Cover Letter.tex",
+		"/Users/michaelking214/Documents/wifi.txt",
+		"/Users/michaelking214/Documents/Job Search/Cover Letters/2 Templates/Generic/Cover Letter Template.txt",
+		"/Users/michaelking214/Documents/Job Search/Cover Letters/Shure/Manufacturing/Manufacturing Engineering Intern.tex",
+		"/Users/michaelking214/Documents/Job Search/Cover Letters/Shure/Supplier Intern/Supplier Intern Cover Letter.tex",
+		"/Users/michaelking214/Documents/Job Search/Cover Letters/Shure/Corporate Quality/Corporate Quality Engineering Intern Cover Letter.tex",
+		"/Users/michaelking214/Documents/Job Search/Cover Letters/Textron/Eng I/Engineering I - R&D Systems Cover Letter.tex",
+		"/Users/michaelking214/Documents/Job Search/Cover Letters/Textron/Eng I/Engineer I - Systems R&D.txt",
+		"/Users/michaelking214/Documents/Job Search/Cover Letters/Textron/Engineer I - Systems R&D.txt",
+		"/Users/michaelking214/Documents/Job Search/Cover Letters/Shure/Supplier Intern/Supplier Eng Intern.txt",
+		"/Users/michaelking214/Documents/Job Search/Cover Letters/Shure/Corporate Quality/Corporate Quality Engineering Intern.txt",
+		"/Users/michaelking214/Documents/Job Search/Cover Letters/Shure/Manufacturing Eng Intern.txt",
+		"/Users/michaelking214/Documents/Job Search/Cover Letters/Shure/Supplier Eng Intern.txt",
+		"/Users/michaelking214/Documents/Job Search/Cover Letters/Shure/Corporate Quality Engineering Intern.txt",
+		"/Users/michaelking214/Documents/Job Search/Cover Letters/Shure/Corporate Quality Engineering Intern Cover Letter.tex"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			"|",
+			"/",
+			"05",
+			"%",
+			"GUI",
+			"TODO",
+			"hydrophones",
+			"TODO",
+			"blinky",
+			"lithiu",
+			"batteries",
+			"{% endif %}",
+			"class=\"author-social\" ",
+			"latex",
+			"50",
+			"40",
+			"50",
+			"center",
+			"TODO",
+			"teflon_tabs",
+			"teflon_support",
+			"teflon_tabs",
+			"TODO",
+			"impede",
+			"overview_bottom",
+			"lead_screw",
+			"overview_bottom",
+			"centering",
+			"overview_bottom",
+			"brake_detail_rear",
+			"brake_detail",
+			"front",
+			"isometric",
+			"media",
+			"App",
+			"TODO",
+			"isometric",
+			"overview",
+			"TODO",
+			"\\over",
+			"Teflon",
+			",",
+			"nice",
+			"'t",
+			"a lot",
+			"\\chapter{",
+			"\\section{",
+			"subsec",
+			"subsub",
+			"{elastic}",
+			"{effective}",
+			"{elastic}",
+			"{high friction}",
+			"{low friction}",
+			"{human}",
+			"{friction}",
+			"friction}",
+			"{brake}",
+			"subsection",
+			"homepage",
+			"homepa",
+			"ruby",
+			"Pos",
+			"p*",
+			"p",
+			"kp*",
+			"Error",
+			"xError",
+			"p_",
+			"proportional",
+			"p_",
+			"p",
+			"proportional",
+			"x",
+			"Force",
+			" .",
+			".\n",
+			"\\indent ",
+			" \n",
+			"width=5pt",
+			"\\textwidth",
+			"5in",
+			"plot3",
+			"plot2",
+			"	",
+			"paragraph",
+			"sample_calculations",
+			"$",
+			"Que",
+			"imple",
+			"$",
+			"{static~conditions}",
+			"{moving~conditions}",
+			"*",
+			"<span class=\"latex\">L<sup>a</sup>T<sub>e</sub>X</span>",
+			"a",
+			"<span class=\"latex\">L<sup>a</sup>T<sub>e</sub>X</span>",
+			"LaTeX",
+			"s",
+			"LaTeX",
+			"link",
+			"* <a markdown=\"0\" target=\"_blank\" href=\"http://wbond.net/sublime_packages/package_control\">Package Control</a> - Manager for the add-ons to Sublime Text\n",
+			"%",
+			"padding-bot",
+			"text",
+			"font-size",
+			"lunar e",
+			"abstract",
+			"open",
+			"-->\n",
+			"  <!-- ***********  GOOGLE ANALYTICS ************* -->\n  <script>\n  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){\n  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),\n  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)\n  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');\n\n  ga('create', 'UA-43554633-1', 'mcgillrobotics.com');\n  ga('send', 'pageview');\n\n</script>",
+			"team_table",
+			"font-size",
+			"accordion",
+			"accordion-h",
+			"btn",
+			"btn-",
+			"shadow",
+			"selector",
+			"shadow",
+			".face",
+			"shadow",
+			"flip-ind",
+			"		\n"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "MichaelElliotKing_CV.tex",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 14720,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								128,
+								128
+							]
+						],
+						"settings":
+						{
+							"spell_check": true,
+							"syntax": "Packages/LaTeX/LaTeX.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 617.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 197.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "cv.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 202.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
