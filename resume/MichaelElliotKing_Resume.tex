@@ -55,7 +55,7 @@
 
 
   % CUSTOM STUFF
-    \usepackage {marvosym} %cool symbols & formatting
+    \usepackage{marvosym} %cool symbols & formatting
     \usepackage{hyperref} % include email
     %\usepackage{multicol} %use columns
     \usepackage{setspace}  %set line spacing with 
@@ -65,6 +65,11 @@
     \usepackage{tikz} %enables drawing of linkedin image
     \usepackage{amssymb} %symbols
     \usepackage{wasysym} %symbols
+    \usepackage{pifont} %symbols
+    % \usepackage{dingbat} %symbols
+    % \usepackage{MnSymbol} %symbols
+    \usepackage{skull}
+
 
   % LINKEDIN PHOTO
     \newcommand{\linkedin}{
@@ -114,7 +119,7 @@
 \begin{document}
 
 \begin{center}
-{\Huge Michael Elliot King}
+{\Huge Michael Elliot King \skull}
 \end{center}
 
 %  ADDRESS & INFO
@@ -141,12 +146,12 @@
 
 % MCGILL ROBOTICS
   \begin{samepage}
-    \years{8/2013 - Present} \textbf{\scshape Co-Founder \& Mechanical Engineering Lead}\\
+    \years{8/2013 - Present} \textbf{\scshape Co-Founder \& Mechanical Engineering Lead \href{http://www.michaelelliotking.com/projects/mcgillrobotics}{$\leadsto$}}\\
     \href {http://www.mcgillrobotics.com}{\textit{McGill A.U.V. Robotics Design Team}} -- Montreal, Quebec\\
     {\small Competing in the AUVSI International RoboSub Competition in San Diego}
     \begin{itemize}
-      \item Created and implemented a comprehensive structure, brand, environment, and management system from scratch for a student organization with 98 members
-      \item Lead all mechanical design, manufacturing and testing for the team of 60 creating an autonomous underwater vehicle 
+      \item Created and implemented a comprehensive team structure, brand strategy, work environment, and management system for a student organization with 98 members
+      \item Lead all mechanical design, manufacturing, implementation, and testing for the team of 60 developing an autonomous underwater vehicle from scratch
     \end{itemize}
   \end{samepage}
 
@@ -167,7 +172,7 @@
 
 %MECH ENG PROJECT
   \begin{samepage}
-    \years{9/2013 - 5/2014} \textbf{\scshape Development of the Propulsion \& Control System for an A.U.V.}\\
+    \years{9/2013 - 5/2014} \textbf{\scshape Development of the Propulsion \& Control System for an A.U.V. \href{http://www.michaelelliotking.com/projects/controls}{$\leadsto$}}\\
     {\textit{Mechanical Engineering Senior Capstone Project}} -- Montreal, Quebec
     % {\small Collaborative 7-month design \& implementation project}\\
     % {\small Client: McGill Robotics | Supervisor: Professor Meyer Nahon}
@@ -175,7 +180,7 @@
       \item Designed and simulated a 5-DOF propulsion and control system using C++ and ROS
       % \item Arranged 6 thrusters around the COG for surge, sway, heave, pitch, and yaw control
       % \item Simulated the controls with dummy sensor data in a 3D environment within Gazebo 
-      \item Implemented the system by interfacing with the planner, computer vision and motor control
+      \item Implemented the system by interfacing with the planner, computer vision, and motor control
       % \item Created test platforms and wet-tested the full system in a pool, for both tethered and autonomous missions
     \end{itemize}
   \end{samepage}
@@ -203,7 +208,7 @@
 
 % LUNAREX
   \begin{samepage}
-    \years{8/2012 - 8/2013} \textbf{\scshape Material Collection System Leader | Marketing \& Media Director}\\
+    \years{8/2012 - 8/2013} \textbf{\scshape Material Collection System Leader | Marketing \& Media Director \href{http://www.michaelelliotking.com/projects/lunarex}{$\leadsto$}}\\
     \href{http://www.lunarex.mcgill.ca}{\textit{McGill LunarEx Robotics Design Team}} -- Montreal, Quebec\\
     {\small Placed 12th out of 50 international teams at NASA's Lunabotics Mining Competition in Orlando,~Florida}
     \begin{itemize}
@@ -246,7 +251,7 @@
 
 % FOOTER
 \begin{center}
-{\hspace{-.5in} \scriptsize Last updated \today\- •\- For most recent version, see \href{http://www.michaelelliotking.com/resume}{michaelelliotking.com/resume}}
+{\hspace{-.5in} \scriptsize Last updated \today\- •\- For the most recent version, see \href{http://www.michaelelliotking.com/resume}{michaelelliotking.com/resume}}
 \end{center}
 
 \end{document}
