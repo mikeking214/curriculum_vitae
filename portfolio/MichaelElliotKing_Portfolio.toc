@@ -1,4 +1,0 @@
-\contentsline {section}{Autonomous Underwater Vehicle}{2}{section*.2}
-\contentsline {paragraph}{Project:}{2}{section*.3}
-\contentsline {paragraph}{Goal:}{2}{section*.4}
-\contentsline {paragraph}{Process:}{2}{section*.5}

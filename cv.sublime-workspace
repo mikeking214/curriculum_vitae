@@ -35,14 +35,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "MichaelElliotKing_CV.tex",
-			"settings":
-			{
-				"buffer_size": 14720,
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "",
 	"command_palette":
@@ -80,6 +72,10 @@
 	},
 	"file_history":
 	[
+		"/Users/michaelking214/GitHub/CV/curriculum_vitae/resume/MichaelElliotKing_Resume.tex",
+		"/Users/michaelking214/GitHub/Website/mikeking214.github.com/_config.yml",
+		"/Users/michaelking214/GitHub/CV/curriculum_vitae/MichaelElliotKing_CV.tex",
+		"/Users/michaelking214/GitHub/CV/curriculum_vitae/cv.sublime-project",
 		"/Users/michaelking214/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
 		"/Volumes/Info/creditcards.txt",
 		"/Users/michaelking214/Google Drive/RoboSub14/Administration/Final Paper/LaTeX/McGill Robotics Final Paper.tex",
@@ -91,7 +87,6 @@
 		"/Users/michaelking214/GitHub/McGill_RoboSub_2014/catkin_ws/src/controls/src/controls.cpp",
 		"/Users/michaelking214/GitHub/Website/mikeking214.github.com/about.md",
 		"/Users/michaelking214/GitHub/Website/mikeking214.github.com/index.md",
-		"/Users/michaelking214/GitHub/Website/mikeking214.github.com/_config.yml",
 		"/Users/michaelking214/Google Drive/RoboSub14/Administration/Documentattion/Other Teams/University of Southern California/info.txt",
 		"/Users/michaelking214/Downloads/mademoiselle_k/IMPORTANT selling = license.txt",
 		"/Users/michaelking214/Google Drive/RoboSub14/Engineering/2. Mechanical/7. To Do Lists/Mech To Do.tex",
@@ -121,12 +116,10 @@
 		"/Volumes/Portable External/Downloads/Software/Adobe Photoshop Lightroom 5.0 Final Mac OS X [ChingLiu]/ChingLiu.Install.Notes.txt",
 		"/Users/michaelking214/Documents/Info/hydro info.txt",
 		"/Users/michaelking214/Desktop/olympics.html",
-		"/Users/michaelking214/GitHub/CV/curriculum_vitae/MichaelElliotKing_CV.tex",
 		"/Users/michaelking214/Documents/LaTeX/Templates/ResumeTemplate2.0/ResumeTemplate2.tex",
 		"/Users/michaelking214/GitHub/Website/mikeking214.github.com/latexHelp/MKsResumeTemplate.tex",
 		"/Users/michaelking214/GitHub/Website/mikeking214.github.com/_posts/2013-12-22-learn-latex.md",
 		"/Users/michaelking214/Desktop/test.tex",
-		"/Users/michaelking214/GitHub/CV/curriculum_vitae/resume/MichaelElliotKing_Resume.tex",
 		"/Users/michaelking214/GitHub/McGill_RoboSub_2014/catkin_ws/src/computer_vision/msg/VisibleObjectData.msg",
 		"/Users/michaelking214/GitHub/McGill_RoboSub_2014/catkin_ws/src/controls/msg/VectorPID.msg",
 		"/Users/michaelking214/GitHub/McGill_RoboSub_2014/catkin_ws/src/controls/msg/motorCommands.msg",
@@ -206,12 +199,11 @@
 		"/Users/michaelking214/Documents/Job Search/Cover Letters/Shure/Corporate Quality/Corporate Quality Engineering Intern.txt",
 		"/Users/michaelking214/Documents/Job Search/Cover Letters/Shure/Manufacturing Eng Intern.txt",
 		"/Users/michaelking214/Documents/Job Search/Cover Letters/Shure/Supplier Eng Intern.txt",
-		"/Users/michaelking214/Documents/Job Search/Cover Letters/Shure/Corporate Quality Engineering Intern.txt",
-		"/Users/michaelking214/Documents/Job Search/Cover Letters/Shure/Corporate Quality Engineering Intern Cover Letter.tex"
+		"/Users/michaelking214/Documents/Job Search/Cover Letters/Shure/Corporate Quality Engineering Intern.txt"
 	],
 	"find":
 	{
-		"height": 23.0
+		"height": 35.0
 	},
 	"find_in_files":
 	{
@@ -225,6 +217,8 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"newcomm",
+			"scratch",
 			"|",
 			"/",
 			"05",
@@ -366,40 +360,8 @@
 	"groups":
 	[
 		{
-			"selected": 0,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "MichaelElliotKing_CV.tex",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 14720,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								128,
-								128
-							]
-						],
-						"settings":
-						{
-							"spell_check": true,
-							"syntax": "Packages/LaTeX/LaTeX.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 617.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				}
 			]
 		}
 	],
@@ -436,7 +398,7 @@
 	"menu_visible": true,
 	"output.exec":
 	{
-		"height": 197.0
+		"height": 100.0
 	},
 	"output.find_results":
 	{
@@ -479,7 +441,7 @@
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 202.0,
+	"side_bar_width": 229.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
