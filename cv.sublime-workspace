@@ -70,11 +70,17 @@
 		"side_bar_visible": false,
 		"status_bar_visible": false
 	},
+	"expanded_folders":
+	[
+		"/Users/michaelking214/GitHub/CV/curriculum_vitae"
+	],
 	"file_history":
 	[
+		"/Users/michaelking214/GitHub/CV/curriculum_vitae/resume/online_apps/MichaelElliotKing_cv.tex",
+		"/Users/michaelking214/GitHub/CV/curriculum_vitae/resume/online_apps/MichaelElliotKing_resume.tex",
 		"/Users/michaelking214/GitHub/CV/curriculum_vitae/resume/MichaelElliotKing_Resume.tex",
-		"/Users/michaelking214/GitHub/Website/mikeking214.github.com/_config.yml",
 		"/Users/michaelking214/GitHub/CV/curriculum_vitae/MichaelElliotKing_CV.tex",
+		"/Users/michaelking214/GitHub/Website/mikeking214.github.com/_config.yml",
 		"/Users/michaelking214/GitHub/CV/curriculum_vitae/cv.sublime-project",
 		"/Users/michaelking214/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
 		"/Volumes/Info/creditcards.txt",
@@ -197,9 +203,7 @@
 		"/Users/michaelking214/Documents/Job Search/Cover Letters/Textron/Engineer I - Systems R&D.txt",
 		"/Users/michaelking214/Documents/Job Search/Cover Letters/Shure/Supplier Intern/Supplier Eng Intern.txt",
 		"/Users/michaelking214/Documents/Job Search/Cover Letters/Shure/Corporate Quality/Corporate Quality Engineering Intern.txt",
-		"/Users/michaelking214/Documents/Job Search/Cover Letters/Shure/Manufacturing Eng Intern.txt",
-		"/Users/michaelking214/Documents/Job Search/Cover Letters/Shure/Supplier Eng Intern.txt",
-		"/Users/michaelking214/Documents/Job Search/Cover Letters/Shure/Corporate Quality Engineering Intern.txt"
+		"/Users/michaelking214/Documents/Job Search/Cover Letters/Shure/Manufacturing Eng Intern.txt"
 	],
 	"find":
 	{
@@ -217,6 +221,10 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"\\scshape ",
+			"\\&",
+			"\\scshape",
+			"scsh",
 			"newcomm",
 			"scratch",
 			"|",
@@ -340,9 +348,7 @@
 			"selector",
 			"shadow",
 			".face",
-			"shadow",
-			"flip-ind",
-			"		\n"
+			"shadow"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -434,6 +440,7 @@
 		],
 		"width": 0.0
 	},
+	"selected_group": 0,
 	"settings":
 	{
 	},
