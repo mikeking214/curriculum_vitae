@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1461199554 "MichaelElliotKing_Resume.tex" "MichaelElliotKing_Resume.pdf" "MichaelElliotKing_Resume" 1461199556
+["pdflatex"] 1461287488 "MichaelElliotKing_Resume.tex" "MichaelElliotKing_Resume.pdf" "MichaelElliotKing_Resume" 1461287490
   "/Users/michaelking214/Library/texlive/2012/texmf-var/fonts/tfm/public/skull/skull.tfm" 1405011494 64 870c91c6ceaf94984b0f2a0c9e837a60 ""
   "/usr/local/texlive/2012/texmf-dist/fonts/map/fontname/texfonts.map" 1272929888 3287 e6b82fe08f5336d4d5ebc73fb1152e87 ""
   "/usr/local/texlive/2012/texmf-dist/fonts/tfm/adobe/symbol/psyr.tfm" 1136768653 1408 5937f58aa508ea2cea4901c07d10f5fe ""
@@ -180,11 +180,11 @@
   "/usr/local/texlive/2012/texmf-var/web2c/xetex/xelatex.fmt" 1380040201 3110381 8fb8ec2ea81941cfd55a741888d11a0b ""
   "/usr/local/texlive/2012/texmf.cnf" 1341108668 572 7ea7194897937febeb63145e1c3a1f03 ""
   "/usr/local/texlive/2012/texmf/web2c/texmf.cnf" 1336865692 31299 729e216d9b945005c0d4b079c0500bc9 ""
-  "MichaelElliotKing_Resume.aux" 1461199555 875 18226ebc586792afce0631e2b0dcf69c ""
-  "MichaelElliotKing_Resume.out" 1461199555 0 d41d8cd98f00b204e9800998ecf8427e ""
-  "MichaelElliotKing_Resume.tex" 1461199554 15157 7dc0321d9a6484077e52093e60b10238 ""
+  "MichaelElliotKing_Resume.aux" 1461287489 875 18226ebc586792afce0631e2b0dcf69c ""
+  "MichaelElliotKing_Resume.out" 1461287489 0 d41d8cd98f00b204e9800998ecf8427e ""
+  "MichaelElliotKing_Resume.tex" 1461287485 15156 0ee2a1853b7b1fa6ac42d35d4a80481e ""
   (generated)
   "MichaelElliotKing_Resume.aux"
-  "MichaelElliotKing_Resume.log"
-  "MichaelElliotKing_Resume.out"
   "MichaelElliotKing_Resume.pdf"
+  "MichaelElliotKing_Resume.out"
+  "MichaelElliotKing_Resume.log"
