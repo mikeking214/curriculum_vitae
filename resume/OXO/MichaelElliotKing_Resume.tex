@@ -1,0 +1,287 @@
+%!TEX TS-program = xelatex
+%!TEX encoding = UTF-8 Unicode
+
+\documentclass[11pt, letterpaper]{article}
+
+% PACKAGES ##############
+  \usepackage{fontspec} %OpenType fonts
+
+  % LAYOUT
+    \usepackage{geometry} %document margins
+    \geometry{letterpaper, textwidth=6in, textheight=9.5in, marginparsep=20pt, marginparwidth=1in} %margin settings
+    \setlength\parindent{0in} % Remove indentation
+
+    \oddsidemargin .5in
+    \evensidemargin .5in
+
+    \usepackage{fancyhdr}
+    \fancypagestyle{plain}{ %
+    \fancyhf{} % remove everything
+    \renewcommand{\headrulewidth}{0pt}} % remove lines as well
+    \pagestyle{plain}
+    \lfoot{\hspace{2.71in}\thepage} % center page number
+
+  % COLORS
+    \usepackage[usenames,dvipsnames]{xcolor}
+
+  % HEADINGS
+    \usepackage{sectsty} % Allows changing the font options for sections in a document
+    \usepackage[normalem]{ulem} % Custom underlining
+    \usepackage{xunicode} % Allows generation of unicode characters from accented glyphs
+    \defaultfontfeatures{Mapping=tex-text} % Converts LaTeX specials (``quotes'' --- dashes etc.) to unicode
+
+  % FONTS
+    \setromanfont [Ligatures={Common}]{Linux Libertine} % Main text font
+    %\setmonofont[Scale=0.8]{Monaco} % Set mono font (e.g. phone numbers)
+    \sectionfont{\mdseries\upshape\Large} % sections
+    \subsectionfont{\mdseries\scshape\normalsize} %subsections
+    \subsubsectionfont{\mdseries\upshape\large} % Subsubsections
+    \chardef\&="E050 % Custom ampersand 
+    \usepackage{xltxtra} 
+
+  % MARGIN YEARS
+    \usepackage{marginnote} % For margin years
+    \newcommand{\years}[1]{\marginnote{\footnotesize #1}} % New command for including margin years
+    \renewcommand*{\raggedrightmarginnote}{}
+    \setlength{\marginparsep}{15pt} % Slightly increase the distance of the margin years from the contant
+    \reversemarginpar
+
+  % PDF DOC TITLE & AUTHOR
+    \usepackage[bookmarks, colorlinks, breaklinks, 
+    pdftitle={Michael Elliot King - Curriculum Vitæ},
+    pdfauthor={Michael Elliot King - www.michaelelliotking.com}]
+    {hyperref}
+    \hypersetup{linkcolor=CadetBlue,citecolor=blue,filecolor=black,urlcolor=CadetBlue} % Link colors
+
+
+  % CUSTOM STUFF
+    \usepackage{marvosym} %cool symbols & formatting
+    \usepackage{hyperref} % include email
+    %\usepackage{multicol} %use columns
+    \usepackage{setspace}  %set line spacing with 
+    \usepackage{enumitem} %format spacing and seperation for items: see below - also use ``setenumerate, setlist, setdescription
+    \setitemize{noitemsep,topsep=0pt,parsep=0pt,partopsep=0pt} %remove big spaces in itemized lists
+    \usepackage[compact]{titlesec} %makes the spacing around sections compact
+    \usepackage{tikz} %enables drawing of linkedin image
+    \usepackage{amssymb} %symbols
+    \usepackage{wasysym} %symbols
+    \usepackage{pifont} %symbols
+    % \usepackage{dingbat} %symbols dont work
+    % \usepackage{MnSymbol} %symbols
+    \usepackage{skull}
+    \usepackage{ifsym} %house symbol
+
+
+  % LINKEDIN PHOTO
+    \newcommand{\linkedin}{
+    \begin{tikzpicture}[y=0.2pt, x=0.22pt,yscale=-1, inner sep=0pt, outer sep=0pt,opacity=1]
+    \begin{scope}[cm={{0.59444,0.0,0.0,0.59444,(346.38938,123.06674)}}]
+    \path[fill=black] (380.7408,201.6221) -- (434.0804,201.6221) .. controls
+    (438.6572,201.6221) and (442.3417,205.3067) .. (442.3417,209.8835) --
+    (442.3417,263.5823) .. controls (442.3417,268.1591) and (438.6572,271.8436) ..
+    (434.0804,271.8436) -- (380.7408,271.8436) .. controls (376.1640,271.8436) and
+    (372.4794,268.1591) .. (372.4794,263.5823) -- (372.4794,209.8835) .. controls
+    (372.4794,205.3067) and (376.1640,201.6221) .. (380.7408,201.6221) -- cycle;
+    \begin{scope}[xscale=0.981,yscale=1.019,fill=white]
+    \path[fill=white] (402.5597,253.0812) -- (402.5597,223.9631) --
+      (393.5086,223.9631) -- (393.5086,253.0812) -- cycle(398.0937,211.3394) ..
+      controls (396.6162,211.3680) and (395.4476,211.8021) .. (394.5879,212.6419) ..
+      controls (393.7282,213.4818) and (393.2891,214.5561) .. (393.2705,215.8649) ..
+      controls (393.2879,217.1476) and (393.7146,218.2145) .. (394.5507,219.0655) ..
+      controls (395.3868,219.9165) and (396.5281,220.3581) .. (397.9746,220.3904) ..
+      controls (399.5067,220.3582) and (400.7001,219.9165) .. (401.5548,219.0655) ..
+      controls (402.4095,218.2145) and (402.8437,217.1476) .. (402.8574,215.8649) ..
+      controls (402.8152,214.5561) and (402.3785,213.4818) .. (401.5474,212.6419) ..
+      controls (400.7162,211.8021) and (399.5650,211.3679) .. (398.0937,211.3394) --
+      cycle;
+    \path[fill=white] (409.7910,253.0812) -- (418.8420,253.0812) --
+      (418.8420,236.2892) .. controls (418.8400,235.8674) and (418.8594,235.4605) ..
+      (418.9015,235.0685) .. controls (418.9437,234.6765) and (419.0231,234.3291) ..
+      (419.1397,234.0264) .. controls (419.4635,233.1556) and (420.0068,232.3815) ..
+      (420.7698,231.7041) .. controls (421.5327,231.0268) and (422.5375,230.6695) ..
+      (423.7843,230.6323) .. controls (425.4081,230.6609) and (426.5817,231.2439) ..
+      (427.3049,232.3815) .. controls (428.0282,233.5190) and (428.3830,235.0400) ..
+      (428.3693,236.9442) -- (428.3693,253.0812) -- (437.4203,253.0812) --
+      (437.4203,235.8724) .. controls (437.3582,231.5975) and (436.3658,228.4316) ..
+      (434.4430,226.3748) .. controls (432.5202,224.3180) and (430.0391,223.2958) ..
+      (426.9998,223.3081) .. controls (424.5633,223.3851) and (422.6033,223.9309) ..
+      (421.1196,224.9456) .. controls (419.6359,225.9604) and (418.5988,226.9826) ..
+      (418.0083,228.0123) -- (417.8297,228.0123) -- (417.4129,223.9631) --
+      (409.5528,223.9631) .. controls (409.6148,225.2695) and (409.6694,226.6911) ..
+      (409.7165,228.2281) .. controls (409.7636,229.7652) and (409.7884,231.4399) ..
+      (409.7909,233.2523) -- cycle;
+    \end{scope}
+    \end{scope}
+    \end{tikzpicture}
+    }
+
+%**************************************************************************
+
+\begin{document}
+
+\begin{center}
+{\Huge Michael Elliot King}
+\end{center}
+
+%  ADDRESS & INFO
+  % \begin{minipage}[ht]{2.1in}
+  %   \Telefon \hspace{3pt} 1~(617)~633-0828\\
+  %   \Letter \hspace{3pt} \normalfont \href{mailto:mk@michaelelliotking.com}{mk@michaelelliotking.com}
+  % \end{minipage}
+  % \begin{minipage}[ht]{2.7in}
+  %   % \begin{center}
+  %   \linkedin \hspace{5pt}\href{http://www.linkedin.com/in/michaelelliotking}{linkedin.com/in/michaelelliotking}\\
+  %   \Mundus \hspace{4pt}  \href{http://www.michaelelliotking.com}{www.michaelelliotking.com}
+  %   % \end{center}
+  % \end{minipage}
+  % \begin{minipage}[ht]{2.2in}
+  %   % \begin{flushright}
+  %   406 East 9th Street\\
+  %   New York, NY 10009
+  %   % \end{flushright}
+  % \end{minipage}
+
+  \begin{center}
+    \Letter \hspace{3pt} \href{mailto:mk@michaelelliotking.com}{mk@michaelelliotking.com} \hspace{1pt}
+    \Mundus \hspace{3pt} \href{http://www.michaelelliotking.com}{michaelelliotking.com}
+    \linkedin \hspace{1pt} \href{http://www.linkedin.com/in/michaelelliotking}{linkedin.com/in/michaelelliotking}\\
+    \Telefon \hspace{1pt} 1~(617)~633-0828 \hspace{1pt}
+    \textifsymbol{23} \hspace{1pt} 20 Fair St. Newport, RI 02840
+  \end{center}
+
+%  EDUCATION 
+  \section*{Education}
+  \years{2009 - 2014} \textbf{B.Eng., Mechanical Engineering}\\
+  \textit{McGill University} -- Montreal, Quebec
+
+%	 EXPERIENCE
+  \section*{Experience}
+
+ %CRA ENGINEER
+  \begin{samepage}
+    \years{3/2016 - Present} \textbf{\scshape Mechanical Engineer II}\\
+    \years{3/2015 - 3/2016} \textbf{\scshape Mechanical Engineer I}\\
+    \years{9/2014 - 3/2015} \textbf{\scshape Mechanical Engineer Intern} \href{http://www.michaelelliotking.com/blog/first-job/}{$\leadsto$}\\
+    \href {http://www.cra.com}{\textit{Charles River Analytics}} -- Wakefield, Rhode Island
+    \begin{itemize}
+      % \item Lead the redesign of a system of communication, command, and control pressure vessels for unmanned vehicles
+      \item Designed, tested, and implemented a submersible pneumatic and electrical system for urgent surfacing maneuvers in unmanned vehicles
+      \item Designed a pressure-balanced oil-filled electronics enclosure \& proof-tested it in a hyberbaric chamber to full ocean depth
+      \item Lead the design of maintenance \& operations logistics of a next generation large displacement unmanned underwater vehicle [LDUUV]
+    \end{itemize}
+  \end{samepage}
+  % \vspace{.1in}
+
+%INTERDISCIPLINARY DESIGN PROJECT
+  \begin{samepage}
+    \years{9/2013 - 7/2014} \textbf{\scshape Development of a Variable-Friction Shoe-Surface Mechanism}\\
+    % \href{http://www.michaelelliotking.com/projects/vf_shoe}{$\leadsto$}
+    {\textit{Independent Interdisciplinary Design Project}} -- Montreal, Quebec
+    % {\small Independent 7-month design \& manufacturing project}\\
+    % {\small Supervised by Professor Jeremy Cooperstock, \textsl {McGill Centre for Intelligent Machines}}
+    \begin{itemize}
+      \item Created from scratch a mechanism to fit in the sole of a shoe and dynamically simulate the friction of a full range of surfaces %change the coefficient of friction from concrete-like to ice-like
+      \item Designed the mechanical, electrical and software systems using Inventor and Arduino
+      \item Manufactured complete functioning prototype of mechanism to 0.05mm tolerances using conventional milling \& turning, CNCing, and welding
+      \item Implemented a PD controller to actuate two compact braking pads using a stepper motor, gear system, and lead screws
+      % \item Verified full functionality through a series of static and kinetic friction tests 
+    \end{itemize}
+  \end{samepage}
+
+% MCGILL ROBOTICS
+  \begin{samepage}
+    \years{8/2013 - 7/2014} \textbf{\scshape Co-Founder \& Mechanical Engineering Lead \href{http://www.michaelelliotking.com/projects/mcgillrobotics}{$\leadsto$}}\\
+    \href {http://www.mcgillrobotics.com}{\textit{McGill Robotics -- A.U.V. Design Team}} -- Montreal, Quebec\\
+    {\small 3rd place static, 10th place overall -- AUVSI International RoboSub Competition in San Diego - July 2014}
+    \begin{itemize}
+      \item Created and implemented a comprehensive team structure, brand strategy, work environment, and management system for a student organization with 98 members
+      \item Lead all mechanical design, manufacturing, implementation, and testing for the team of 60 developing an autonomous underwater vehicle from scratch
+      \item Designed the vehicle assembly with Inventor for FEA, dynamic modeling, 3D printing, machine drawings 
+    \end{itemize}
+  \end{samepage}
+
+%MECH ENG PROJECT
+  \begin{samepage}
+    \years{9/2013 - 5/2014} \textbf{\scshape Development of the Propulsion \& Control System for an A.U.V. \href{http://www.michaelelliotking.com/projects/controls}{$\leadsto$}}\\
+    {\textit{Mechanical Engineering Senior Capstone Project}} -- Montreal, Quebec
+    % {\small Collaborative 7-month design \& implementation project}\\
+    % {\small Client: McGill Robotics | Supervisor: Professor Meyer Nahon}
+    \begin{itemize}
+      \item Designed and simulated a 5-DOF propulsion and control system using C++ and ROS
+      % \item Arranged 6 thrusters around the COG for surge, sway, heave, pitch, and yaw control
+      % \item Simulated the controls with dummy sensor data in a 3D environment within Gazebo 
+      \item Implemented the system by interfacing with the planner, computer vision, and motor control
+      % \item Created test platforms and wet-tested the full system in a pool, for both tethered and autonomous missions
+    \end{itemize}
+  \end{samepage}
+  % \vspace{.1in}
+
+% T DAVLIN
+  % \begin{samepage}
+  %   \years{Summer 2013} \textbf{\scshape Control Systems \& Engineering Internship}\\
+  %   \textit{T. Davlin Glass} -- Cambridge, Massachusetts
+  %   \begin{itemize}
+  %     \item Designed, manufactured, and wired systems to control the temperature of custom-built, high-powered glass kilns
+  %     \item Aided in the design and construction of additional kilns
+  %   \end{itemize}
+  % \end {samepage}
+
+% ROBIES
+  % \begin{samepage}
+  %   \years{Summer 2012 \& Summer~2013} \textbf{\scshape Engineering Internship}\\
+  %   \textit{Robies Heating \& Cooling HVAC} -- Hyannis, Massachusetts
+  %   \begin{itemize}
+  %     \item Developed and implemented automated programs for generating project estimates
+  %     \item Developed workflow and inventory management system
+  %   \end{itemize}
+  % \end{samepage}
+
+% LUNAREX
+  % \begin{samepage}
+  %   \years{8/2012 - 8/2013} \textbf{\scshape Material Collection System Leader | Marketing \& Media Director \href{http://www.michaelelliotking.com/projects/lunarex}{$\leadsto$}}\\
+  %   \href{http://www.lunarex.mcgill.ca}{\textit{McGill LunarEx Robotics Design Team}} -- Montreal, Quebec\\
+  %   {\small Placed 12th out of 50 international teams at NASA's Lunabotics Mining Competition in Orlando,~Florida}
+  %   \begin{itemize}
+  %     \item Lead the efforts of a five person group responsible for designing, manufacturing and assembling the mechanism that collects and dumps lunar regolith simulant
+  %     \item Brought original concepts to realization through CADing, machining, assembly, and testing
+  %     \item Developed rebranding strategies to increase interest in robotics and team credibility
+  %   \end{itemize}
+  % \end{samepage}
+
+% BRAILLE U
+  % \begin{samepage}
+  %   \years{1/2013 - 8/2013} \textbf{\scshape Front End \& Usability Lead}\\
+  %   \textit{Braille University iPhone Application} -- Montreal, Quebec\\
+  %   {\small Tool to aid in teaching Braille to blind children using an electronic medium}
+  %   \begin{itemize}
+  %     \item Created a mobile application focusing on usability and the user interface
+  %     \item Using a user-centered design approach, created prototypes, conducted user-tests, and coded the application to be easy to use, even without the use of vision
+  %   \end{itemize}
+  % \end {samepage}
+
+
+%  SOFTWARE SKILLS
+  \section*{Software \& Programming Skills}
+  Computer Aided Design: \emph{SolidWorks, Inventor, AutoCAD}\\
+  % Data Analysis: \emph{MATLAB, Excel}\\
+  Programming Languages: \emph{Python, C, C}\verb!++!\emph{, Objective-C, ROS}\\
+  % Version Control Systems: \emph{Git, Autodesk 360}\\
+  Web Development: \emph{HTML5, CSS, Markdown, Jekyll, Google Analytics, SEO}\\
+  %Digital Typesetting: \LaTeX \\
+  Media \& Graphics: \emph{Illustrator, Lightroom, Photoshop, InDesign, Final Cut Pro}
+
+%\section*{Activities \& Interests}
+%\years{2010 - Present}Photography - \href{http://www.michaelelliotphotography.com}{www.michaelelliotphotography.com}\\
+%\years{2009 - Present} McGill University Intramural Ultimate Frisbee (1st Place 2010, 2011)\\
+%\years{2012 - 2013} Photo Contributor - \href{http://www.mcgilltribune.com}{The McGill Tribune}\\
+%\years{2011 - 2012} McGill Engineering Undergraduate Society Website Committee\\
+%\years{2010 - 2011} McGill University International Student BUDDY Mentor Program
+
+%\vfill{}
+
+% FOOTER
+\begin{center}
+{\hspace{-.5in} \scriptsize Last updated \today\- •\- For the most recent version, see \href{http://www.michaelelliotking.com/resume}{michaelelliotking.com/resume}}
+\end{center}
+
+\end{document}

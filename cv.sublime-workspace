@@ -36,10 +36,31 @@
 	"buffers":
 	[
 	],
-	"build_system": "",
+	"build_system": "Packages/LaTeXTools/LaTeX.sublime-build",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					""
+				],
+				[
+					"Packages/User/bibtex.sublime-build",
+					""
+				]
+			],
+			[
+				"Packages/LaTeXTools/LaTeX.sublime-build",
+				""
+			]
+		]
+	],
+	"build_varint": "",
 	"command_palette":
 	{
 		"height": 392.0,
+		"last_filter": "",
 		"selected_items":
 		[
 			[
@@ -76,10 +97,10 @@
 	],
 	"file_history":
 	[
+		"/Users/michaelking214/GitHub/CV/curriculum_vitae/MichaelElliotKing_CV.tex",
 		"/Users/michaelking214/GitHub/CV/curriculum_vitae/resume/online_apps/MichaelElliotKing_cv.tex",
 		"/Users/michaelking214/GitHub/CV/curriculum_vitae/resume/online_apps/MichaelElliotKing_resume.tex",
 		"/Users/michaelking214/GitHub/CV/curriculum_vitae/resume/MichaelElliotKing_Resume.tex",
-		"/Users/michaelking214/GitHub/CV/curriculum_vitae/MichaelElliotKing_CV.tex",
 		"/Users/michaelking214/GitHub/Website/mikeking214.github.com/_config.yml",
 		"/Users/michaelking214/GitHub/CV/curriculum_vitae/cv.sublime-project",
 		"/Users/michaelking214/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
@@ -410,6 +431,7 @@
 	{
 		"height": 0.0
 	},
+	"pinned_build_system": "",
 	"project": "cv.sublime-project",
 	"replace":
 	{
@@ -419,6 +441,7 @@
 	"select_file":
 	{
 		"height": 0.0,
+		"last_filter": "",
 		"selected_items":
 		[
 		],
@@ -427,6 +450,7 @@
 	"select_project":
 	{
 		"height": 0.0,
+		"last_filter": "",
 		"selected_items":
 		[
 		],
@@ -435,6 +459,7 @@
 	"select_symbol":
 	{
 		"height": 0.0,
+		"last_filter": "",
 		"selected_items":
 		[
 		],
