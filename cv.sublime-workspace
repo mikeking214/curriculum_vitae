@@ -35,6 +35,15 @@
 	},
 	"buffers":
 	[
+		{
+			"contents": "what im good at.\n\n",
+			"settings":
+			{
+				"buffer_size": 18,
+				"line_ending": "Unix",
+				"name": "what im good at."
+			}
+		}
 	],
 	"build_system": "Packages/LaTeXTools/LaTeX.sublime-build",
 	"build_system_choices":
@@ -93,11 +102,15 @@
 	},
 	"expanded_folders":
 	[
-		"/Users/michaelking214/GitHub/CV/curriculum_vitae"
+		"/Users/michaelking214/GitHub/CV/curriculum_vitae",
+		"/Users/michaelking214/GitHub/CV/curriculum_vitae/resume",
+		"/Users/michaelking214/GitHub/CV/curriculum_vitae/resume/OXO"
 	],
 	"file_history":
 	[
+		"/Users/michaelking214/Dropbox/Job Search/Cover Letters/Clever and Scrappy Engineer - Inch Inc.txt",
 		"/Users/michaelking214/GitHub/CV/curriculum_vitae/MichaelElliotKing_CV.tex",
+		"/Users/michaelking214/GitHub/CV/curriculum_vitae/resume/OXO/MichaelElliotKing_Resume.tex",
 		"/Users/michaelking214/GitHub/CV/curriculum_vitae/resume/online_apps/MichaelElliotKing_cv.tex",
 		"/Users/michaelking214/GitHub/CV/curriculum_vitae/resume/online_apps/MichaelElliotKing_resume.tex",
 		"/Users/michaelking214/GitHub/CV/curriculum_vitae/resume/MichaelElliotKing_Resume.tex",
@@ -222,9 +235,7 @@
 		"/Users/michaelking214/Documents/Job Search/Cover Letters/Textron/Eng I/Engineering I - R&D Systems Cover Letter.tex",
 		"/Users/michaelking214/Documents/Job Search/Cover Letters/Textron/Eng I/Engineer I - Systems R&D.txt",
 		"/Users/michaelking214/Documents/Job Search/Cover Letters/Textron/Engineer I - Systems R&D.txt",
-		"/Users/michaelking214/Documents/Job Search/Cover Letters/Shure/Supplier Intern/Supplier Eng Intern.txt",
-		"/Users/michaelking214/Documents/Job Search/Cover Letters/Shure/Corporate Quality/Corporate Quality Engineering Intern.txt",
-		"/Users/michaelking214/Documents/Job Search/Cover Letters/Shure/Manufacturing Eng Intern.txt"
+		"/Users/michaelking214/Documents/Job Search/Cover Letters/Shure/Supplier Intern/Supplier Eng Intern.txt"
 	],
 	"find":
 	{
@@ -242,6 +253,7 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"small",
 			"\\scshape ",
 			"\\&",
 			"\\scshape",
@@ -368,8 +380,7 @@
 			"shadow",
 			"selector",
 			"shadow",
-			".face",
-			"shadow"
+			".face"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -387,8 +398,37 @@
 	"groups":
 	[
 		{
+			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 18,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								18,
+								18
+							]
+						],
+						"settings":
+						{
+							"auto_name": "what im good at.",
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -472,7 +512,7 @@
 	"show_minimap": true,
 	"show_open_files": true,
 	"show_tabs": true,
-	"side_bar_visible": true,
+	"side_bar_visible": false,
 	"side_bar_width": 229.0,
 	"status_bar_visible": true,
 	"template_settings":
