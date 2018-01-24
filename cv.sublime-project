@@ -2,8 +2,10 @@
 	"folders":
 	[
 		{
-			"follow_symlinks": true,
 			"path": "."
+		},
+		{
+			"path": "/Users/michaelking214/GitHub/Website/mikeking214.github.com"
 		}
 	]
 }

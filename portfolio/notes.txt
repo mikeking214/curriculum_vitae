@@ -1,0 +1,25 @@
+notes
+- add CANIS enclosure?
+- add AEODRS
+	- include in ToC
+- include short time reference in each. differentiate time crunch vs full scale
+
+light fixture
+	main description needs details about what was designed.  or move parts to ind. descriptions
+
+electronics enclosure
+	explain 3d printed version v real
+
+VF shoe
+	add drawings (apendix?)
+	description improved. avtive voice. match voice
+	explain teflon strips
+
+AUV
+	description
+	remove ind components. describe managing model, role as lead
+
+AEODRS
+
+
+

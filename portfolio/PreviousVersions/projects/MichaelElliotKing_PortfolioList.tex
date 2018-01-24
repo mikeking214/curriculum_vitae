@@ -1,0 +1,223 @@
+%!TEX TS-program = xelatex
+%!TEX encoding = UTF-8 Unicode
+
+\documentclass[11pt, letterpaper]{article}
+
+% PACKAGES ##############
+  \usepackage{fontspec} %OpenType fonts
+
+  % LAYOUT
+    \usepackage{geometry} %document margins
+    \geometry{letterpaper, textwidth=6in, textheight=9.5in, marginparsep=20pt, marginparwidth=1in} %margin settings
+    \setlength\parindent{0in} % Remove indentation
+
+    \oddsidemargin .5in
+    \evensidemargin .5in
+
+    \usepackage{fancyhdr}
+    \fancypagestyle{plain}{ %
+    \fancyhf{} % remove everything
+    \renewcommand{\headrulewidth}{0pt}} % remove lines as well
+    \pagestyle{plain}
+    \lfoot{\hspace{2.71in}\thepage} % center page number
+
+  % COLORS
+    \usepackage[usenames,dvipsnames]{xcolor}
+
+  % HEADINGS
+    \usepackage{sectsty} % Allows changing the font options for sections in a document
+    \usepackage[normalem]{ulem} % Custom underlining
+    \usepackage{xunicode} % Allows generation of unicode characters from accented glyphs
+    \defaultfontfeatures{Mapping=tex-text} % Converts LaTeX specials (``quotes'' --- dashes etc.) to unicode
+
+  % FONTS
+    \setromanfont [Ligatures={Common}]{Linux Libertine} % Main text font
+    %\setmonofont[Scale=0.8]{Monaco} % Set mono font (e.g. phone numbers)
+    \sectionfont{\mdseries\upshape\Large} % sections
+    \subsectionfont{\mdseries\scshape\normalsize} %subsections
+    \subsubsectionfont{\mdseries\upshape\large} % Subsubsections
+    \chardef\&="E050 % Custom ampersand 
+    \usepackage{xltxtra} 
+
+  % MARGIN YEARS
+    \usepackage{marginnote} % For margin years
+    \newcommand{\years}[1]{\marginnote{\footnotesize #1}} % New command for including margin years
+    \renewcommand*{\raggedrightmarginnote}{}
+    \setlength{\marginparsep}{15pt} % Slightly increase the distance of the margin years from the contant
+    \reversemarginpar
+
+  % PDF DOC TITLE & AUTHOR
+    \usepackage[bookmarks, colorlinks, breaklinks, 
+    pdftitle={Michael Elliot King - Curriculum Vitæ},
+    pdfauthor={Michael Elliot King - www.michaelelliotking.com}]
+    {hyperref}
+    \hypersetup{linkcolor=CadetBlue,citecolor=blue,filecolor=black,urlcolor=CadetBlue} % Link colors
+
+
+  % CUSTOM STUFF
+    \usepackage{marvosym} %cool symbols & formatting
+    \usepackage{hyperref} % include email
+    %\usepackage{multicol} %use columns
+    \usepackage{setspace}  %set line spacing with 
+    \usepackage{enumitem} %format spacing and seperation for items: see below - also use ``setenumerate, setlist, setdescription
+    \setitemize{noitemsep,topsep=0pt,parsep=0pt,partopsep=0pt} %remove big spaces in itemized lists
+    \usepackage[compact]{titlesec} %makes the spacing around sections compact
+    \usepackage{tikz} %enables drawing of linkedin image
+    \usepackage{amssymb} %symbols
+    \usepackage{wasysym} %symbols
+    \usepackage{pifont} %symbols
+    % \usepackage{dingbat} %symbols dont work
+    % \usepackage{MnSymbol} %symbols
+    \usepackage{skull}
+    \usepackage{ifsym} %house symbol
+
+
+  % LINKEDIN PHOTO
+    \newcommand{\linkedin}{
+    \begin{tikzpicture}[y=0.2pt, x=0.22pt,yscale=-1, inner sep=0pt, outer sep=0pt,opacity=1]
+    \begin{scope}[cm={{0.59444,0.0,0.0,0.59444,(346.38938,123.06674)}}]
+    \path[fill=black] (380.7408,201.6221) -- (434.0804,201.6221) .. controls
+    (438.6572,201.6221) and (442.3417,205.3067) .. (442.3417,209.8835) --
+    (442.3417,263.5823) .. controls (442.3417,268.1591) and (438.6572,271.8436) ..
+    (434.0804,271.8436) -- (380.7408,271.8436) .. controls (376.1640,271.8436) and
+    (372.4794,268.1591) .. (372.4794,263.5823) -- (372.4794,209.8835) .. controls
+    (372.4794,205.3067) and (376.1640,201.6221) .. (380.7408,201.6221) -- cycle;
+    \begin{scope}[xscale=0.981,yscale=1.019,fill=white]
+    \path[fill=white] (402.5597,253.0812) -- (402.5597,223.9631) --
+      (393.5086,223.9631) -- (393.5086,253.0812) -- cycle(398.0937,211.3394) ..
+      controls (396.6162,211.3680) and (395.4476,211.8021) .. (394.5879,212.6419) ..
+      controls (393.7282,213.4818) and (393.2891,214.5561) .. (393.2705,215.8649) ..
+      controls (393.2879,217.1476) and (393.7146,218.2145) .. (394.5507,219.0655) ..
+      controls (395.3868,219.9165) and (396.5281,220.3581) .. (397.9746,220.3904) ..
+      controls (399.5067,220.3582) and (400.7001,219.9165) .. (401.5548,219.0655) ..
+      controls (402.4095,218.2145) and (402.8437,217.1476) .. (402.8574,215.8649) ..
+      controls (402.8152,214.5561) and (402.3785,213.4818) .. (401.5474,212.6419) ..
+      controls (400.7162,211.8021) and (399.5650,211.3679) .. (398.0937,211.3394) --
+      cycle;
+    \path[fill=white] (409.7910,253.0812) -- (418.8420,253.0812) --
+      (418.8420,236.2892) .. controls (418.8400,235.8674) and (418.8594,235.4605) ..
+      (418.9015,235.0685) .. controls (418.9437,234.6765) and (419.0231,234.3291) ..
+      (419.1397,234.0264) .. controls (419.4635,233.1556) and (420.0068,232.3815) ..
+      (420.7698,231.7041) .. controls (421.5327,231.0268) and (422.5375,230.6695) ..
+      (423.7843,230.6323) .. controls (425.4081,230.6609) and (426.5817,231.2439) ..
+      (427.3049,232.3815) .. controls (428.0282,233.5190) and (428.3830,235.0400) ..
+      (428.3693,236.9442) -- (428.3693,253.0812) -- (437.4203,253.0812) --
+      (437.4203,235.8724) .. controls (437.3582,231.5975) and (436.3658,228.4316) ..
+      (434.4430,226.3748) .. controls (432.5202,224.3180) and (430.0391,223.2958) ..
+      (426.9998,223.3081) .. controls (424.5633,223.3851) and (422.6033,223.9309) ..
+      (421.1196,224.9456) .. controls (419.6359,225.9604) and (418.5988,226.9826) ..
+      (418.0083,228.0123) -- (417.8297,228.0123) -- (417.4129,223.9631) --
+      (409.5528,223.9631) .. controls (409.6148,225.2695) and (409.6694,226.6911) ..
+      (409.7165,228.2281) .. controls (409.7636,229.7652) and (409.7884,231.4399) ..
+      (409.7909,233.2523) -- cycle;
+    \end{scope}
+    \end{scope}
+    \end{tikzpicture}
+    }
+
+%**************************************************************************
+
+\begin{document}
+
+\begin{center}
+{\Huge Michael Elliot King}
+\end{center}
+
+%  ADDRESS & INFO
+  \begin{center}
+    \Letter \hspace{3pt} \href{mailto:mk@mmichaelking.io}{mk@michaelking.io} \hspace{1pt}
+    \Mundus \hspace{3pt} \href{http://www.michaelelliotking.com}{michaelelliotking.com}
+    \linkedin \hspace{1pt} \href{http://www.linkedin.com/in/michaelelliotking}{linkedin.com/in/michaelelliotking}\\
+    \Telefon \hspace{1pt} 1~(617)~633-0828 \hspace{1pt}
+    \textifsymbol{23} \hspace{1pt} 488 Thames St. Newport, RI 02840
+  \end{center}
+
+%	 EXPERIENCE
+  % \section*{Porfolio}
+
+% EPV
+% ABPV
+% PBOF
+% arming plug
+% fin adapter
+% VF shoe
+% AUV
+% lunar rover
+
+  \begin{samepage}
+    \years{2015-2016} \textbf{\scshape Emergency Pressure Vessel [EPV]}\\
+    \textit{A pressure tolerant electronics enclosure storing batteries, GPS, pressure switches, and emergency circuits to monitor vehicle status and control emergency buoyancy}
+    \begin{itemize}      
+      \item Designed novel sheet metal rack to encase array of 8 batteries that minimized parts, machining costs, and facilitated battery replacement with single screw disassembly
+      \item Designed cantilever rack and sliding rails for easy install and removal, which I validated with FEA
+    \end{itemize}
+  \end{samepage}
+
+  \begin{samepage}
+    \years{2015-2016} \textbf{\scshape Air Bag Pressure Vessel [ABPV]}\\
+    \textit{A pressure tolerant pneumatic and electronics enclosure housing solenoid valves and relays to pneumatically inflate air bags for emergency buoyancy}
+    \begin{itemize}      
+      \item Redesigned for usability by nesting valves into the end cap, removing supports that impeded installation, changing to more reliable fittings, and freeing up space for improved access
+    \end{itemize}
+  \end{samepage}
+
+  \begin{samepage}
+    \years{2016} \textbf{\scshape Fin Adapter and Breakaway Fasteners}\\
+    \textit{A mechanical adapter and breakaway fasteners to hold an underwater vehicle control surface fin and isolate the actuators from large stresses}
+    \begin{itemize}      
+      % \item Analyzed lift and drag forces to determine loads and factors of safety 
+      \item Designed novel-shaped adapter to increase strength while staying light by analyzing stresses (using FEA), removing unnecessary material, and splining the joint
+      \item Designed modified fasteners to yield at precise load to limit the forces seen by the controlling actuators
+    \end{itemize}
+  \end{samepage}
+
+  \begin{samepage}
+    \years{2015} \textbf{\scshape Pressure-Balanced Oil-Filled Electronics Box [PBOF Box]}\\
+    \textit{A full-ocean depth pressure compensated modular electronics enclosure for testing electronics in a full ocean pressure environment}
+    \begin{itemize}      
+      \item Designed for modularity and usability during electronics tests to reduce the efforts of changing and troubleshooting of pressure tolerant sensors and circuits
+      \item Created open-topped box with viewing window, novel hinge mechanism, minimized opening procedure, and no-mess oil fill and air bleed system
+    \end{itemize}
+  \end{samepage}
+
+  \begin{samepage}
+    \years{2015} \textbf{\scshape Power System Arming Plug}\\
+    \textit{A manual switch embedded in an underwater vehicle for arming and disarming the power system using a waterproof proximity switch}
+    \begin{itemize}      
+      \item Designed for usability and fail-safety, with natural mapping and a two-step locking procedure
+    \end{itemize}
+  \end{samepage}
+
+  \begin{samepage}
+    \years{2013-2014} \textbf{\scshape Variable-Friction Shoe-Surface Mechanism}\\
+    \textit{A mechanism to fit in the sole of a shoe and dynamically simulate the friction of a full range of surfaces}
+    \begin{itemize}      
+      \item Designed a compact motor, gear, and lead screw system that controlled the height of a compressive and high-friction surface compared to the height of a rigid and low-friction surface
+    \end{itemize}
+  \end{samepage}
+
+  \begin{samepage}
+    \years{2013-2014} \textbf{\scshape \href{http://michaelelliotking.com/projects/mcgillrobotics}{Autonomous Underwater Vehicle}}\\
+    \textit{A small unmanned underwater vehicle for an international student design team competition}
+    \begin{itemize}      
+      \item Designed the frame, pressure vessels, and propulsion system with limited-budget including machined, 3D-printed, and hand-manufactured parts
+    \end{itemize}
+  \end{samepage}
+
+  \begin{samepage}
+    \years{2012-2013} \textbf{\scshape \href{http://michaelelliotking.com/projects/lunarex}{Autonomous Lunar Mining Robot}}\\
+    \textit{A small unmanned lunar vehicle for mining lunar regolith at an international student design team competition}
+    \begin{itemize} 
+      \item Designed the collection and storage system including a linkage lifting mechanism, composite storage bucket, and tilting dump-truck door
+    \end{itemize}
+  \end{samepage}
+
+  % \vspace{.1in}
+
+
+% FOOTER
+\begin{center}
+{\hspace{-.5in} \scriptsize Last updated \today\- •\- For the most recent version, see \href{http://www.michaelelliotking.com/resume}{michaelelliotking.com/portfolio}}
+\end{center}
+
+\end{document}

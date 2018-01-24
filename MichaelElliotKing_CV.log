@@ -1,8 +1,8 @@
-This is XeTeX, Version 3.1415926-2.4-0.9998 (TeX Live 2012) (format=xelatex 2013.9.24)  27 JUN 2016 12:32
+This is XeTeX, Version 3.1415926-2.4-0.9998 (TeX Live 2012) (format=xelatex 2013.9.24)  23 JAN 2018 22:54
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**MichaelElliotKing_CV.tex
+**MichaelElliotKing_CV
 (./MichaelElliotKing_CV.tex
 LaTeX2e <2011/06/27>
 Babel <v3.8m> and hyphenation patterns for english, dumylang, nohyphenation, ge
@@ -1253,138 +1253,144 @@ Package marginnote Info: right page because not two side mode on input line 148
 Package marginnote Info: xpos seems to be 101.17754pt,
 (marginnote)             \marginnoteleftadjust ignored on input line 148.
 Package marginnote Info: Margin note 1.3 is on absolute page 1
-(marginnote)              on input line 158.
-Package marginnote Info: right page because not two side mode on input line 158
+(marginnote)              on input line 160.
+Package marginnote Info: right page because not two side mode on input line 160
 .
 Package marginnote Info: xpos seems to be 101.17754pt,
-(marginnote)             \marginnoteleftadjust ignored on input line 158.
+(marginnote)             \marginnoteleftadjust ignored on input line 160.
 Package marginnote Info: Margin note 1.4 is on absolute page 1
-(marginnote)              on input line 170.
-Package marginnote Info: right page because not two side mode on input line 170
+(marginnote)              on input line 172.
+Package marginnote Info: right page because not two side mode on input line 172
 .
 Package marginnote Info: xpos seems to be 101.17754pt,
-(marginnote)             \marginnoteleftadjust ignored on input line 170.
+(marginnote)             \marginnoteleftadjust ignored on input line 172.
 Package marginnote Info: Margin note 1.5 is on absolute page 1
-(marginnote)              on input line 182.
-Package marginnote Info: right page because not two side mode on input line 182
+(marginnote)              on input line 184.
+Package marginnote Info: right page because not two side mode on input line 184
 .
 Package marginnote Info: xpos seems to be 101.17754pt,
-(marginnote)             \marginnoteleftadjust ignored on input line 182.
+(marginnote)             \marginnoteleftadjust ignored on input line 184.
  [1
 
 ]
 Package marginnote Info: Margin note 2.1 is on absolute page 2
-(marginnote)              on input line 200.
-Package marginnote Info: right page because not two side mode on input line 200
+(marginnote)              on input line 202.
+Package marginnote Info: right page because not two side mode on input line 202
 .
 Package marginnote Info: xpos seems to be 101.17754pt,
-(marginnote)             \marginnoteleftadjust ignored on input line 200.
+(marginnote)             \marginnoteleftadjust ignored on input line 202.
 LaTeX Font Info:    Font shape `EU1/LinuxLibertine(0)/m/sl' in size <10.95> not
  available
 (Font)              Font shape `EU1/LinuxLibertine(0)/m/it' tried instead on in
-put line 203.
+put line 205.
 Package marginnote Info: Margin note 2.2 is on absolute page 2
-(marginnote)              on input line 217.
-Package marginnote Info: right page because not two side mode on input line 217
+(marginnote)              on input line 219.
+Package marginnote Info: right page because not two side mode on input line 219
 .
 Package marginnote Info: xpos seems to be 101.17754pt,
-(marginnote)             \marginnoteleftadjust ignored on input line 217.
+(marginnote)             \marginnoteleftadjust ignored on input line 219.
 Package marginnote Info: Margin note 2.3 is on absolute page 2
-(marginnote)              on input line 235.
-Package marginnote Info: right page because not two side mode on input line 235
+(marginnote)              on input line 237.
+Package marginnote Info: right page because not two side mode on input line 237
 .
 Package marginnote Info: xpos seems to be 101.17754pt,
-(marginnote)             \marginnoteleftadjust ignored on input line 235.
+(marginnote)             \marginnoteleftadjust ignored on input line 237.
 Package marginnote Info: Margin note 2.4 is on absolute page 2
-(marginnote)              on input line 247.
-Package marginnote Info: right page because not two side mode on input line 247
+(marginnote)              on input line 249.
+Package marginnote Info: right page because not two side mode on input line 249
 .
 Package marginnote Info: xpos seems to be 101.17754pt,
-(marginnote)             \marginnoteleftadjust ignored on input line 247.
+(marginnote)             \marginnoteleftadjust ignored on input line 249.
  [2
 
 ]
 Package marginnote Info: Margin note 3.1 is on absolute page 3
-(marginnote)              on input line 263.
-Package marginnote Info: right page because not two side mode on input line 263
+(marginnote)              on input line 265.
+Package marginnote Info: right page because not two side mode on input line 265
 .
 Package marginnote Info: xpos seems to be 101.17754pt,
-(marginnote)             \marginnoteleftadjust ignored on input line 263.
+(marginnote)             \marginnoteleftadjust ignored on input line 265.
 Package marginnote Info: Margin note 3.2 is on absolute page 3
-(marginnote)              on input line 283.
-Package marginnote Info: right page because not two side mode on input line 283
+(marginnote)              on input line 285.
+Package marginnote Info: right page because not two side mode on input line 285
 .
 Package marginnote Info: xpos seems to be 101.17754pt,
-(marginnote)             \marginnoteleftadjust ignored on input line 283.
-LaTeX Font Info:    Try loading font information for U+msa on input line 305.
+(marginnote)             \marginnoteleftadjust ignored on input line 285.
+LaTeX Font Info:    Try loading font information for U+msa on input line 307.
 
 (/usr/local/texlive/2012/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2009/06/22 v3.00 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 305.
+LaTeX Font Info:    Try loading font information for U+msb on input line 307.
 
 (/usr/local/texlive/2012/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2009/06/22 v3.00 AMS symbols B
 )
-LaTeX Font Info:    Try loading font information for U+wasy on input line 305.
+LaTeX Font Info:    Try loading font information for U+wasy on input line 307.
 
 (/usr/local/texlive/2012/texmf-dist/tex/latex/wasysym/uwasy.fd
 File: uwasy.fd 2003/10/30 v2.0 Wasy-2 symbol font definitions
 )
 Package marginnote Info: Margin note 3.3 is on absolute page 3
-(marginnote)              on input line 310.
-Package marginnote Info: right page because not two side mode on input line 310
-.
-Package marginnote Info: xpos seems to be 101.17754pt,
-(marginnote)             \marginnoteleftadjust ignored on input line 310.
-Package marginnote Info: Margin note 3.4 is on absolute page 3
-(marginnote)              on input line 311.
-Package marginnote Info: right page because not two side mode on input line 311
-.
-Package marginnote Info: xpos seems to be 101.17754pt,
-(marginnote)             \marginnoteleftadjust ignored on input line 311.
-Package marginnote Info: Margin note 3.5 is on absolute page 3
 (marginnote)              on input line 312.
 Package marginnote Info: right page because not two side mode on input line 312
 .
 Package marginnote Info: xpos seems to be 101.17754pt,
 (marginnote)             \marginnoteleftadjust ignored on input line 312.
-Package marginnote Info: Margin note 3.6 is on absolute page 3
+Package marginnote Info: Margin note 3.4 is on absolute page 3
 (marginnote)              on input line 313.
 Package marginnote Info: right page because not two side mode on input line 313
 .
 Package marginnote Info: xpos seems to be 101.17754pt,
 (marginnote)             \marginnoteleftadjust ignored on input line 313.
-Package marginnote Info: Margin note 3.7 is on absolute page 3
+Package marginnote Info: Margin note 3.5 is on absolute page 3
 (marginnote)              on input line 314.
 Package marginnote Info: right page because not two side mode on input line 314
 .
 Package marginnote Info: xpos seems to be 101.17754pt,
 (marginnote)             \marginnoteleftadjust ignored on input line 314.
-Package marginnote Info: Margin note 3.8 is on absolute page 3
+Package marginnote Info: Margin note 3.6 is on absolute page 3
 (marginnote)              on input line 315.
 Package marginnote Info: right page because not two side mode on input line 315
 .
 Package marginnote Info: xpos seems to be 101.17754pt,
 (marginnote)             \marginnoteleftadjust ignored on input line 315.
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 327.
+Package marginnote Info: Margin note 3.7 is on absolute page 3
+(marginnote)              on input line 316.
+Package marginnote Info: right page because not two side mode on input line 316
+.
+Package marginnote Info: xpos seems to be 101.17754pt,
+(marginnote)             \marginnoteleftadjust ignored on input line 316.
+Package marginnote Info: Margin note 3.8 is on absolute page 3
+(marginnote)              on input line 317.
+Package marginnote Info: right page because not two side mode on input line 317
+.
+Package marginnote Info: xpos seems to be 101.17754pt,
+(marginnote)             \marginnoteleftadjust ignored on input line 317.
+Package marginnote Info: Margin note 3.9 is on absolute page 3
+(marginnote)              on input line 318.
+Package marginnote Info: right page because not two side mode on input line 318
+.
+Package marginnote Info: xpos seems to be 101.17754pt,
+(marginnote)             \marginnoteleftadjust ignored on input line 318.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 330.
  [3
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 327.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 330.
 
 (./MichaelElliotKing_CV.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 327.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 327.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 327.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 330.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 330.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 330.
  ) 
 Here is how much of TeX's memory you used:
- 29216 strings out of 494004
- 571417 string characters out of 3150890
- 581377 words of memory out of 3000000
- 32029 multiletter control sequences out of 15000+200000
+ 29217 strings out of 494004
+ 571428 string characters out of 3150890
+ 581393 words of memory out of 3000000
+ 32030 multiletter control sequences out of 15000+200000
  10313 words of font info for 61 fonts, out of 3000000 for 9000
  1144 hyphenation exceptions out of 8191
- 56i,11n,55p,572b,622s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 56i,11n,55p,568b,622s stack positions out of 5000i,500n,10000p,200000b,50000s
 
 Output written on MichaelElliotKing_CV.pdf (3 pages).
