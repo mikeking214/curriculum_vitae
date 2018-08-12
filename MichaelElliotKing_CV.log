@@ -1,8 +1,8 @@
-This is XeTeX, Version 3.1415926-2.4-0.9998 (TeX Live 2012) (format=xelatex 2013.9.24)  23 JAN 2018 22:54
+This is XeTeX, Version 3.1415926-2.4-0.9998 (TeX Live 2012) (format=xelatex 2013.9.24)  30 JUL 2018 23:16
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**MichaelElliotKing_CV
+**MichaelElliotKing_CV.tex
 (./MichaelElliotKing_CV.tex
 LaTeX2e <2011/06/27>
 Babel <v3.8m> and hyphenation patterns for english, dumylang, nohyphenation, ge
@@ -1373,24 +1373,36 @@ Package marginnote Info: right page because not two side mode on input line 318
 .
 Package marginnote Info: xpos seems to be 101.17754pt,
 (marginnote)             \marginnoteleftadjust ignored on input line 318.
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 330.
+Package marginnote Info: Margin note 3.10 is on absolute page 3
+(marginnote)              on input line 319.
+Package marginnote Info: right page because not two side mode on input line 319
+.
+Package marginnote Info: xpos seems to be 101.17754pt,
+(marginnote)             \marginnoteleftadjust ignored on input line 319.
+Package marginnote Info: Margin note 3.11 is on absolute page 3
+(marginnote)              on input line 320.
+Package marginnote Info: right page because not two side mode on input line 320
+.
+Package marginnote Info: xpos seems to be 101.17754pt,
+(marginnote)             \marginnoteleftadjust ignored on input line 320.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 332.
  [3
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 330.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 332.
 
 (./MichaelElliotKing_CV.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 330.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 330.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 330.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 332.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 332.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 332.
  ) 
 Here is how much of TeX's memory you used:
- 29217 strings out of 494004
- 571428 string characters out of 3150890
- 581393 words of memory out of 3000000
- 32030 multiletter control sequences out of 15000+200000
+ 29219 strings out of 494004
+ 571452 string characters out of 3150890
+ 582425 words of memory out of 3000000
+ 32032 multiletter control sequences out of 15000+200000
  10313 words of font info for 61 fonts, out of 3000000 for 9000
  1144 hyphenation exceptions out of 8191
- 56i,11n,55p,568b,622s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 56i,11n,55p,572b,622s stack positions out of 5000i,500n,10000p,200000b,50000s
 
 Output written on MichaelElliotKing_CV.pdf (3 pages).

@@ -35,15 +35,6 @@
 	},
 	"buffers":
 	[
-		{
-			"contents": "what im good at.\n\n",
-			"settings":
-			{
-				"buffer_size": 18,
-				"line_ending": "Unix",
-				"name": "what im good at."
-			}
-		}
 	],
 	"build_system": "Packages/LaTeXTools/LaTeX.sublime-build",
 	"build_system_choices":
@@ -239,7 +230,7 @@
 	],
 	"find":
 	{
-		"height": 35.0
+		"height": 27.0
 	},
 	"find_in_files":
 	{
@@ -344,7 +335,7 @@
 			"5in",
 			"plot3",
 			"plot2",
-			"	",
+			"\t",
 			"paragraph",
 			"sample_calculations",
 			"$",
@@ -398,43 +389,14 @@
 	"groups":
 	[
 		{
-			"selected": 0,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 18,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								18,
-								18
-							]
-						],
-						"settings":
-						{
-							"auto_name": "what im good at.",
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				}
 			]
 		}
 	],
 	"incremental_find":
 	{
-		"height": 23.0
+		"height": 27.0
 	},
 	"input":
 	{
@@ -475,7 +437,7 @@
 	"project": "cv.sublime-project",
 	"replace":
 	{
-		"height": 42.0
+		"height": 50.0
 	},
 	"save_all_on_build": true,
 	"select_file":

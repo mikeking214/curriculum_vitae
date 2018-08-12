@@ -1,8 +1,8 @@
-This is XeTeX, Version 3.1415926-2.4-0.9998 (TeX Live 2012) (format=xelatex 2013.9.24)  23 JAN 2018 22:44
+This is XeTeX, Version 3.1415926-2.4-0.9998 (TeX Live 2012) (format=xelatex 2013.9.24)  30 JUL 2018 23:17
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**MichaelElliotKing_Resume
+**MichaelElliotKing_Resume.tex
 (./MichaelElliotKing_Resume.tex
 LaTeX2e <2011/06/27>
 Babel <v3.8m> and hyphenation patterns for english, dumylang, nohyphenation, ge
@@ -1320,6 +1320,6 @@ Here is how much of TeX's memory you used:
  32053 multiletter control sequences out of 15000+200000
  11035 words of font info for 64 fonts, out of 3000000 for 9000
  1144 hyphenation exceptions out of 8191
- 56i,11n,55p,572b,622s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 56i,11n,55p,576b,622s stack positions out of 5000i,500n,10000p,200000b,50000s
 
 Output written on MichaelElliotKing_Resume.pdf (1 page).
